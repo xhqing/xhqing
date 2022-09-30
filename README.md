@@ -2,10 +2,11 @@
 
 I'm xhqing (Huaqing Xu).
 
-- 🍒 Love open source, Python, Machine Learning, Deep Learning and Federated Learning
-- 🍉 
-- 🧐 
-- 🍋 I am actively learning JavaScript
+- 🍒 I like open source and geek mindset
+- 🍉 My favorite programming language is Python
+- 🧐 I'm very interested in Machine Learning, Deep Learning and Federated Learning
+- 🍋 I also like C programming language and IOT
+- 🌱 I love Mathematics and Physics
 
 ### My Tech Stack
 
