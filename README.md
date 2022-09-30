@@ -10,7 +10,7 @@ I'm xhqing (Huaqing Xu).
 
 ### My Tech Stack
 
-![Git](https://img.shields.io/badge/-Git-green)
+![Git](https://img.shields.io/badge/-Git-green&logo=git)
 ![Apache](https://img.shields.io/badge/-Apache-orange)
 ![Python](https://img.shields.io/badge/-Python-brightgreen)
 ![MySQL](https://img.shields.io/badge/-MySQL-blue)
