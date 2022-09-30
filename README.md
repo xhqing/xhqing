@@ -2,7 +2,7 @@
 
 I'm xhqing (Huaqing Xu).
 
-- 🍒 I like open source and geek mindset
+- 🍒 I like Open Source and Geek mindset
 - 🍉 My favorite programming language is Python
 - 🧐 I'm very interested in Machine Learning, Deep Learning and Federated Learning
 - 🍋 I also like C programming language and IOT
