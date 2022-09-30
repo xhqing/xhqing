@@ -2,7 +2,7 @@
 
 I'm xhqing (Huaqing Xu).
 
-- 🍒 Love open source, Python, Machine Learing and Deep Learning
+- 🍒 Love open source, Python, Machine Learning and Deep Learning
 - 🍉 
 - 🧐 
 - 🍋 I am actively learning JavaScript
