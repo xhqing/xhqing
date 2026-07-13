@@ -16,46 +16,45 @@
 
 ---
 
-## 🚀 Flagship · 旗舰项目
+## 🚀 Flagship Project · 旗舰项目
 
-<div align="center">
+**Vendy — a fleet of open-source AI agents that runs an end-to-end digital-product business: research → produce → traffic → sell → analyze. 🔁**
 
-**Vendy — 一支开源的多智能体舰队，自主跑通数字产品的全链路变现**
+**Vendy —— 一支开源的多智能体舰队，自主跑通数字产品的全链路变现：选品 → 生产 → 引流 → 成交 → 复盘。🔁**
 
-*A fleet of open-source AI agents that runs an end-to-end digital-product business:*
-**research → produce → traffic → sell → analyze** 🔁
+*Six single-purpose agents hand off artifacts to one another, turning one-time work into recurring passive income.*
 
-每个 agent 一个角色，分工协作、产物接力，让一次产出的数字产品持续产生被动收入。
-*Six single-purpose agents that hand off artifacts to each other, turning one-time work into passive income.*
-
-</div>
+*六个各司其职的 agent 通过产物接力协作，把一次性的产出变成持续到手的被动收入。*
 
 <table align="center">
-  <tr><th>Agent</th><th>角色 / Role</th><th>仓库 / Repo</th></tr>
-  <tr><td>🧭 <b>Scout</b></td><td>选品策略师 · Product Strategist</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td></tr>
-  <tr><td>🛠️ <b>Wright</b></td><td>数字产品制作人 · Producer</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td></tr>
-  <tr><td>📣 <b>Buzz</b></td><td>增长营销 · Growth Marketer</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td></tr>
-  <tr><td>💰 <b>Vendy</b></td><td>电商运营 · Sales Ops</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td></tr>
-  <tr><td>📊 <b>Echo</b></td><td>数据分析师 · Analyst</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td></tr>
-  <tr><td>🎒 <b>Kit</b></td><td>个人助理 · Assistant</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td></tr>
+  <tr><th>Agent</th><th>Role · 角色</th><th>Repo · 仓库</th></tr>
+  <tr><td>🧭 <b>Scout</b></td><td>Product Strategist · 选品策略师</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td></tr>
+  <tr><td>🛠️ <b>Wright</b></td><td>Producer · 数字产品制作人</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td></tr>
+  <tr><td>📣 <b>Buzz</b></td><td>Growth Marketer · 增长营销</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td></tr>
+  <tr><td>💰 <b>Vendy</b></td><td>Sales Ops · 电商运营</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td></tr>
+  <tr><td>📊 <b>Echo</b></td><td>Analyst · 数据分析师</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td></tr>
+  <tr><td>🎒 <b>Kit</b></td><td>Assistant · 个人助理</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td></tr>
 </table>
 
-<div align="center"><sub>流水线 Pipeline：① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = 独立通用助手</sub></div>
+<div align="center"><sub>Pipeline · 流水线：① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = standalone assistant · 独立通用助手</sub></div>
 
 ---
 
-## 🔭 About · 关于我
+## 🔭 About Me · 关于我
 
-- 🍒 开源与极客精神的拥趸 / Believer in open source & the geek mindset
-- 🍉 主力语言 **Python**；也写 **C**，玩 **IoT**
-- 🧐 深耕 **机器学习 / 深度学习 / 联邦学习**（ML · DL · Federated Learning）
-- 🍋 擅长 **数据分析 · 统计 · 数据科学**
-- 👀 关注 **隐私计算与区块链**：HE、MPC、ETH、IPFS、Web3、DApp
-- 🔭 热爱 **数学与物理**，相信优雅的公式能解释世界
+- 🍒 Believer in open source & the geek mindset; main language **Python**, also write **C** and tinker with **IoT**.
+- 🧐 Deep into **Machine Learning / Deep Learning / Federated Learning**; strong in **data analysis · statistics · data science**.
+- 👀 Curious about **privacy-preserving computation & blockchain**: HE, MPC, ETH, IPFS, Web3, DApp.
+- 🔭 Love **math & physics** — elegant formulas explain the world.
+
+- 🍒 开源与极客精神拥趸；主力语言 **Python**，也写 **C**、玩 **IoT**。
+- 🧐 深耕**机器学习 / 深度学习 / 联邦学习**；擅长**数据分析 · 统计 · 数据科学**。
+- 👀 关注**隐私计算与区块链**：HE、MPC、ETH、IPFS、Web3、DApp。
+- 🔭 热爱**数学与物理**——相信优雅的公式能解释世界。
 
 ---
 
-## 🛠️ Tech & Focus
+## 🛠️ Tech & Focus · 技术栈
 
 <div align="center">
 
@@ -73,7 +72,7 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats · 统计
 
 <div align="center">
 
@@ -88,20 +87,16 @@
 
 ## 📬 Connect · 联系我
 
-<div align="center">
-
-<a href="https://github.com/xhqing"><img src="https://img.shields.io/badge/GitHub-xhqing-181717?style=flat-square&logo=github" /></a>
-&nbsp;
-<img src="https://img.shields.io/badge/WeChat-xhqingxhqing-07C160?style=flat-square&logo=wechat&logoColor=white" />
-
-</div>
+- 🐙 GitHub: [@xhqing](https://github.com/xhqing)
+- 💬 WeChat / 微信: **xhqingxhqing**
 
 ---
 
 ## 💖 Sponsor · 赞助
 
-如果我的开源工作帮到了你，欢迎请我喝杯咖啡 ☕，支持我继续造更多 AI agent：
-*If my open-source work helps you, consider buying me a coffee and supporting more AI agents:*
+If my open-source work helps you, consider sponsoring — it keeps the AI agents shipping.
+
+如果我的开源工作帮到了你，欢迎赞助——让我持续造更多 AI agent。
 
 <p align="center">
   <a href="https://github.com/sponsors/xhqing">
