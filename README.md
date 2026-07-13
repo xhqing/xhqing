@@ -20,9 +20,9 @@
 
 ## 🚀 Flagship Project · 旗舰项目
 
-**Vendy — a fleet of open-source AI agents that runs an end-to-end digital-product business: research → produce → traffic → sell → analyze. 🔁**
+**A fleet of open-source AI agents that runs an end-to-end digital-product business: research → produce → traffic → sell → analyze. 🔁**
 
-**Vendy —— 一支开源的多智能体舰队，自主跑通数字产品的全链路变现：选品 → 生产 → 引流 → 成交 → 复盘。🔁**
+**一支开源的多智能体舰队，自主跑通数字产品的全链路变现：选品 → 生产 → 引流 → 成交 → 复盘。🔁**
 
 *Six single-purpose agents hand off artifacts to one another, turning one-time work into recurring passive income.*
 
