@@ -2,7 +2,9 @@
 
 <h1>Hi there 👋 I'm Huaqing Xu</h1>
 
-<img src="https://readme-typing-svg.herokuapp.com/svg?lines=Building+autonomous+AI+agent+fleets;Open-source+digital+product+systems;ML+%C2%B7+Federated+Learning+%C2%B7+Privacy;Data+Science+%C2%B7+Statistics+%C2%B7+Python&center=true&width=640&height=76&color=58A6FF&font=Fira%20Code" alt="Typing SVG" />
+<h3>Building autonomous AI agent fleets 🤖 · 开源数字产品变现系统</h3>
+
+<p><em>ML · Federated Learning · Privacy &nbsp;|&nbsp; Data Science · Statistics · Python</em></p>
 
 🇭🇰 **Hong Kong** &nbsp;·&nbsp; 🐍 **Pythonista** &nbsp;·&nbsp; ❤️ **Open Source & Geek mindset**
 
@@ -87,8 +89,13 @@
 
 ## 📬 Connect · 联系我
 
-- 🐙 GitHub: [@xhqing](https://github.com/xhqing)
-- 💬 WeChat / 微信: **xhqingxhqing**
+<div align="center">
+
+<a href="https://github.com/xhqing"><img src="https://img.shields.io/badge/GitHub-xhqing-181717?style=flat-square&logo=github" alt="GitHub" /></a>
+&nbsp;
+<img src="https://img.shields.io/badge/WeChat%20ID-xhqingxhqing-07C160?style=flat-square&logo=wechat&logoColor=white" alt="WeChat ID" />
+
+</div>
 
 ---
 
