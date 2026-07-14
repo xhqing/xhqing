@@ -24,9 +24,9 @@
 
 **一支开源的多智能体舰队，自主跑通数字产品的全链路变现：选品 → 生产 → 引流 → 成交 → 复盘。🔁**
 
-*Six single-purpose agents hand off artifacts to one another, turning one-time work into recurring passive income.*
+*A growing roster of single-purpose agents. Five of them form a pipeline that hands off artifacts, turning one-time work into recurring passive income.*
 
-*六个各司其职的 agent 通过产物接力协作，把一次性的产出变成持续到手的被动收入。*
+*一批不断壮大、各司其职的 agent；其中五个组成一条产物接力的流水线，把一次性的产出变成持续到手的被动收入。*
 
 <table align="center">
   <tr><th>Agent</th><th>Role · 角色</th><th>Repo · 仓库</th></tr>
@@ -39,6 +39,22 @@
 </table>
 
 <div align="center"><sub>Pipeline · 流水线：① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = standalone assistant · 独立通用助手</sub></div>
+
+**How the pipeline hands off** — five agents pass artifacts down the line:
+
+1. 🧭 **Scout** sizes up trends, market, rivals and profit potential → an *Opportunity Report* (what to sell, to whom, at what price) → **Wright**.
+2. 🛠️ **Wright** turns the report into a finished product — prompt packs, templates, ebooks, assets → **Buzz**.
+3. 📣 **Buzz** repackages it into channel-specific traffic content with buy links (X · IG · YouTube · 小红书 · 知乎 · B站) → **Vendy**.
+4. 💰 **Vendy** lists, prices, fulfills and supports across storefronts, closing the sale → sales data → **Echo**.
+5. 📊 **Echo** attributes results to decisions and folds lessons into a playbook → feeds back to whichever pipeline stage needs it · 🔁 closing the loop.
+
+**接力如何传递** —— 五个 agent 沿流水线交接产物：
+
+1. 🧭 **Scout** 研判热点、市场、竞品与盈利空间 →《机会研判报告》（卖什么、卖给谁、定什么价）→ **Wright**。
+2. 🛠️ **Wright** 据报告做出成品数字产品——prompt 包、模板、电子书、素材 → **Buzz**。
+3. 📣 **Buzz** 包装成各渠道引流内容并附带货链接（X · IG · YouTube · 小红书 · 知乎 · B 站）→ **Vendy**。
+4. 💰 **Vendy** 上架、定价、履约、售后、多平台铺货，完成成交 → 销售数据 → **Echo**。
+5. 📊 **Echo** 复盘归因，沉淀进 playbook → 反馈给流水线中相应环节 · 🔁 形成闭环。
 
 ---
 
