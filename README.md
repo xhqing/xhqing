@@ -39,7 +39,7 @@
   <tr><td>📈 <b>Victor</b></td><td>Day Trader · 日内交易员（HK / US）</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td></tr>
 </table>
 
-<div align="center"><sub>Pipeline · 流水线：① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = standalone assistant · 独立通用助手&nbsp;&nbsp;|&nbsp;&nbsp;📈 Victor = standalone day-trader · 独立日内交易</sub></div>
+<div align="center"><sub>Pipeline · 流水线：① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = standalone assistant · 独立通用助手&nbsp;&nbsp;|&nbsp;&nbsp;📈 Victor = standalone day-trader · 独立日内交易员</sub></div>
 
 **How the pipeline hands off** — five agents pass artifacts down the line:
 
@@ -86,19 +86,6 @@
 <img src="https://img.shields.io/badge/Claude-19C37D?style=flat-square" />
 <img src="https://img.shields.io/badge/Blockchain-121D33?style=flat-square&logo=ethereum&logoColor=white" />
 <img src="https://img.shields.io/badge/IoT-00B4D8?style=flat-square" />
-
-</div>
-
----
-
-## 📊 GitHub Stats · 统计
-
-<div align="center">
-
-<img src="https://github-readme-stats-eight-plum-27.vercel.app/api?username=xhqing&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" alt="stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=xhqing&theme=tokyonight&hide_border=true" height="170" alt="streak" />
-<br/>
-<img src="https://github-readme-stats-eight-plum-27.vercel.app/api/top-langs/?username=xhqing&theme=tokyonight&hide_border=true&layout=compact" height="170" alt="top langs" />
 
 </div>
 
