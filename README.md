@@ -36,9 +36,10 @@
   <tr><td>💰 <b>Vendy</b></td><td>Sales Ops · 电商运营</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td></tr>
   <tr><td>📊 <b>Echo</b></td><td>Analyst · 数据分析师</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td></tr>
   <tr><td>🎒 <b>Kit</b></td><td>Assistant · 个人助理</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td></tr>
+  <tr><td>📈 <b>Victor</b></td><td>Day Trader · 日内交易员（HK / US）</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td></tr>
 </table>
 
-<div align="center"><sub>Pipeline · 流水线：① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = standalone assistant · 独立通用助手</sub></div>
+<div align="center"><sub>Pipeline · 流水线：① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = standalone assistant · 独立通用助手&nbsp;&nbsp;|&nbsp;&nbsp;📈 Victor = standalone day-trader · 独立日内交易</sub></div>
 
 **How the pipeline hands off** — five agents pass artifacts down the line:
 
