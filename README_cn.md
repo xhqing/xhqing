@@ -22,30 +22,37 @@
 
 ## 🚀 旗舰项目
 
-**一支开源的多智能体舰队，自主跑通数字产品全链路变现：选品 → 生产 → 引流 → 成交 → 复盘。🔁**
+**一支开源的多智能体舰队，自主跑通数字产品全链路变现：选品 → 生产 → 建设 → 引流 → 成交 → 复盘。🔁**
 
-*一批不断壮大、各司其职的 agent；其中五个组成一条产物接力的流水线，把一次性的产出变成持续到手的被动收入。*
+*一批不断壮大、各司其职的 agent；其中六个组成一条产物接力的流水线，把一次性的产出变成持续到手的被动收入。*
 
 <table align="center">
   <tr><th>Agent</th><th>角色</th><th>仓库</th></tr>
+  <tr><td colspan="3"><b>🔁 销售流水线 — 研判 → 生产 → 建设 → 引流 → 成交 → 复盘</b></td></tr>
   <tr><td>🧭 <b>Scout</b></td><td>选品策略师</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td></tr>
   <tr><td>🛠️ <b>Wright</b></td><td>数字产品制作人</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td></tr>
+  <tr><td>🏗️ <b>Mason</b></td><td>建站工程师</td><td><a href="https://github.com/xhqing/SiteBuilderAgent">SiteBuilderAgent</a></td></tr>
   <tr><td>📣 <b>Buzz</b></td><td>增长营销</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td></tr>
   <tr><td>💰 <b>Vendy</b></td><td>电商运营</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td></tr>
   <tr><td>📊 <b>Echo</b></td><td>数据分析师</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td></tr>
+  <tr><td colspan="3"><b>🧩 独立 agent — 不在销售流水线内</b></td></tr>
   <tr><td>🎒 <b>Kit</b></td><td>个人助理</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td></tr>
   <tr><td>📈 <b>Victor</b></td><td>日内交易员（HK / US）</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td></tr>
+  <tr><td>🔧 <b>Tinker</b></td><td>补丁维护匠</td><td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a></td></tr>
+  <tr><td>🧰 <b>Prometheus</b></td><td>通用能力管家</td><td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a></td></tr>
+  <tr><td>📐 <b>Markowitz</b></td><td>量化策略师</td><td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a></td></tr>
 </table>
 
-<div align="center"><sub>流水线：① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = 独立通用助手&nbsp;&nbsp;|&nbsp;&nbsp;📈 Victor = 独立日内交易员</sub></div>
+<div align="center"><sub>流水线：① Scout → ② Wright → ③ Mason → ④ Buzz → ⑤ Vendy → ⑥ Echo</sub></div>
 
-**接力如何传递** —— 五个 agent 沿流水线交接产物：
+**接力如何传递** —— 六个 agent 沿流水线交接产物：
 
 1. 🧭 **Scout** 研判热点、市场、竞品与盈利空间 →《机会研判报告》（卖什么、卖给谁、定什么价）→ **Wright**。
-2. 🛠️ **Wright** 据报告做出成品数字产品——prompt 包、模板、电子书、素材 → **Buzz**。
-3. 📣 **Buzz** 包装成各渠道引流内容并附带货链接（X · IG · YouTube · 小红书 · 知乎 · B 站）→ **Vendy**。
-4. 💰 **Vendy** 上架、定价、履约、售后、多平台铺货，完成成交 → 销售数据 → **Echo**。
-5. 📊 **Echo** 复盘归因，沉淀进 playbook → 反馈给流水线中相应环节 · 🔁 形成闭环。
+2. 🛠️ **Wright** 据报告做出成品数字产品——prompt 包、模板、电子书、素材 → **Mason**。
+3. 🏗️ **Mason** 建成交阵地——独立站、落地页、支付链路，交出可成交的购买链接 → **Buzz**。
+4. 📣 **Buzz** 包装成各渠道引流内容并附带货链接（X · IG · YouTube · 小红书 · 知乎 · B 站）→ **Vendy**。
+5. 💰 **Vendy** 上架、定价、履约、售后、多平台铺货，完成成交 → 销售数据 → **Echo**。
+6. 📊 **Echo** 复盘归因，沉淀进 playbook → 反馈给流水线中相应环节 · 🔁 形成闭环。
 
 ---
 

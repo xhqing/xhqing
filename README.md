@@ -22,30 +22,37 @@
 
 ## 🚀 Flagship Project
 
-**A fleet of open-source AI agents that runs an end-to-end digital-product business: research → produce → traffic → sell → analyze. 🔁**
+**A fleet of open-source AI agents that runs an end-to-end digital-product business: research → produce → build → traffic → sell → analyze. 🔁**
 
-*A growing roster of single-purpose agents. Five of them form a pipeline that hands off artifacts, turning one-time work into recurring passive income.*
+*A growing roster of single-purpose agents. Six of them form a pipeline that hands off artifacts, turning one-time work into recurring passive income.*
 
 <table align="center">
   <tr><th>Agent</th><th>Role</th><th>Repo</th></tr>
+  <tr><td colspan="3"><b>🔁 Sales pipeline — research → produce → build → traffic → sell → analyze</b></td></tr>
   <tr><td>🧭 <b>Scout</b></td><td>Product Strategist</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td></tr>
   <tr><td>🛠️ <b>Wright</b></td><td>Producer</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td></tr>
+  <tr><td>🏗️ <b>Mason</b></td><td>Site Builder</td><td><a href="https://github.com/xhqing/SiteBuilderAgent">SiteBuilderAgent</a></td></tr>
   <tr><td>📣 <b>Buzz</b></td><td>Growth Marketer</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td></tr>
   <tr><td>💰 <b>Vendy</b></td><td>Sales Ops</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td></tr>
   <tr><td>📊 <b>Echo</b></td><td>Analyst</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td></tr>
+  <tr><td colspan="3"><b>🧩 Standalone agents — outside the sales pipeline</b></td></tr>
   <tr><td>🎒 <b>Kit</b></td><td>Assistant</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td></tr>
   <tr><td>📈 <b>Victor</b></td><td>Day Trader (HK / US)</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td></tr>
+  <tr><td>🔧 <b>Tinker</b></td><td>Patch Maintainer</td><td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a></td></tr>
+  <tr><td>🧰 <b>Prometheus</b></td><td>Capability Steward</td><td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a></td></tr>
+  <tr><td>📐 <b>Markowitz</b></td><td>Quant Strategist</td><td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a></td></tr>
 </table>
 
-<div align="center"><sub>Pipeline: ① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = standalone assistant&nbsp;&nbsp;|&nbsp;&nbsp;📈 Victor = standalone day-trader</sub></div>
+<div align="center"><sub>Pipeline: ① Scout → ② Wright → ③ Mason → ④ Buzz → ⑤ Vendy → ⑥ Echo</sub></div>
 
-**How the pipeline hands off** — five agents pass artifacts down the line:
+**How the pipeline hands off** — six agents pass artifacts down the line:
 
 1. 🧭 **Scout** sizes up trends, market, rivals and profit potential → an *Opportunity Report* (what to sell, to whom, at what price) → **Wright**.
-2. 🛠️ **Wright** turns the report into a finished product — prompt packs, templates, ebooks, assets → **Buzz**.
-3. 📣 **Buzz** repackages it into channel-specific traffic content with buy links (X · IG · YouTube · Xiaohongshu · Zhihu · Bilibili) → **Vendy**.
-4. 💰 **Vendy** lists, prices, fulfills and supports across storefronts, closing the sale → sales data → **Echo**.
-5. 📊 **Echo** attributes results to decisions and folds lessons into a playbook → feeds back to whichever pipeline stage needs it · 🔁 closing the loop.
+2. 🛠️ **Wright** turns the report into a finished product — prompt packs, templates, ebooks, assets → **Mason**.
+3. 🏗️ **Mason** builds the storefront — independent site, landing pages, payment integration — and hands off ready-to-sell buy links → **Buzz**.
+4. 📣 **Buzz** repackages it into channel-specific traffic content with buy links (X · IG · YouTube · Xiaohongshu · Zhihu · Bilibili) → **Vendy**.
+5. 💰 **Vendy** lists, prices, fulfills and supports across storefronts, closing the sale → sales data → **Echo**.
+6. 📊 **Echo** attributes results to decisions and folds lessons into a playbook → feeds back to whichever pipeline stage needs it · 🔁 closing the loop.
 
 ---
 
