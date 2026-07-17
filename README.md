@@ -1,8 +1,10 @@
 <div align="center">
 
+🌐 **English** | [简体中文](README_cn.md)
+
 <h1>Hi there 👋 I'm Huaqing Xu</h1>
 
-<h3>Building autonomous AI agent fleets 🤖 · 开源数字产品变现系统</h3>
+<h3>Building autonomous AI agent fleets 🤖 · open-source digital-product monetization</h3>
 
 <p><em>ML · Federated Learning · Privacy &nbsp;|&nbsp; Data Science · Statistics · Python</em></p>
 
@@ -18,62 +20,45 @@
 
 ---
 
-## 🚀 Flagship Project · 旗舰项目
+## 🚀 Flagship Project
 
 **A fleet of open-source AI agents that runs an end-to-end digital-product business: research → produce → traffic → sell → analyze. 🔁**
 
-**一支开源的多智能体舰队，自主跑通数字产品的全链路变现：选品 → 生产 → 引流 → 成交 → 复盘。🔁**
-
 *A growing roster of single-purpose agents. Five of them form a pipeline that hands off artifacts, turning one-time work into recurring passive income.*
 
-*一批不断壮大、各司其职的 agent；其中五个组成一条产物接力的流水线，把一次性的产出变成持续到手的被动收入。*
-
 <table align="center">
-  <tr><th>Agent</th><th>Role · 角色</th><th>Repo · 仓库</th></tr>
-  <tr><td>🧭 <b>Scout</b></td><td>Product Strategist · 选品策略师</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td></tr>
-  <tr><td>🛠️ <b>Wright</b></td><td>Producer · 数字产品制作人</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td></tr>
-  <tr><td>📣 <b>Buzz</b></td><td>Growth Marketer · 增长营销</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td></tr>
-  <tr><td>💰 <b>Vendy</b></td><td>Sales Ops · 电商运营</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td></tr>
-  <tr><td>📊 <b>Echo</b></td><td>Analyst · 数据分析师</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td></tr>
-  <tr><td>🎒 <b>Kit</b></td><td>Assistant · 个人助理</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td></tr>
-  <tr><td>📈 <b>Victor</b></td><td>Day Trader · 日内交易员（HK / US）</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td></tr>
+  <tr><th>Agent</th><th>Role</th><th>Repo</th></tr>
+  <tr><td>🧭 <b>Scout</b></td><td>Product Strategist</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td></tr>
+  <tr><td>🛠️ <b>Wright</b></td><td>Producer</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td></tr>
+  <tr><td>📣 <b>Buzz</b></td><td>Growth Marketer</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td></tr>
+  <tr><td>💰 <b>Vendy</b></td><td>Sales Ops</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td></tr>
+  <tr><td>📊 <b>Echo</b></td><td>Analyst</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td></tr>
+  <tr><td>🎒 <b>Kit</b></td><td>Assistant</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td></tr>
+  <tr><td>📈 <b>Victor</b></td><td>Day Trader (HK / US)</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td></tr>
 </table>
 
-<div align="center"><sub>Pipeline · 流水线：① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = standalone assistant · 独立通用助手&nbsp;&nbsp;|&nbsp;&nbsp;📈 Victor = standalone day-trader · 独立日内交易员</sub></div>
+<div align="center"><sub>Pipeline: ① Scout → ② Wright → ③ Buzz → ④ Vendy → ⑤ Echo&nbsp;&nbsp;|&nbsp;&nbsp;🎒 Kit = standalone assistant&nbsp;&nbsp;|&nbsp;&nbsp;📈 Victor = standalone day-trader</sub></div>
 
 **How the pipeline hands off** — five agents pass artifacts down the line:
 
 1. 🧭 **Scout** sizes up trends, market, rivals and profit potential → an *Opportunity Report* (what to sell, to whom, at what price) → **Wright**.
 2. 🛠️ **Wright** turns the report into a finished product — prompt packs, templates, ebooks, assets → **Buzz**.
-3. 📣 **Buzz** repackages it into channel-specific traffic content with buy links (X · IG · YouTube · 小红书 · 知乎 · B站) → **Vendy**.
+3. 📣 **Buzz** repackages it into channel-specific traffic content with buy links (X · IG · YouTube · Xiaohongshu · Zhihu · Bilibili) → **Vendy**.
 4. 💰 **Vendy** lists, prices, fulfills and supports across storefronts, closing the sale → sales data → **Echo**.
 5. 📊 **Echo** attributes results to decisions and folds lessons into a playbook → feeds back to whichever pipeline stage needs it · 🔁 closing the loop.
 
-**接力如何传递** —— 五个 agent 沿流水线交接产物：
-
-1. 🧭 **Scout** 研判热点、市场、竞品与盈利空间 →《机会研判报告》（卖什么、卖给谁、定什么价）→ **Wright**。
-2. 🛠️ **Wright** 据报告做出成品数字产品——prompt 包、模板、电子书、素材 → **Buzz**。
-3. 📣 **Buzz** 包装成各渠道引流内容并附带货链接（X · IG · YouTube · 小红书 · 知乎 · B 站）→ **Vendy**。
-4. 💰 **Vendy** 上架、定价、履约、售后、多平台铺货，完成成交 → 销售数据 → **Echo**。
-5. 📊 **Echo** 复盘归因，沉淀进 playbook → 反馈给流水线中相应环节 · 🔁 形成闭环。
-
 ---
 
-## 🔭 About Me · 关于我
+## 🔭 About Me
 
 - 🍒 Believer in open source & the geek mindset; main language **Python**, also write **C** and tinker with **IoT**.
 - 🧐 Deep into **Machine Learning / Deep Learning / Federated Learning**; strong in **data analysis · statistics · data science**.
 - 👀 Curious about **privacy-preserving computation & blockchain**: HE, MPC, ETH, IPFS, Web3, DApp.
 - 🔭 Love **math & physics** — elegant formulas explain the world.
 
-- 🍒 开源与极客精神拥趸；主力语言 **Python**，也写 **C**、玩 **IoT**。
-- 🧐 深耕**机器学习 / 深度学习 / 联邦学习**；擅长**数据分析 · 统计 · 数据科学**。
-- 👀 关注**隐私计算与区块链**：HE、MPC、ETH、IPFS、Web3、DApp。
-- 🔭 热爱**数学与物理**——相信优雅的公式能解释世界。
-
 ---
 
-## 🛠️ Tech & Focus · 技术栈
+## 🛠️ Tech & Focus
 
 <div align="center">
 
@@ -91,7 +76,7 @@
 
 ---
 
-## 📬 Connect · 联系我
+## 📬 Connect
 
 <div align="center">
 
@@ -103,11 +88,9 @@
 
 ---
 
-## 💖 Sponsor · 赞助
+## 💖 Sponsor
 
 If my open-source work helps you, consider sponsoring — it keeps the AI agents shipping.
-
-如果我的开源工作帮到了你，欢迎赞助——让我持续造更多 AI agent。
 
 <p align="center">
   <a href="https://github.com/sponsors/xhqing">
