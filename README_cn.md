@@ -4,9 +4,9 @@
 
 <h1>你好 👋 我是 Huaqing Xu</h1>
 
-<h3>打造自主 AI agent 舰队 🤖 · 开源数字产品变现系统</h3>
+<h3>打造自主 AI Agent 舰队 🤖 · 开源数字产品变现系统</h3>
 
-<p><em>机器学习 · 联邦学习 · 隐私 &nbsp;|&nbsp; 数据科学 · 统计 · Python</em></p>
+<p><em>机器学习 · 数据科学 · 量化交易 &nbsp;|&nbsp; 智能体应用 · 智能体交易 · 数字产品</em></p>
 
 🇭🇰 **香港** &nbsp;·&nbsp; 🐍 **Pythonista** &nbsp;·&nbsp; ❤️ **开源与极客精神**
 
@@ -26,6 +26,13 @@
 
 *一批不断壮大、各司其职的 agent；其中六个组成一条产物接力的流水线，把一次性的产出变成持续到手的被动收入。*
 
+<div align="center">
+
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/fleet-total.json" alt="fleet visitors" />
+<sub>舰队各仓库访问量（按日去重访客累计，官方 Traffic API 每日采集）</sub>
+
+</div>
+
 <table align="center">
   <tr><th>Agent</th><th>角色</th><th>仓库</th></tr>
   <tr><td colspan="3"><b>🔁 销售流水线 — 研判 → 生产 → 建设 → 引流 → 成交 → 复盘</b></td></tr>
@@ -41,7 +48,21 @@
   <tr><td>🔧 <b>Tinker</b></td><td>补丁维护匠</td><td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a></td></tr>
   <tr><td>🧰 <b>Prometheus</b></td><td>通用能力管家</td><td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a></td></tr>
   <tr><td>📐 <b>Markowitz</b></td><td>量化策略师</td><td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a></td></tr>
+  <tr><td>🌐 <b>Hermes</b></td><td>网络运维管理员（代理选路与故障转移）</td><td><a href="https://github.com/xhqing/NetOpsAgent">NetOpsAgent</a></td></tr>
+  <tr><td>🔨 <b>Anvil</b></td><td>后端开发工程师</td><td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a></td></tr>
+  <tr><td>🧠 <b>Ada</b></td><td>AI 算法工程师（推理引擎）</td><td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a></td></tr>
 </table>
+
+<div align="center"><sub>流水线：① Scout → ② Wright → ③ Mason → ④ Buzz → ⑤ Vendy → ⑥ Echo</sub></div>
+
+**Agent 负责的子项目** —— 四个 agent 在主仓库之外各自维护一个专项项目：
+
+| Agent | 子项目 | 是什么 |
+|---|---|---|
+| 🎒 <b>Kit</b> | [xhqing](https://github.com/xhqing/xhqing) | 本个人主页仓库 |
+| 🔨 <b>Anvil</b> | [CC-BRIDGE](https://github.com/xhqing/CC-BRIDGE) | Claude Code 上游桥接框架（Node.js） |
+| 🌐 <b>Hermes</b> | [XPilot](https://github.com/xhqing/XPilot) | Xray-core 节点管理 CLI（Python） |
+| 🧠 <b>Ada</b> | [AgentCortex](https://github.com/xhqing/AgentCortex) | 深度推理引擎规则集（Infinite / Rapid / Incisive） |
 
 <div align="center"><sub>流水线：① Scout → ② Wright → ③ Mason → ④ Buzz → ⑤ Vendy → ⑥ Echo</sub></div>
 
@@ -53,6 +74,8 @@
 4. 📣 **Buzz** 包装成各渠道引流内容并附带货链接（X · IG · YouTube · 小红书 · 知乎 · B 站）→ **Vendy**。
 5. 💰 **Vendy** 上架、定价、履约、售后、多平台铺货，完成成交 → 销售数据 → **Echo**。
 6. 📊 **Echo** 复盘归因，沉淀进 playbook → 反馈给流水线中相应环节 · 🔁 形成闭环。
+
+流水线之外，专才们两两协作：**Markowitz** 回测量化策略、给 **Victor** 当加权投票员；**Hermes** 守代理选路与故障转移、为需要稳定连接的 agent 供网；**Ada** 设计并评测全舰队赖以思考的推理引擎；**Anvil** 造后端服务；**Tinker** 在 Claude Code 扩展每次升级后重新应用补丁；**Prometheus** 维护全舰队共享的能力底座（全局 skills / rules / 配置同步）。
 
 ---
 
@@ -97,7 +120,7 @@
 
 ## 💖 赞助
 
-如果我的开源工作帮到了你，欢迎赞助——让我持续造更多 AI agent。
+如果我的开源工作帮到了你，欢迎赞助——让我持续造更多 AI Agent。
 
 <p align="center">
   <a href="https://github.com/sponsors/xhqing">

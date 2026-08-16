@@ -1,0 +1,31 @@
+name: traffic
+
+on:
+  schedule:
+    - cron: '23 2 * * *'   # daily UTC 02:23 (≈ Beijing 10:23), off the hour
+  workflow_dispatch:        # manual catch-up runs
+
+permissions:
+  contents: write           # commit traffic data back to this repo
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: python scripts/update_traffic.py
+        env:
+          GH_TOKEN: ${{ secrets.FLEET_TRAFFIC_PAT }}
+
+      - name: Commit stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add traffic/
+          git diff --cached --quiet || git commit -m "chore: update traffic stats [skip ci]"
+          git push
