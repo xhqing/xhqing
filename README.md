@@ -14,7 +14,7 @@
 &nbsp;
 <a href="https://github.com/sponsors/xhqing"><img src="https://img.shields.io/badge/💝-Sponsor%20Me-ff69b4?style=flat-square&logo=github-sponsors" alt="Sponsor" /></a>
 &nbsp;
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/profile.json" alt="Profile Visitors" />
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/profile.json" alt="Profile Visits/day (14d)" />
 
 </div>
 
@@ -27,22 +27,22 @@
 *A growing roster of single-purpose AI Agents. Six of them form a pipeline that hands off artifacts, turning one-time work into recurring passive income.*
 
 <table align="center">
-  <tr><th>AI Agent</th><th>Role</th><th>Repo</th><th>Visitors</th></tr>
+  <tr><th>AI Agent</th><th>Role</th><th>Repo</th><th>Visits/day (14d)</th></tr>
   <tr><td colspan="4"><b>🔁 Sales pipeline — research → produce → build → traffic → sell → analyze</b></td></tr>
-  <tr><td>🧭 <b>Scout</b></td><td>Product Strategist</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductStrategistAgent.json" alt="Scout Visitors" /></td></tr>
-  <tr><td>🛠️ <b>Wright</b></td><td>Producer</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductProducerAgent.json" alt="Wright Visitors" /></td></tr>
+  <tr><td>🧭 <b>Scout</b></td><td>Product Strategist</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductStrategistAgent.json" alt="Scout Visits/day (14d)" /></td></tr>
+  <tr><td>🛠️ <b>Wright</b></td><td>Producer</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductProducerAgent.json" alt="Wright Visits/day (14d)" /></td></tr>
   <tr><td>🏗️ <b>Mason</b></td><td>Site Builder</td><td><a href="https://github.com/xhqing/SiteBuilderAgent">SiteBuilderAgent</a></td><td>—</td></tr>
-  <tr><td>📣 <b>Buzz</b></td><td>Growth Marketer</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/GrowthMarketerAgent.json" alt="Buzz Visitors" /></td></tr>
-  <tr><td>💰 <b>Vendy</b></td><td>Sales Ops</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DigiVendAgent.json" alt="Vendy Visitors" /></td></tr>
-  <tr><td>📊 <b>Echo</b></td><td>Analyst</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DataAnalystAgent.json" alt="Echo Visitors" /></td></tr>
+  <tr><td>📣 <b>Buzz</b></td><td>Growth Marketer</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/GrowthMarketerAgent.json" alt="Buzz Visits/day (14d)" /></td></tr>
+  <tr><td>💰 <b>Vendy</b></td><td>Sales Ops</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DigiVendAgent.json" alt="Vendy Visits/day (14d)" /></td></tr>
+  <tr><td>📊 <b>Echo</b></td><td>Analyst</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DataAnalystAgent.json" alt="Echo Visits/day (14d)" /></td></tr>
   <tr><td colspan="4"><b>🧩 Standalone AI Agents — outside the sales pipeline</b></td></tr>
-  <tr><td>🎒 <b>Kit</b></td><td>Personal Assistant</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/PersonalAssistantAgent.json" alt="Kit Visitors" /></td></tr>
-  <tr><td>📈 <b>Victor</b></td><td>Day Trader</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DayTradingAgent.json" alt="Victor Visitors" /></td></tr>
-  <tr><td>🔧 <b>Tinker</b></td><td>Patch Maintainer</td><td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/PatchClaudeAgent.json" alt="Tinker Visitors" /></td></tr>
-  <tr><td>🧰 <b>Prometheus</b></td><td>Capability Steward</td><td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/CapabilityManagerAgent.json" alt="Prometheus Visitors" /></td></tr>
-  <tr><td>📐 <b>Markowitz</b></td><td>Quant Strategist</td><td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/QuantStrategistAgent.json" alt="Markowitz Visitors" /></td></tr>
-  <tr><td>🌐 <b>Hermes</b></td><td>NetOps Engineer</td><td><a href="https://github.com/xhqing/NetOpsAgent">NetOpsAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/NetOpsAgent.json" alt="Hermes Visitors" /></td></tr>
-  <tr><td>🔨 <b>Anvil</b></td><td>Backend Engineer</td><td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/BackendEngineerAgent.json" alt="Anvil Visitors" /></td></tr>
+  <tr><td>🎒 <b>Kit</b></td><td>Personal Assistant</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/PersonalAssistantAgent.json" alt="Kit Visits/day (14d)" /></td></tr>
+  <tr><td>📈 <b>Victor</b></td><td>Day Trader</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DayTradingAgent.json" alt="Victor Visits/day (14d)" /></td></tr>
+  <tr><td>🔧 <b>Tinker</b></td><td>Patch Maintainer</td><td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/PatchClaudeAgent.json" alt="Tinker Visits/day (14d)" /></td></tr>
+  <tr><td>🧰 <b>Prometheus</b></td><td>Capability Steward</td><td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/CapabilityManagerAgent.json" alt="Prometheus Visits/day (14d)" /></td></tr>
+  <tr><td>📐 <b>Markowitz</b></td><td>Quant Strategist</td><td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/QuantStrategistAgent.json" alt="Markowitz Visits/day (14d)" /></td></tr>
+  <tr><td>🌐 <b>Hermes</b></td><td>NetOps Engineer</td><td><a href="https://github.com/xhqing/NetOpsAgent">NetOpsAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/NetOpsAgent.json" alt="Hermes Visits/day (14d)" /></td></tr>
+  <tr><td>🔨 <b>Anvil</b></td><td>Backend Engineer</td><td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/BackendEngineerAgent.json" alt="Anvil Visits/day (14d)" /></td></tr>
   <tr><td>🧠 <b>Ada</b></td><td>AI Algorithm Engineer</td><td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a></td><td>—</td></tr>
 </table>
 
@@ -69,7 +69,7 @@
 5. 💰 **Vendy** lists, prices, fulfills and supports across storefronts, closing the sale → sales data → **Echo**.
 6. 📊 **Echo** attributes results to decisions and folds lessons into a playbook → feeds back to whichever pipeline stage needs it · 🔁 closing the loop.
 
-Off the pipeline, the other AI Agents each own their own domain: **Markowitz** develops quant strategies; **Hermes** handles networking; **Ada** covers AI Agent technology; **Anvil** handles backend development; **Tinker** patches CC (Claude Code) after every extension upgrade; **Prometheus** open-sources the capabilities the whole team shares, such as the global CLAUDE.md, global skills, global rules, and settings.json.
+Off the pipeline, the other AI Agents each own their own domain: **Markowitz** develops quant strategies; **Hermes** handles networking; **Ada** covers AI Agent technology; **Anvil** handles backend development; **Tinker** patches CC (Claude Code) after every extension upgrade; **Prometheus** open-sources the capabilities the whole team shares, such as the global CLAUDE.md, global skills, and global rules.
 
 ---
 
@@ -107,7 +107,7 @@ Off the pipeline, the other AI Agents each own their own domain: **Markowitz** d
 
 ## 💖 Sponsor
 
-If my open-source work helps you, consider sponsoring — it keeps me motivated to build more AI Agents.
+If my open-source work helps you, consider sponsoring — this keeps me motivated to keep creating more and better AI Agents and other Projects.
 
 <p align="center">
   <a href="https://github.com/sponsors/xhqing">

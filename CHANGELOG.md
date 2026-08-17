@@ -77,3 +77,28 @@
 - **为什么改**：两个 README 里同一术语大小写混用（副标题、旗舰项目段、赞助段共 5 处小写「AI agent / AI agents」，而表格与协作段用大写「AI Agent」），用户要求全仓统一为大写「AI Agent」。
 - **改了什么**：README.md / README_cn.md 共 5 处「AI agent(s)」→「AI Agent(s)」——README_cn.md 第 7、123 行；README.md 第 7、25、123 行。全仓 grep 验证已无小写残留。
 
+### 变更（赞助段措辞：「持续造」改「持续创造」并扩展到「AI Agent 和 Project」）
+
+- **为什么改**：用户要求（2026-08-16）赞助段一句「让我有动力持续造更多 AI Agent」改为「让我有动力持续创造更多 AI Agent 和 Project」——「造」改「创造」更规范，同时把创作对象从单一 AI Agent 扩展到 AI Agent 与 Project 两类。
+- **改了什么**：README_cn.md 第 110 行赞助段——「持续造更多 AI Agent」→「持续创造更多 AI Agent 和 Project」；README.md 第 110 行英文版同步——「build more AI Agents」→「build more AI Agents and Projects」（英文按原句 "build" 动词顺延补 "and Projects"，与中文语义对齐）。
+
+### 变更（Prometheus 职责描述去掉 settings.json）
+
+- **为什么改**：用户指出 Prometheus 开源的通用能力枚举里不应包含 settings.json——按全局规矩（「底层通用能力开源」节，2026-08-04 起范围为三部分），开源镜像只覆盖 `skills/`、`rules/`、`CLAUDE.md` 三部分，settings.json 不在其中，README 枚举与实际范围不符。
+- **改了什么**：README.md 第 72 行——「such as the global CLAUDE.md, global skills, global rules, and settings.json」→「such as the global CLAUDE.md, global skills, and global rules」；README_cn.md 第 72 行同步——「如全局 CLAUDE.md、全局 skills、全局 rules 以及 settings.json 等」→「如全局 CLAUDE.md、全局 skills、全局 rules 等」（按「中英双语 README 内容自动同步」规矩两版同轮改）。
+
+### 变更（赞助段措辞再改：「这让我有动力」+「更多更优质」+「或其它 Project」）
+
+- **为什么改**：用户要求（2026-08-17）在上一条措辞基础上进一步打磨——（1）句首补主语「这」，指代前文「赞助」这件事，句子更完整；（2）「更多」改「更多更优质」，表达不只要数量、还要质量提升；（3）连接词「和」改「或其它」，表明 AI Agent 与 Project 是列举关系（Project 泛指 AI Agent 之外的其它项目），并列改或然列举。
+- **改了什么**：README_cn.md 第 110 行赞助段——「让我有动力持续创造更多 AI Agent 和 Project」→「这让我有动力持续创造更多更优质的 AI Agent 或其它 Project」；README.md 第 110 行英文版按新立的「中英双语 README 内容自动同步」全局规矩（2026-08-17）一并同步——「build more AI Agents and Projects」→「this keeps me motivated to keep creating more and better AI Agents and other Projects」（补指代主语 this、叠加 more and better 表「更多更优质」、and other Projects 表「或其它 Project」）。
+
+### 变更（访问量徽章更名：Visitors → Visits/day (14d)，表达「近半月日均」口径）
+
+- **为什么改**：用户要求（2026-08-17）「Profile Visitors」与各仓「Visitors」徽章的 label 需表达出「最近半个月日均访问量」，且名字不能太长——`Visitors` 不含日均与时间窗口信息，读者看不出数字的口径。经候选比较（`Visits/day (14d)` / `Daily Visits (14d)` / `Visits/day · 14d` / `Avg Visits/day`）定为 `Visits/day (14d)`：`Visits/day` 是 shields.io 生态表达日均的惯例写法（同 `downloads/day`），括号 `(14d)` 是标注统计窗口的通行方式（Grafana / Datadog 常用），组合 17 字符、语义完整。
+- **改了什么**：
+  - [`scripts/update_traffic.py`](scripts/update_traffic.py)：单仓徽章 label `Visitors` → `Visits/day (14d)`（第 120 行），profile 徽章 label `Profile Visitors` → `Profile Visits/day (14d)`（第 156 行），docstring 的 label 说明同步；后续每日 Action 采集自动按新 label 生成。
+  - `traffic/badges/*.json`：16 个单仓徽章 + 1 个 profile 徽章的 `label` 字段同步改为新名（`message` 数字不变），免等下次 Action、即刻生效。
+  - README.md：顶部 profile 徽章 alt、舰队表格第四列表头 `Visitors` → `Visits/day (14d)`、14 行内嵌徽章 alt `<Name> Visitors` → `<Name> Visits/day (14d)`；README_cn.md：profile 徽章 alt 同步、表格表头「日均访问」→「近半月日均访问」、14 行 alt「<名> 日均访问」→「<名> 近半月日均访问」（中文按窗口口径表意，不硬译英文 label）。
+- **历史漂移修正**：CHANGELOG 早期条目（1.1.0「徽章英文首字母大写」等）记录的 label 为 `Visits/day`，但当前脚本与 JSON 实际是 `Visitors`——上次「删 fleet 徽章 + Profile 徽章改口径」重构时 label 被改成了 `Visitors` 而未在 CHANGELOG 里记录这次 label 变化。本次以实际文件为准收口为 `Visits/day (14d)`，与早期条目的 `Visits/day` 一脉相承（加上窗口标注）。
+- **回归检查**：与「徽章口径从累计改为日均」（1.1.0）、「删 fleet 汇总徽章 + Profile 改近半月口径」（Unreleased）、「徽章英文首字母大写」（Unreleased）三条改动的关系——本次只改 label / alt / 表头的**文字**，口径（avg14 算法）、数字、URL、生成逻辑均不动；新 label 首字母大写符合「徽章英文首字母必须大写」规矩，无回归。
+

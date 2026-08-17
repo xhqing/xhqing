@@ -14,7 +14,7 @@
 &nbsp;
 <a href="https://github.com/sponsors/xhqing"><img src="https://img.shields.io/badge/💝-Sponsor%20Me-ff69b4?style=flat-square&logo=github-sponsors" alt="Sponsor" /></a>
 &nbsp;
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/profile.json" alt="Profile Visitors" />
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/profile.json" alt="Profile Visits/day (14d)" />
 
 </div>
 
@@ -27,22 +27,22 @@
 *一批不断壮大、各司其职的 AI Agents；其中六个组成一条产物接力的流水线，把一次性的产出变成持续到手的被动收入。*
 
 <table align="center">
-  <tr><th>AI Agent</th><th>角色</th><th>仓库</th><th>日均访问</th></tr>
+  <tr><th>AI Agent</th><th>角色</th><th>仓库</th><th>近半月日均访问</th></tr>
   <tr><td colspan="4"><b>🔁 销售流水线 — 研判 → 生产 → 建设 → 引流 → 成交 → 复盘</b></td></tr>
-  <tr><td>🧭 <b>Scout</b></td><td>选品策略师</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductStrategistAgent.json" alt="Scout 日均访问" /></td></tr>
-  <tr><td>🛠️ <b>Wright</b></td><td>数字产品制作人</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductProducerAgent.json" alt="Wright 日均访问" /></td></tr>
+  <tr><td>🧭 <b>Scout</b></td><td>选品策略师</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductStrategistAgent.json" alt="Scout 近半月日均访问" /></td></tr>
+  <tr><td>🛠️ <b>Wright</b></td><td>数字产品制作人</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductProducerAgent.json" alt="Wright 近半月日均访问" /></td></tr>
   <tr><td>🏗️ <b>Mason</b></td><td>建站工程师</td><td><a href="https://github.com/xhqing/SiteBuilderAgent">SiteBuilderAgent</a></td><td>—</td></tr>
-  <tr><td>📣 <b>Buzz</b></td><td>增长营销</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/GrowthMarketerAgent.json" alt="Buzz 日均访问" /></td></tr>
-  <tr><td>💰 <b>Vendy</b></td><td>电商运营</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DigiVendAgent.json" alt="Vendy 日均访问" /></td></tr>
-  <tr><td>📊 <b>Echo</b></td><td>数据分析师</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DataAnalystAgent.json" alt="Echo 日均访问" /></td></tr>
+  <tr><td>📣 <b>Buzz</b></td><td>增长营销</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/GrowthMarketerAgent.json" alt="Buzz 近半月日均访问" /></td></tr>
+  <tr><td>💰 <b>Vendy</b></td><td>电商运营</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DigiVendAgent.json" alt="Vendy 近半月日均访问" /></td></tr>
+  <tr><td>📊 <b>Echo</b></td><td>数据分析师</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DataAnalystAgent.json" alt="Echo 近半月日均访问" /></td></tr>
   <tr><td colspan="4"><b>🧩 独立 AI Agent — 不在销售流水线内</b></td></tr>
-  <tr><td>🎒 <b>Kit</b></td><td>个人助理</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/PersonalAssistantAgent.json" alt="Kit 日均访问" /></td></tr>
-  <tr><td>📈 <b>Victor</b></td><td>日内交易员</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DayTradingAgent.json" alt="Victor 日均访问" /></td></tr>
-  <tr><td>🔧 <b>Tinker</b></td><td>补丁维护匠</td><td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/PatchClaudeAgent.json" alt="Tinker 日均访问" /></td></tr>
-  <tr><td>🧰 <b>Prometheus</b></td><td>通用能力管家</td><td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/CapabilityManagerAgent.json" alt="Prometheus 日均访问" /></td></tr>
-  <tr><td>📐 <b>Markowitz</b></td><td>量化策略师</td><td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/QuantStrategistAgent.json" alt="Markowitz 日均访问" /></td></tr>
-  <tr><td>🌐 <b>Hermes</b></td><td>网络运维管理员</td><td><a href="https://github.com/xhqing/NetOpsAgent">NetOpsAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/NetOpsAgent.json" alt="Hermes 日均访问" /></td></tr>
-  <tr><td>🔨 <b>Anvil</b></td><td>后端开发工程师</td><td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/BackendEngineerAgent.json" alt="Anvil 日均访问" /></td></tr>
+  <tr><td>🎒 <b>Kit</b></td><td>个人助理</td><td><a href="https://github.com/xhqing/PersonalAssistantAgent">PersonalAssistantAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/PersonalAssistantAgent.json" alt="Kit 近半月日均访问" /></td></tr>
+  <tr><td>📈 <b>Victor</b></td><td>日内交易员</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DayTradingAgent.json" alt="Victor 近半月日均访问" /></td></tr>
+  <tr><td>🔧 <b>Tinker</b></td><td>补丁维护匠</td><td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/PatchClaudeAgent.json" alt="Tinker 近半月日均访问" /></td></tr>
+  <tr><td>🧰 <b>Prometheus</b></td><td>通用能力管家</td><td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/CapabilityManagerAgent.json" alt="Prometheus 近半月日均访问" /></td></tr>
+  <tr><td>📐 <b>Markowitz</b></td><td>量化策略师</td><td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/QuantStrategistAgent.json" alt="Markowitz 近半月日均访问" /></td></tr>
+  <tr><td>🌐 <b>Hermes</b></td><td>网络运维管理员</td><td><a href="https://github.com/xhqing/NetOpsAgent">NetOpsAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/NetOpsAgent.json" alt="Hermes 近半月日均访问" /></td></tr>
+  <tr><td>🔨 <b>Anvil</b></td><td>后端开发工程师</td><td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/BackendEngineerAgent.json" alt="Anvil 近半月日均访问" /></td></tr>
   <tr><td>🧠 <b>Ada</b></td><td>AI 算法工程师</td><td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a></td><td>—</td></tr>
 </table>
 
@@ -69,7 +69,7 @@
 5. 💰 **Vendy** 上架、定价、履约、售后、多平台铺货，完成成交 → 销售数据 → **Echo**。
 6. 📊 **Echo** 复盘归因，沉淀进 playbook → 反馈给流水线中相应环节 · 🔁 形成闭环。
 
-流水线之外，其它智能体都有各自的负责领域：**Markowitz** 开发量化策略；**Hermes** 负责网络问题；**Ada** 负责 AI Agent 技术相关的领域；**Anvil** 负责后端开发；**Tinker** 负责给 CC 打补丁；**Prometheus** 负责开源全团队共享的通用能力，如全局 CLAUDE.md、全局 skills、全局 rules 以及 settings.json 等。
+流水线之外，其它智能体都有各自的负责领域：**Markowitz** 开发量化策略；**Hermes** 负责网络问题；**Ada** 负责 AI Agent 技术相关的领域；**Anvil** 负责后端开发；**Tinker** 负责给 CC 打补丁；**Prometheus** 负责开源全团队共享的通用能力，如全局 CLAUDE.md、全局 skills、全局 rules 等。
 
 ---
 
@@ -107,7 +107,7 @@
 
 ## 💖 赞助
 
-如果我的开源工作帮到了你，欢迎赞助——让我有动力持续造更多 AI Agent。
+如果我的开源工作帮到了你，欢迎赞助——这让我有动力持续创造更多更优质的 AI Agent 或其它 Project。
 
 <p align="center">
   <a href="https://github.com/sponsors/xhqing">

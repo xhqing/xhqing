@@ -12,7 +12,8 @@ averages exactly 1). A value above 0 means someone OTHER than the repo owner
 visited in the last half month — GitHub's Traffic API already excludes the
 owner's own views while logged in (logged-out self-visits may still slip in,
 as the API exposes no visitor identity to filter after the fact). Badge
-labels are "Visitors" (per repo) and "Profile Visitors" (profile).
+labels are "Visits/day (14d)" (per repo) and "Profile Visits/day (14d)"
+(profile).
 
 Merge semantics: GitHub returns the latest snapshot for each day in the
 window — a day's figures keep growing until that day ends, so an already
@@ -116,7 +117,7 @@ def write_badge(repo, stats):
     os.makedirs('traffic/badges', exist_ok=True)
     badge = {
         'schemaVersion': 1,
-        'label': 'Visitors',
+        'label': 'Visits/day (14d)',
         'message': fmt_avg(stats.get('avg14', 0)),
         'color': 'brightgreen',
     }
@@ -152,7 +153,7 @@ def main():
             # profile badge: the xhqing repo's daily average, labelled for the
             # profile README (owner-logged-in views already excluded by GitHub)
             with open('traffic/badges/profile.json', 'w') as f:
-                json.dump({'schemaVersion': 1, 'label': 'Profile Visitors',
+                json.dump({'schemaVersion': 1, 'label': 'Profile Visits/day (14d)',
                            'message': fmt_avg(stats.get('avg14', 0)),
                            'color': 'brightgreen'}, f, indent=2)
     print('done.')
