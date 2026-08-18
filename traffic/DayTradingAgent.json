@@ -60,8 +60,16 @@
     "2026-08-15": {
       "uniques": 1,
       "views": 1
+    },
+    "2026-08-16": {
+      "uniques": 1,
+      "views": 1
+    },
+    "2026-08-17": {
+      "uniques": 1,
+      "views": 1
     }
   },
-  "total_uniques": 18,
-  "total_views": 54
+  "total_uniques": 20,
+  "total_views": 56
 }
