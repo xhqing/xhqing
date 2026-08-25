@@ -88,8 +88,12 @@
     "2026-08-22": {
       "uniques": 0,
       "views": 0
+    },
+    "2026-08-23": {
+      "uniques": 1,
+      "views": 1
     }
   },
-  "total_uniques": 7,
-  "total_views": 19
+  "total_uniques": 8,
+  "total_views": 20
 }
