@@ -76,7 +76,7 @@ graph LR
   <tr><td>📣 <b>Buzz</b></td><td>Growth Marketer</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/GrowthMarketerAgent.json" alt="Buzz Visits/day (14d)" /></td></tr>
   <tr><td>💰 <b>Vendy</b></td><td>Sales Ops</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DigiVendAgent.json" alt="Vendy Visits/day (14d)" /></td></tr>
   <tr><td>📊 <b>Echo</b></td><td>Analyst</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DataAnalystAgent.json" alt="Echo Visits/day (14d)" /></td></tr>
-  <tr><td colspan="4"><b>📈 Investing &amp; trading squad — quant signals to live day-trading</b></td></tr>
+  <tr><td colspan="4"><b>📈 Investing &amp; trading squad — quant strategies &amp; day trading</b></td></tr>
   <tr><td>📈 <b>Victor</b></td><td>Day Trader</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DayTradingAgent.json" alt="Victor Visits/day (14d)" /></td></tr>
   <tr><td>📐 <b>Markowitz</b></td><td>Quant Strategist</td><td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/QuantStrategistAgent.json" alt="Markowitz Visits/day (14d)" /></td></tr>
   <tr><td colspan="4"><b>🧰 Infrastructure squad — shared foundations the whole team runs on</b></td></tr>
@@ -97,7 +97,7 @@ The team is organized into three squads by domain, with four direct reports outs
 - **🎯 Hopkins (Apply Optimizer) — direct report, not in any squad.** Owns the full work-intake loop: gig & job hunting, application engineering (proposals & résumés), funnel tracking (application → reply → talk / interview → win / offer), pricing & salary tests — making the applications convert.
 - **⚖️ Justin (Legal Agent) — direct report, not in any squad, serving all squads cross-team.** Owns everything contracts-and-payments across the whole team: contract drafting, staged-payment design, due diligence, evidence chains, dispute response.
 - **🛍️ Digital-product sales squad** — the six-stage pipeline (Scout → Wright → Mason → Buzz → Vendy → Echo) turns one-time work into recurring passive income — see the dedicated section below.
-- **📈 Investing & trading squad** — **Markowitz** develops and backtests quant strategies; **Victor** day-trades live (HK/US) on calibrated signals.
+- **📈 Investing & trading squad** — **Markowitz** develops and backtests quant strategies; **Victor** is the day trader.
 - **🧰 Infrastructure squad** — **Tinker** patches CC (Claude Code) after every extension upgrade; **Prometheus** open-sources the capabilities the whole team shares (global CLAUDE.md, skills, rules); **Hermes** handles networking; **Anvil** handles backend development; **Atlas** handles full-stack projects; **Ada** covers AI Agent algorithms and reasoning engines; **Alfred** manages device resources (local Mac / remote servers / cloud machines); **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
 
 ---
@@ -111,7 +111,7 @@ The team is organized into three squads by domain, with four direct reports outs
 1. 🧭 **Scout** sizes up trends, market, rivals and profit potential → an *Opportunity Report* (what to sell, to whom, at what price) → **Wright**.
 2. 🛠️ **Wright** turns the report into a finished product — Prompt packs, templates, ebooks, assets → **Mason**.
 3. 🏗️ **Mason** builds the storefront — independent site, landing pages, payment integration — and hands off ready-to-sell buy links → **Buzz**.
-4. 📣 **Buzz** repackages it into channel-specific traffic content with buy links (X · IG · YouTube · Xiaohongshu · Zhihu · Bilibili, etc.) → **Vendy**.
+4. 📣 **Buzz** repackages it into channel-specific traffic content with buy links (X · IG · YouTube · RedNote · Zhihu · Bilibili, etc.) → **Vendy**.
 5. 💰 **Vendy** lists, prices, fulfills and supports across storefronts, closing the sale → sales data → **Echo**.
 6. 📊 **Echo** attributes results to decisions and folds lessons into a playbook → feeds back to whichever pipeline stage needs it · 🔁 closing the loop.
 
@@ -173,6 +173,10 @@ The interesting part is not the roster — it's the machinery between the agents
 <a href="https://github.com/xhqing"><img src="https://img.shields.io/badge/GitHub-xhqing-181717?style=flat-square&logo=github" alt="GitHub" /></a>
 &nbsp;
 <img src="https://img.shields.io/badge/WeChat%20ID-xhqingxhqing-07C160?style=flat-square&logo=wechat&logoColor=white" alt="WeChat ID" />
+&nbsp;
+<a href="mailto:huaqing.xu.hk@gmail.com"><img src="https://img.shields.io/badge/Email-huaqing.xu.hk%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+&nbsp;
+<a href="https://www.xiaohongshu.com/user/profile/5e6665af0000000001005fbe"><img src="https://img.shields.io/badge/RedNote-831230194-FF2442?style=flat-square&logo=xiaohongshu&logoColor=white" alt="RedNote" /></a>
 
 </div>
 
@@ -190,6 +194,6 @@ If my open-source work helps you, consider sponsoring — this keeps me motivate
 
 <div align="center">
 
-<sub>⭐ Star the repos you like · 🔱 Watch the team grow · 🍻 Built with ❤️ & Claude Code</sub>
+<sub>⭐ Star the repos you like · 🔱 Watch the team grow</sub>
 
 </div>

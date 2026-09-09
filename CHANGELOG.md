@@ -4,6 +4,26 @@
 
 ## [未发布]
 
+### 变更（英文正文渠道列举 Xiaohongshu 统一为 RedNote）
+
+- **为什么改**：用户 2026-09-09 确认统一口径——小红书官方英文名是 RedNote，Connect 徽章已改用，英文正文（销售流水线 Buzz 步骤的渠道列举）同步统一；中文版正文用中文名「小红书」不变（各语言用各自地道的官方名）。
+- **改了什么**（2026-09-09）：`README.md` 销售流水线第 4 步渠道列举 `Xiaohongshu` → `RedNote`（`README_cn.md` 对应句用「小红书」，无需改）。
+
+### 变更（Connect 区补充邮箱与小红书两个联系方式）
+
+- **为什么改**：用户 2026-09-09 要求 Connect 部分再加上小红书和邮箱（此前只有 GitHub 与微信两个联系方式）；小红书号与主页链接均由用户提供（831230194，主页链接已实测 200）。
+- **改了什么**（2026-09-09）：`README.md` / `README_cn.md` Connect 区各新增两枚徽章——`Email`（huaqing.xu.hk@gmail.com，mailto: 链接，Gmail 红）与 `RedNote`（小红书官方英文名，显示小红书号 831230194，点击跳转小红书主页，小红书品牌红；图标经 simple-icons 的 xiaohongshu slug 渲染——该库无 rednote slug，实测 logo=rednote 无图标）。
+
+### 变更（页脚删去「用 ❤️ 与 Claude Code 构建」署名）
+
+- **为什么改**：用户 2026-09-09 指出页脚的构建署名只写了 Claude Code，但实际用的构建工具不止它一个（还用了其它工具），只写一家不严谨——干脆不写；这也与 README「不含点明 LLM / 厂商的徽章」的既有约定同向。
+- **改了什么**（2026-09-09）：`README.md` / `README_cn.md` 页脚行各删去第三段「🍻 Built with ❤️ & Claude Code」/「🍻 用 ❤️ 与 Claude Code 构建」，保留 Star 与关注团队壮大两段。
+
+### 变更（Victor 条目口径更正：就是日内交易员）
+
+- **为什么改**：用户 2026-09-09 指出小组介绍里 Victor 的描述「按标定后的信号做港股 / 美股实盘日内交易」解释不对——Victor 不是按 Markowitz 标定的信号做实盘交易，就是日内交易员，描述按此简化。
+- **改了什么**（2026-09-09）：`README.md` / `README_cn.md` 各两处——① 小组介绍列表 Victor 分句改为「**Victor** 是日内交易员。」（英文 "…; **Victor** is the day trader."），删去「按标定后的信号做港股 / 美股实盘日内交易」表述；② 名册表投资与交易小组表头标语「从量化信号到实盘日内交易」同源问题，改为「量化策略与日内交易」（英文 "quant signals to live day-trading" → "quant strategies & day trading"），一并去掉「实盘 + 信号串联」的错误定性。
+
 ### 变更（Hopkins 条目改为工作接单全链路专门负责）
 
 - **为什么改**：用户 2026-09-08 拍板找单接活找工作整体交给 Hopkins 专门负责（Kit 定位多面手、不再发起找单找岗），原句「Kit 发起找单找岗动作，Hopkins 让投出去的申请更多转化」的分工表述失效。

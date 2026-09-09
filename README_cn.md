@@ -76,7 +76,7 @@ graph LR
   <tr><td>📣 <b>Buzz</b></td><td>增长营销</td><td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/GrowthMarketerAgent.json" alt="Buzz 近半月日均访问" /></td></tr>
   <tr><td>💰 <b>Vendy</b></td><td>电商运营</td><td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DigiVendAgent.json" alt="Vendy 近半月日均访问" /></td></tr>
   <tr><td>📊 <b>Echo</b></td><td>数据分析师</td><td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DataAnalystAgent.json" alt="Echo 近半月日均访问" /></td></tr>
-  <tr><td colspan="4"><b>📈 投资与交易小组 — 从量化信号到实盘日内交易</b></td></tr>
+  <tr><td colspan="4"><b>📈 投资与交易小组 — 量化策略与日内交易</b></td></tr>
   <tr><td>📈 <b>Victor</b></td><td>日内交易员</td><td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/DayTradingAgent.json" alt="Victor 近半月日均访问" /></td></tr>
   <tr><td>📐 <b>Markowitz</b></td><td>量化策略师</td><td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/QuantStrategistAgent.json" alt="Markowitz 近半月日均访问" /></td></tr>
   <tr><td colspan="4"><b>🧰 基础设施小组 — 全团队共同运行的共享底座</b></td></tr>
@@ -97,7 +97,7 @@ graph LR
 - **🎯 Hopkins（投递转化率优化师）—— 直属用户，不属任何小组。**专门负责工作接单全链路：找单找岗、投递材料工程（标书 + 简历 + 打招呼话术）、漏斗追踪（投递 → 回应 → 沟通 / 面试 → 成单 / offer）、报价与薪资测试，让投出去的申请更多转化成单与 offer。
 - **⚖️ Justin（法务Agent）—— 直属用户，不属任何小组，跨组服务全部小组。**负责整个团队所有跟合同和收款相关的事项：合同起草、分期收款设计、尽调、证据链、纠纷应对。
 - **🛍️ 数字产品销售小组** —— 六段流水线（Scout → Wright → Mason → Buzz → Vendy → Echo）把一次性的产出变成持续到手的被动收入，详见下文。
-- **📈 投资与交易小组** —— **Markowitz** 开发并回测量化策略；**Victor** 按标定后的信号做港股 / 美股实盘日内交易。
+- **📈 投资与交易小组** —— **Markowitz** 开发并回测量化策略；**Victor** 是日内交易员。
 - **🧰 基础设施小组** —— **Tinker** 负责给 CC 打补丁；**Prometheus** 负责开源全团队共享的通用能力（全局 CLAUDE.md、skills、rules）；**Hermes** 负责网络问题；**Anvil** 负责后端开发；**Atlas** 负责全栈项目；**Ada** 负责 AI Agent 算法与推理引擎；**Alfred** 负责设备资源管理（本地电脑 / 远程服务器 / 云电脑）；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
 
 ---
@@ -173,6 +173,10 @@ graph LR
 <a href="https://github.com/xhqing"><img src="https://img.shields.io/badge/GitHub-xhqing-181717?style=flat-square&logo=github" alt="GitHub" /></a>
 &nbsp;
 <img src="https://img.shields.io/badge/WeChat%20ID-xhqingxhqing-07C160?style=flat-square&logo=wechat&logoColor=white" alt="WeChat ID" />
+&nbsp;
+<a href="mailto:huaqing.xu.hk@gmail.com"><img src="https://img.shields.io/badge/Email-huaqing.xu.hk%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+&nbsp;
+<a href="https://www.xiaohongshu.com/user/profile/5e6665af0000000001005fbe"><img src="https://img.shields.io/badge/RedNote-831230194-FF2442?style=flat-square&logo=xiaohongshu&logoColor=white" alt="RedNote" /></a>
 
 </div>
 
@@ -190,6 +194,6 @@ graph LR
 
 <div align="center">
 
-<sub>⭐ 给喜欢的仓库点 Star · 🔱 关注团队的壮大 · 🍻 用 ❤️ 与 Claude Code 构建</sub>
+<sub>⭐ 给喜欢的仓库点 Star · 🔱 关注团队的壮大</sub>
 
 </div>
