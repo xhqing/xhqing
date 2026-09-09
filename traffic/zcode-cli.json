@@ -1,0 +1,63 @@
+{
+  "avg14": 1.0,
+  "days": {
+    "2026-08-25": {
+      "uniques": 0,
+      "views": 0
+    },
+    "2026-08-26": {
+      "uniques": 1,
+      "views": 2
+    },
+    "2026-08-27": {
+      "uniques": 0,
+      "views": 0
+    },
+    "2026-08-28": {
+      "uniques": 0,
+      "views": 0
+    },
+    "2026-08-29": {
+      "uniques": 1,
+      "views": 2
+    },
+    "2026-08-30": {
+      "uniques": 1,
+      "views": 2
+    },
+    "2026-08-31": {
+      "uniques": 0,
+      "views": 0
+    },
+    "2026-09-01": {
+      "uniques": 0,
+      "views": 0
+    },
+    "2026-09-02": {
+      "uniques": 2,
+      "views": 5
+    },
+    "2026-09-03": {
+      "uniques": 0,
+      "views": 0
+    },
+    "2026-09-04": {
+      "uniques": 1,
+      "views": 1
+    },
+    "2026-09-05": {
+      "uniques": 3,
+      "views": 11
+    },
+    "2026-09-06": {
+      "uniques": 3,
+      "views": 77
+    },
+    "2026-09-07": {
+      "uniques": 2,
+      "views": 2
+    }
+  },
+  "total_uniques": 14,
+  "total_views": 102
+}
