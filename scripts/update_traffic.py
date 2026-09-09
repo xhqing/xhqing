@@ -44,7 +44,7 @@ TEAM = [
     'GrowthMarketerAgent',       # Buzz
     'DigiVendAgent',             # Vendy
     'DataAnalystAgent',          # Echo
-    'PersonalAssistantAgent',    # Kit
+    'ExecutiveAssistantAgent',  # Kit
     'DayTradingAgent',           # Victor
     'PatchClaudeAgent',          # Tinker
     'CapabilityManagerAgent',    # Prometheus
@@ -52,9 +52,17 @@ TEAM = [
     'NetOpsAgent',               # Hermes
     'BackendEngineerAgent',      # Anvil
     'NeuralCoreAgent',           # Ada
+    'DeviceStewardAgent',        # Alfred
+    'FullStackEngineerAgent',    # Atlas
+    'LegalAgent',         # Justin
+    'ApplyOptimizerAgent',      # Hopkins (renamed from BidOptimizerAgent 2026-09-06)
+    'CommunityManagerAgent',     # Gatsby
+    'TestEngineerAgent',         # Hopper
     'CC-BRIDGE',                 # Anvil's subproject
     'XPilot',                    # Hermes' subproject
     'AgentCortex',               # Ada's subproject
+    'ResourceMonitor',           # Alfred's subproject
+    'zcode-cli',                 # Atlas's subproject
 ]
 
 

@@ -1,6 +1,100 @@
 # Changelog
 
-本仓库（xhqing）是 GitHub 个人主页仓库，也是 PersonalAssistantAgent（Kit）的子项目。本 CHANGELOG 记录本仓库的变更。
+本仓库（xhqing）是 GitHub 个人主页仓库，也是 ExecutiveAssistantAgent（Kit）的子项目。本 CHANGELOG 记录本仓库的变更。
+
+## [未发布]
+
+### 变更（Hopkins 条目改为工作接单全链路专门负责）
+
+- **为什么改**：用户 2026-09-08 拍板找单接活找工作整体交给 Hopkins 专门负责（Kit 定位多面手、不再发起找单找岗），原句「Kit 发起找单找岗动作，Hopkins 让投出去的申请更多转化」的分工表述失效。
+- **改了什么**（2026-09-08，Kit 会话）：`README.md` / `README_cn.md` 小组介绍列表 Hopkins 条目——职责开头改为「专门负责工作接单全链路：找单找岗、投递材料工程、漏斗追踪、报价与薪资测试」，删去「Kit 发起」分句。Kit 条目已于同日早前改为多面手口径（见「Kit 条目重写」条）。
+
+### 变更（Kit 条目重写：定位多面手、icon 更正）
+
+- **为什么改**：用户 2026-09-08 指出 Kit 是最重要的 Agent（第一助理），介绍不应限定在「找单找岗接活」——该职能相对定位不值一提；Kit 的定位是**多面手**，几乎任何事务都接得住、处理得了，不做某个领域的深度研究，什么都会、什么都能管。另小组介绍列表里 Kit 的 icon 误用了 👔（与名册表、架构图的 👩‍💼 职业女性形象不符）。
+- **改了什么**（2026-09-08，Kit 会话）：`README.md` / `README_cn.md` 小组介绍列表 Kit 条目重写——icon 由 👔 改为 👩‍💼；描述改为「用户的第一助理、团队多面手：几乎任何事务都接得住、处理得了——不是某个领域的深度专家，而是什么都会、什么都能管」，删去「在远程工作社区与招聘平台找单找岗接活」的职能限定。
+
+### 变更（旗舰项目节重排：组织结构前置，数字产品销售小组降为后置专段）
+
+- **为什么改**：用户 2026-09-08 指出内容顺序问题——此前开篇以「数字产品全链路变现流水线」切入（那是三个小组之一的故事），组织全貌反而靠后；作为个人主页的旗舰展示，应先介绍组织结构（20 个专岗 Agent、三个小组 + 四位直属），再展开其中一个小组（数字产品销售）的流水线细节。
+- **改了什么**（2026-09-08，Kit 会话）：`README.md` / `README_cn.md` 同构重排——① 开篇第一句从「多智能体团队跑通数字产品变现」改为组织全貌句（20 个专岗 Agent、三个业务小组 + 四位直属、Huaqing Xu 直接领导），原变现句与「六个组成流水线」句降级到销售小组专段开头；② 碳硅混合组织说明段、架构 mermaid 图、名册表、小组介绍列表（直属四条 + 三小组）保持在前半部，构成完整的组织结构介绍；③ 新增三级节「🛍️ 数字产品销售小组：产物接力的六段流水线」（an artifact-relay pipeline），收编变现句、六步接力详解、流水线注释；④ 子项目表随之移到销售专段之后；⑤ 小组介绍列表里销售小组条目的「上方六段流水线」引用改为「详见下文」（六步详解已移至列表后方）。两版节结构逐行对称（105 行销售专段 / 135 行组织怎么运转，位置一致）。
+
+### 变更（CyberRipple 挂起：撤下互链，组织内容合并回本主页）
+
+- **为什么改**：用户 2026-09-08 重新决策——CyberRipple Organization 目前为空组织，当前主线是投递找工作、对外链接全部指向 github.com/xhqing，组织门面没有访客入口、招聘方点进空组织反而是负资产；个人主页是唯一展示位，内容应集中一处做深。此前双处维护已实际发生漂移（子项目表过时、括号注未同步、流水线注重复出现两次）。CyberRipple 挂起（README 留白、底稿留本地），本仓库吸收其增量内容成为唯一门面。
+- **改了什么**（2026-09-08，Kit 会话）：`README.md` / `README_cn.md` 各七处——① 撤下「🏢 组织门面：CyberRipple」互链行；② 原位改为完整组织架构 mermaid 图（自 CyberRipple 迁入），图前补「碳硅混合组织」说明段（全员 AI Agent、为吸纳人类成员而设计）；③ roster 表 Hopkins / Justin 行删括号注（用户同日裁定：名册行不加括号解释）；④ subprojects 表对齐全局超集映射表——删 market-data-backup（不在映射表、私有仓库链接对外无效）、补 zcode-cli / zcode-vsce / gridtrader，引导句「六个 AI Agent 各自维护一个专项项目」改为不限数的表述；⑤ 删 subprojects 表后重复出现的流水线注释行；⑥ squads 列表 Hopkins / Justin 段删同款括号注（Justin「跨组服务全部小组」融入正文，「财务岗位暂时空缺」系内部管理状态、删除）；⑦ 新增「⚙️ 组织怎么运转」节（自 CyberRipple 迁入：产物交接、共享能力层、推理引擎作为基础设施、三权分立质量门禁、合同与收款五条 + 数字一览一行）。CyberRipple 侧的留白与底稿处理见其仓库 CHANGELOG。
+
+### 变更（Justin 条目口径清理：纯法务、财务岗位暂时空缺）
+
+- **为什么改**：用户 2026-09-08 明确 Justin 定位为纯法务（直属用户、不属任何小组），财务职能暂时空缺——roster 表与 squads 列表里 Justin 行的「finance & legal / 财务与法务」括注与新口径矛盾，随全局注册表口径更新一并清理。
+- **改了什么**（2026-09-08，Hopkins 会话）：`README.md` / `README_cn.md` 各两处——roster 表 Justin 行括注与 squads 列表 Justin 段落括注，统一改为「pure legal; serves all squads cross-team — the finance seat is currently open / 纯法务；跨组服务全部小组——财务岗位暂时空缺」。链接保持 `LegalAgent`（注册表新名；GitHub 仓库未建、立项待办见 ApplyOptimizerAgent TODO T12）。
+
+### 变更（旗舰项目节新增 CyberRipple 组织门面互链）
+
+- **为什么改**：用户的 AI Agent 团队有完整组织架构（五小组 + 直属，20+ 专岗 Agent），此前只有本个人主页一处呈现；用户 2026-09-08 决定启用 GitHub Organization「CyberRipple」作组织门面（org profile README 写清组织架构、链接指回个人仓库，仓库不迁移避免断链）。个人主页加互链入口，双门户互相引流。
+- **改了什么**（2026-09-08，Hopkins 会话）：`README.md` / `README_cn.md` 旗舰项目节各加一行 blockquote——指向 github.com/CyberRipple 的组织主页链接（英文「Organization front door」/ 中文「组织门面」）。CyberRipple org 侧 `.github` 仓库与 profile README 同日新建（本地 /Users/xhq/Developer/CyberRipple），待推送。
+
+### 变更（小组更名同步：任务池投标小组 → 工作接单小组）
+
+- **为什么改**：用户 2026-09-06 拍板小组更名（「任务池投标」降为小组下的接单策略之一、与招聘平台求职并列），本仓库 roster 双语的分组行与五小组列表、Kit 子项目 `.claude/CLAUDE.md` 的对口表述须同步。
+- **改了什么**：① `README.md` / `README_cn.md`：Hopkins 所在分组行（Task-pool bidding squad → Work-intake squad / 任务池投标小组 → 工作接单小组，分组描述注明 task-pool bidding & job-platform applications / 任务池投标与招聘平台求职为并行接单策略）、五小组列表该行开头；② `.claude/CLAUDE.md`：工作原则第一条与「你的位置」小组名两处。
+
+### 变更（roster Hopkins 行更名 ApplyOptimizerAgent；Kit 口径与 traffic 清单同步）
+
+- **为什么改**：电鸭平台岗位多为全职岗、有详细 JD、沟通需发简历——与 BOSS直聘求职同构，「投单」与「找工作」合流为同一条投递漏斗（2026-09-06 用户拍板），Hopkins 项目由 BidOptimizerAgent 更名 ApplyOptimizerAgent、Title「投递转化率优化师」。本仓库 roster（双语）的 Hopkins 行、任务池投标小组描述、Kit 的找单找岗口径、访问统计采集清单须同步。
+- **改了什么**：① `README.md` / `README_cn.md`：Hopkins roster 行（Bid Optimizer → Apply Optimizer、职称、仓库链接）、任务池投标小组段落（投递材料工程（标书 + 简历 + 打招呼话术）/ 漏斗含沟通与面试、成单与 offer / 报价与薪资测试）、Kit 直属行找单找岗口径与渠道举例（电鸭、BOSS直聘）；② `.claude/CLAUDE.md`（Kit 子项目超集内容）同步同样口径；③ `scripts/update_traffic.py` 的 `TEAM` 清单 `'BidOptimizerAgent'` → `'ApplyOptimizerAgent'`；④ 预建 `traffic/badges/ApplyOptimizerAgent.json` + `.meta.json`（零值，与 TestEngineerAgent 预建格式一致；原 BidOptimizerAgent.json 从未生成过，无历史数据可迁移）。
+- **注意**：GitHub 仓库 rename 完成前，采集清单里的新名字在 GitHub API 中尚不存在——需先完成 rename、再 push 本仓库让 Action 按新清单采集。
+
+### 变更（roster 双语纳入 Hopper / TestEngineerAgent；traffic 采集清单同步）
+
+- **为什么改**：新建软件测试 Agent TestEngineerAgent（Hopper，软件测试工程师，2026-09-06 立项，隶属基础设施小组）——为全团队软件项目建功能测试与回归防护网（用例先行 + CI 红灯门禁），把「改 A 坏 B」拦在合并进 main 之前。按集中式访问统计机制，新仓库须列入 `update_traffic.py` 的 `TEAM` 清单才会有徽章数据源（TestEngineerAgent 的 README 已挂该徽章）。
+- **改了什么**：① `README.md` / `README_cn.md` 基础设施小组 roster 各加 Hopper 行（🐞 软件测试工程师 / Test Engineer，含徽章 endpoint）；两版基础设施小组文字描述各补 Hopper 一句（回归防护网：开发前先写验收测试用例、合并前 CI 红灯门禁）。② `scripts/update_traffic.py` 的 `TEAM` 清单加 `'TestEngineerAgent', # Hopper`。③ 预建 `traffic/badges/TestEngineerAgent.json`（schemaVersion 1 / Visits/day (14d) / 0 / brightgreen）与 `TestEngineerAgent.meta.json`（零值），与既有项目格式一致。
+- **回归检查**：Gatsby 及其余 roster 行、五小组结构、既有徽章 JSON 未动；update_traffic.py 仅追加一行清单项。
+
+### 变更（Gatsby 行社群描述更新：社群定名「AI前沿跨界交流群」、清退「互帮互助」表述）
+
+- **为什么改**：CommunityManagerAgent（Gatsby）侧定位校准（2026-08-27 / 08-28）——群主定名社群为「AI前沿跨界交流群」，并裁定「互帮互助」不在任何地方体现（多数群友为获取信息而来、无明确求助需求且不想被求助打扰，互助是群活跃后的自然副产品）。本仓库 roster 双语 Gatsby 行的社群描述仍是旧口径「以 AI 为纽带的跨界互帮互助交流群」，须同步更新。
+- **改了什么**：`README.md` / `README_cn.md` Gatsby 行社群描述改为「运营用户自己的微信社群『AI前沿跨界交流群』」（英文版 an AI-frontier, cross-industry exchange group）。其余未动。
+- **回归检查**：Gatsby 行之外的 roster 内容、五小组结构、徽章 URL 未动。
+
+### 变更（roster 双语纳入 Gatsby / CommunityManagerAgent；traffic 采集清单同步）
+
+- **为什么改**：新建微信社群运营 Agent CommunityManagerAgent（Gatsby，社群运营官，2026-08-25 立项）——运营用户的微信社群（以 AI 为纽带的跨界互帮互助交流群），理念方法由 agent 出、群主辅助引导执行；用户裁定不分组、直属用户（与 Kit 同待遇，主页「直属用户」段需加行、职责说明段需从一位改两位）。按集中式访问统计机制，新仓库须列入 `update_traffic.py` 的 `TEAM` 清单才会有徽章数据源（CommunityManagerAgent 的 README 已挂该徽章，仓库未推上 GitHub 前访问列以「—」占位）。
+- **改了什么**：`README.md` / `README_cn.md` 同步——「直属用户」表格段加 Gatsby 行（🥂 / Community Manager / 社群运营官 / CommunityManagerAgent 链接 + 访问列「—」占位）；职责说明段「一位助理」改「两位助理」并补 Gatsby 直属说明（私域社群运营，公域投放归 Buzz）。`scripts/update_traffic.py` 的 `TEAM` 清单追加 `'CommunityManagerAgent'`（# Gatsby，仓库数 24 → 25）；预建 `traffic/badges/CommunityManagerAgent.json` 与 `.meta.json`（零值初始，格式与既有徽章一致，避免仓库上线前 README 徽章 dangling）。
+- **回归检查**：六段流水线成员与顺序、接力说明、子项目表未动；五小组结构未动（Gatsby 不进任何小组）；徽章 URL 形态不变。
+
+### 变更（Kit 主项目更名联动：roster 链接 / Visitors 徽章 / traffic badge 文件与流量脚本清单更新）
+
+- **为什么改**：Kit 主项目由 PersonalAssistantAgent 更名为 ExecutiveAssistantAgent（Title「总经理助理」定名后的名字对齐，GitHub 仓库同步改名、旧名 URL 由 GitHub 自动重定向，详见该项目 CHANGELOG）——本仓库 README roster 的仓库链接 / Visitors 徽章 URL、`traffic/badges/` 数据文件名、`scripts/update_traffic.py` 团队清单均含旧名，不改则徽章 404、每日采集会再生成旧名 JSON 造成数据分叉。
+- **改了什么**：`README.md` / `README_cn.md` Kit 行（GitHub 链接、徽章 URL；英文版两处职称 GM's Assistant → Executive Assistant：roster 表 + 直属用户职责说明段）；`traffic/badges/PersonalAssistantAgent.json` / `.meta.json` 更名为 `ExecutiveAssistantAgent.*`（历史累计数据随文件保留，GitHub 改名后 Traffic API 按新仓库名继续累计）；`scripts/update_traffic.py` `TEAM` 清单同步更名（仓库数不变）；本 CHANGELOG 头部说明句同步。`xhqing/.claude/CLAUDE.md` 指代说明按超集规则同步（源头变更记 ExecutiveAssistantAgent 的 CHANGELOG）。
+
+
+### 变更（小组重组为五个：新增财务与法务小组，Justin 移入；Kit 改「总经理助理」不分组；纳入 Hopkins / BidOptimizerAgent）
+
+- **为什么改**：用户 2026-08-23 三项裁定——① 新建「财务与法务小组」，Justin（LegalAgent）移入该组，职责升格为「负责整个团队所有跟合同和收款相关的事项」（跨组服务）；② Kit 的 Title 由「个人助理」改为「总经理助理」，且不分组、不属于任何小组（直属用户的第一助理）；③ 新建投标转化率优化 Agent Hopkins（BidOptimizerAgent），加入任务池投标小组（漏斗上游：标书工程 / 漏斗追踪 / 中标率归因 / 报价测试）。团队分组由四个变为五个。
+- **改了什么**：README.md / README_cn.md 同步——表格头新增「👔 直属用户」段放 Kit（Title 改 GM's Assistant / 总经理助理）；任务池投标小组成员由 Kit+Justin 改为 Hopkins（Justin 移出）；新增「💰 财务与法务小组」段放 Justin；职责说明段同步重写为「五位助理之外五小组」结构。`scripts/update_traffic.py` 的 `TEAM` 清单追加 `'BidOptimizerAgent'`（# Hopkins，仓库数 23 → 24）。Kit 主项目（PersonalAssistantAgent）的 CLAUDE.md / README 双语 Title 同步改，并按超集规则覆盖 xhqing/.claude/CLAUDE.md。BidOptimizerAgent / LegalAgent 仓库尚未推上 GitHub，访问列暂以「—」占位。
+- **回归检查**：六段流水线成员与顺序、接力说明、子项目表未动；本次「五小组」重组覆盖同日早前的「四小组」条目，后者为迭代中间态、已由本条目取代（历史条目保留不删）。
+
+### 变更（舰队表格重组为四个小组分类；纳入 Justin / LegalAgent；补 Atlas 遗漏行）
+
+- **为什么改**：① 用户 2026-08-23 裁定全团队按涉及领域分四个小组——任务池投标小组、数字产品销售小组、投资与交易小组、基础设施小组，主页表格需按此分类展示；② 新建 LegalAgent（Justin，法务顾问 Agent，合同 / 收款 / 纠纷归口），进「任务池投标小组」（与 Kit 搭档：Kit 找单、Justin 保障交易）；③ 发现 Atlas（FullStackEngineerAgent）此前只进了 traffic 采集清单（CHANGLOG 有记录）、主页表格一直漏了行——本次重组顺带补上，进「基础设施小组」。
+- **改了什么**：README.md / README_cn.md 同步——舰队表格从「销售流水线 + 独立 Agent」两段重组为四段：🎯 任务池投标小组（Kit、Justin）/ 🛍️ 数字产品销售小组（六段流水线成员）/ 📈 投资与交易小组（Victor、Markowitz）/ 🧰 基础设施小组（Tinker、Prometheus、Hermes、Anvil、Atlas、Ada、Alfred）；「流水线之外」职责段改写为四小组逐组说明，并注明「凡涉及合同与钱的场合 Justin 同时服务其它三个小组」；补 Atlas 行（含 traffic 徽章）。`scripts/update_traffic.py` 的 `TEAM` 清单追加 `'LegalAgent'`（# Justin，仓库数 22 → 23）；LegalAgent 仓库尚未推上 GitHub，表格中其访问列暂以「—」占位、徽章数据源待仓库上线后由 Action 自动生成。
+- **回归检查**：六段流水线的成员与顺序、接力说明段、子项目表均未动；徽章 URL 形态（指向 xhqing traffic/badges/ 的 endpoint）不变；Justin 尚无 badge JSON，「—」占位与 Mason / Ada 同法处理，无 dangling 引用风险（endpoint 徽章在 JSON 未生成前显示为加载失败占位，故用「—」纯文本代替）。
+
+### 变更（traffic 采集清单纳入 Atlas 主仓库及其子项目）
+
+- **为什么改**：新建 FullStackEngineerAgent（Atlas，全栈开发工程师 Agent），其子项目 zcode-cli（非官方 ZCode 终端客户端）随之入 fleet——按 2026-08-16 集中式访问统计的机制，各 fleet 仓库须列入 `update_traffic.py` 的 `TEAM` 清单才会有 `traffic/badges/<repo>.json` 徽章数据源（FullStackEngineerAgent 的 README 已挂该徽章；zcode-cli 当前为 fork、尚未确认是否挂）。
+- **改了什么**：`scripts/update_traffic.py` 的 `TEAM` 清单追加 `'FullStackEngineerAgent'`（# Atlas）与 `'zcode-cli'`（# Atlas's subproject）两行，仓库数从 20 增至 22；采集逻辑不变。
+
+### 变更（Profile README 舰队表格与子项目表纳入 Alfred / DeviceStewardAgent）
+
+- **为什么改**：新建 DeviceStewardAgent（Alfred，电脑管家 Agent）已推上 GitHub（2026-08-20），ResourceMonitor 确认为其子项目——Profile README 的舰队表格与「Agent 负责的子项目」表需与全局注册表对齐（此前缺 Alfred 行，读者看不到第 16 个 agent）。
+- **改了什么**：README.md / README_cn.md——舰队表格「独立 AI Agent」段末尾加 Alfred（🖥️ / Device Steward / DeviceStewardAgent + traffic 徽章）；子项目表加「Alfred → ResourceMonitor」行、计数从五个改六个；「流水线之外」职责句补 Alfred（设备资源管理：本地电脑 / 远程服务器 / 云电脑）。两版同步改。
+
+### 变更（traffic 采集清单纳入 Alfred 主仓库及其子项目）
+
+- **为什么改**：新建 DeviceStewardAgent（Alfred，电脑管家 Agent）并推上 GitHub，其子项目 ResourceMonitor（VSCode 扩展：整机资源监控 + AI 清理建议）随之正式入 fleet——按 2026-08-16 集中式访问统计的机制，各 fleet 仓库须列入 `update_traffic.py` 的 `TEAM` 清单才会有 `traffic/badges/<repo>.json` 徽章数据源（DeviceStewardAgent 的 README 已挂该徽章，ResourceMonitor 后续挂）。
+- **改了什么**：`scripts/update_traffic.py` 的 `TEAM` 清单追加 `'DeviceStewardAgent'`（# Alfred）与 `'ResourceMonitor'`（# Alfred's subproject）两行，仓库数从 18 增至 20；采集逻辑不变（未挂徽章不影响采集，404 自动跳过的保护仍在）。
 
 ## 1.1.0 - 2026-08-16
 
