@@ -129,6 +129,7 @@ The team is organized into three squads by domain, with four direct reports outs
 | 🌐 <b>Hermes</b> | [XPilot](https://github.com/xhqing/XPilot) | Xray-core proxy-node manager CLI (Python) |
 | 🧠 <b>Ada</b> | [AgentCortex](https://github.com/xhqing/AgentCortex) | deep-reasoning engine rules (Infinite / Rapid / Incisive) |
 | 📐 <b>Markowitz</b> | [gridtrader](https://github.com/xhqing/gridtrader) | grid-trading strategy development & backtesting (Python / backtrader) |
+| 📐 <b>Markowitz</b> | [Swing](https://github.com/xhqing/Swing) | day-K trend-following strategy — fully documented, 20-year × 37-stock backtest (public component of the QuantStrategistAgent project, split out 2026-09-12) |
 
 ---
 

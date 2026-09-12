@@ -48,7 +48,8 @@ TEAM = [
     'DayTradingAgent',           # Victor
     'PatchClaudeAgent',          # Tinker
     'CapabilityManagerAgent',    # Prometheus
-    'QuantStrategistAgent',      # Markowitz
+    'QuantStrategistAgent',      # Markowitz (public face repo, re-created 2026-09-12)
+    'Swing',                     # Markowitz swing strategy (public component)
     'NetOpsAgent',               # Hermes
     'BackendEngineerAgent',      # Anvil
     'NeuralCoreAgent',           # Ada

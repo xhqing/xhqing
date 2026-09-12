@@ -129,6 +129,7 @@ graph LR
 | 🌐 <b>Hermes</b> | [XPilot](https://github.com/xhqing/XPilot) | Xray-core 节点管理 CLI（Python） |
 | 🧠 <b>Ada</b> | [AgentCortex](https://github.com/xhqing/AgentCortex) | 深度推理引擎规则集（Infinite / Rapid / Incisive） |
 | 📐 <b>Markowitz</b> | [gridtrader](https://github.com/xhqing/gridtrader) | 网格交易策略开发及回测工具（Python / backtrader） |
+| 📐 <b>Markowitz</b> | [Swing](https://github.com/xhqing/Swing) | 日 K 趋势跟随策略——文档完整，20 年 × 37 只美股回测（QuantStrategistAgent 项目的公开组件，2026-09-12 拆出） |
 
 ---
 
