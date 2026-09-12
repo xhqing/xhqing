@@ -1,5 +1,5 @@
 {
-  "avg14": 0.35714285714285715,
+  "avg14": 0.0,
   "days": {
     "2026-08-01": {
       "uniques": 0,
@@ -118,8 +118,8 @@
       "views": 0
     },
     "2026-08-30": {
-      "uniques": 1,
-      "views": 1
+      "uniques": 0,
+      "views": 0
     },
     "2026-08-31": {
       "uniques": 0,
@@ -138,8 +138,8 @@
       "views": 0
     },
     "2026-09-04": {
-      "uniques": 1,
-      "views": 1
+      "uniques": 0,
+      "views": 0
     },
     "2026-09-05": {
       "uniques": 0,
@@ -154,18 +154,26 @@
       "views": 0
     },
     "2026-09-08": {
-      "uniques": 1,
-      "views": 1
+      "uniques": 0,
+      "views": 0
     },
     "2026-09-09": {
       "uniques": 0,
       "views": 0
     },
     "2026-09-10": {
-      "uniques": 2,
-      "views": 7
+      "uniques": 0,
+      "views": 0
+    },
+    "2026-09-11": {
+      "uniques": 0,
+      "views": 0
+    },
+    "2026-09-12": {
+      "uniques": 0,
+      "views": 0
     }
   },
-  "total_uniques": 19,
-  "total_views": 49
+  "total_uniques": 14,
+  "total_views": 39
 }
