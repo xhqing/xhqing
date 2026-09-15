@@ -76,8 +76,16 @@
     "2026-09-12": {
       "uniques": 0,
       "views": 0
+    },
+    "2026-09-13": {
+      "uniques": 1,
+      "views": 1
+    },
+    "2026-09-14": {
+      "uniques": 0,
+      "views": 0
     }
   },
-  "total_uniques": 8,
-  "total_views": 21
+  "total_uniques": 9,
+  "total_views": 22
 }
