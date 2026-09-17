@@ -4,6 +4,16 @@
 
 ## [未发布]
 
+### 变更（子项目表补齐：Markowitz/Intraday、Atlas/ghostty-launcher、Kit/blog）
+
+- **为什么改**：用户 2026-09-17 要求核对 README 子项目表与全局超集映射表（agents-registry）的一致性，发现三处遗漏——Markowitz 的 Intraday、Atlas 的 ghostty-launcher、Kit 的 blog 均已注册为子项目且 GitHub 仓库公开，但子项目表未列（2026-09-08 对齐映射表时这三项尚未注册进映射表，其后新增未回流到本表）。另用户记忆中 Markowitz 有「4 个 subproject」——口径澄清：映射表登记的子项目是 3 个（Intraday、Swing、gridtrader），加上主仓库 QuantStrategistAgent（已列在名册表）共 4 个仓库。
+- **改了什么**（2026-09-17）：`README.md` / `README_cn.md` 子项目表各补三行——Markowitz → Intraday（日内尺度策略研究：订单流 mbo 特征、分钟级 ML 信号、walk-forward 验证）、Atlas → ghostty-launcher（VSCode 状态栏一键唤起 Ghostty 终端）、Kit → blog（个人博客，docsify 静态站）。CyberRipple 虽在映射表，但远程仓库尚未创建（GitHub 实测 not found），无法挂链、暂不列入，待仓库建好后补。
+
+### 变更（README Mason 描述统一为成交基础设施口径）
+
+- **为什么改**：同 SiteBuilder 团队讨论——Mason（SiteBuilderAgent）岗位名字面偏窄，真实描述是"搭成交基础设施"（建站 / 落地页 / 支付配置）而非只会写站点代码。
+- **改了什么**（2026-09-14）：`README.md` 产物交接句 "Mason's storefront" 扩写为 "Mason's storefront (site, landing page, or payment setup)"。
+
 ### 变更（CLAUDE.md 删去「由 Claude Code 自动加载」说明句）
 
 - **为什么改**：用户 2026-09-12 要求 CLAUDE.md 不再强调本文由 Claude Code 加载，团队全部项目的 CLAUDE.md 统一清理此类语句。

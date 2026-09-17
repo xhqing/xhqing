@@ -122,13 +122,16 @@ graph LR
 | AI Agent | 子项目 | 是什么 |
 |---|---|---|
 | 👩‍💼 <b>Kit</b> | [xhqing](https://github.com/xhqing/xhqing) | 本个人主页仓库 |
+| 👩‍💼 <b>Kit</b> | [blog](https://github.com/xhqing/blog) | 个人博客（docsify 静态站，线上 xhqing.github.io/blog） |
 | 🖥️ <b>Alfred</b> | [ResourceMonitor](https://github.com/xhqing/ResourceMonitor) | 整机资源监控 + AI 清理建议的 VSCode 扩展 |
 | 🔨 <b>Anvil</b> | [CC-BRIDGE](https://github.com/xhqing/CC-BRIDGE) | Claude Code 上游桥接框架（Node.js） |
 | 🗺️ <b>Atlas</b> | [zcode-cli](https://github.com/xhqing/zcode-cli) | 非官方 ZCode 终端客户端（Node.js / TypeScript，TUI） |
 | 🗺️ <b>Atlas</b> | [zcode-vsce](https://github.com/xhqing/zcode-vsce) | 非官方 ZCode VSCode 扩展客户端 |
+| 🗺️ <b>Atlas</b> | [ghostty-launcher](https://github.com/xhqing/ghostty-launcher) | VSCode 状态栏一键唤起 Ghostty 终端的扩展（零依赖，仅 macOS） |
 | 🌐 <b>Hermes</b> | [XPilot](https://github.com/xhqing/XPilot) | Xray-core 节点管理 CLI（Python） |
 | 🧠 <b>Ada</b> | [AgentCortex](https://github.com/xhqing/AgentCortex) | 深度推理引擎规则集（Infinite / Rapid / Incisive） |
 | 📐 <b>Markowitz</b> | [gridtrader](https://github.com/xhqing/gridtrader) | 网格交易策略开发及回测工具（Python / backtrader） |
+| 📐 <b>Markowitz</b> | [Intraday](https://github.com/xhqing/Intraday) | 日内尺度策略研究——订单流（mbo）特征、分钟级 ML 信号、walk-forward 验证（Python） |
 | 📐 <b>Markowitz</b> | [Swing](https://github.com/xhqing/Swing) | 日 K 趋势跟随策略——文档完整，20 年 × 37 只美股回测（QuantStrategistAgent 项目的公开组件，2026-09-12 拆出） |
 
 ---

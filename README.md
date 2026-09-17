@@ -122,13 +122,16 @@ The team is organized into three squads by domain, with four direct reports outs
 | AI Agent | Subproject | What it is |
 |---|---|---|
 | 👩‍💼 <b>Kit</b> | [xhqing](https://github.com/xhqing/xhqing) | this profile repo |
+| 👩‍💼 <b>Kit</b> | [blog](https://github.com/xhqing/blog) | personal blog — docsify static site (live at xhqing.github.io/blog) |
 | 🖥️ <b>Alfred</b> | [ResourceMonitor](https://github.com/xhqing/ResourceMonitor) | whole-machine resource monitor with AI cleanup actions (VSCode extension) |
 | 🔨 <b>Anvil</b> | [CC-BRIDGE](https://github.com/xhqing/CC-BRIDGE) | Claude Code upstream bridge framework (Node.js) |
 | 🗺️ <b>Atlas</b> | [zcode-cli](https://github.com/xhqing/zcode-cli) | unofficial ZCode terminal client (Node.js / TypeScript, TUI) |
 | 🗺️ <b>Atlas</b> | [zcode-vsce](https://github.com/xhqing/zcode-vsce) | unofficial ZCode VSCode extension client |
+| 🗺️ <b>Atlas</b> | [ghostty-launcher](https://github.com/xhqing/ghostty-launcher) | one-click Ghostty terminal summon from the VSCode status bar (zero-dependency extension, macOS) |
 | 🌐 <b>Hermes</b> | [XPilot](https://github.com/xhqing/XPilot) | Xray-core proxy-node manager CLI (Python) |
 | 🧠 <b>Ada</b> | [AgentCortex](https://github.com/xhqing/AgentCortex) | deep-reasoning engine rules (Infinite / Rapid / Incisive) |
 | 📐 <b>Markowitz</b> | [gridtrader](https://github.com/xhqing/gridtrader) | grid-trading strategy development & backtesting (Python / backtrader) |
+| 📐 <b>Markowitz</b> | [Intraday](https://github.com/xhqing/Intraday) | intraday-scale strategy research — order-flow (mbo) features, minute-level ML signals, walk-forward validation (Python) |
 | 📐 <b>Markowitz</b> | [Swing](https://github.com/xhqing/Swing) | day-K trend-following strategy — fully documented, 20-year × 37-stock backtest (public component of the QuantStrategistAgent project, split out 2026-09-12) |
 
 ---
@@ -137,7 +140,7 @@ The team is organized into three squads by domain, with four direct reports outs
 
 The interesting part is not the roster — it's the machinery between the agents:
 
-- **📦 Artifact handoff.** Work moves between agents as defined deliverables, not chat: Scout's *Opportunity Report* feeds Wright's product build, Mason's storefront hands Buzz ready-to-sell links, Vendy's sales data lands in Echo's attribution engine. Each agent owns an output contract; the pipeline is the sum of those contracts.
+- **📦 Artifact handoff.** Work moves between agents as defined deliverables, not chat: Scout's *Opportunity Report* feeds Wright's product build, Mason's storefront (site, landing page, or payment setup) hands Buzz ready-to-sell links, Vendy's sales data lands in Echo's attribution engine. Each agent owns an output contract; the pipeline is the sum of those contracts.
 - **🧰 Shared capability layer.** One agent (Prometheus) stewards the capabilities every agent runs on — global skills, rules, and CLAUDE.md — from a single authoritative source, with an open-source mirror as the distribution channel. A fix lands once and ripples to all 20+ agents.
 - **🧠 Reasoning as infrastructure.** Specialized reasoning-engine rules (Infinite / Rapid / Incisive, by Ada) plus an evaluation system sit under every agent's thinking — reasoning depth is treated as shared infrastructure, not per-agent improvisation.
 - **🐞 Quality gates with separation of powers.** Development agents hold implementation rights, Hopper holds test-case definition rights, and CI holds the final say — developers can't bend test cases to fit their implementation, and "fix A, break B" gets stopped before merge, not after.
