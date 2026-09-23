@@ -4,6 +4,11 @@
 
 ## [未发布]
 
+### 变更（Connect 区小红书号改为 xhqing、徽章加 ID 标签、主页链接更换）
+
+- **为什么改**：用户 2026-09-23 要求把 README 中的小红书号显示改为 `xhqing`（原为数字号 831230194），并提供新的小红书主页链接；随后确认徽章文本加上 `ID` 标签——理由：`xhqing` 是字母串，不加标签分不清是账号号还是昵称，加 `ID` 语义与同排 WeChat 徽章（`WeChat ID-xhqingxhqing`）风格统一。
+- **改了什么**（2026-09-23）：`README.md` / `README_cn.md` Connect 区 RedNote 徽章——① 徽章文本 `RedNote-831230194` → `RedNote ID-xhqing`（URL 中空格编码为 `%20`，`alt` 同步改为 `RedNote ID`）；② 点击跳转的主页链接 profile id `5e6665af0000000001005fbe` → `60c0e4bf000000000101f158`（由用户提供）。
+
 ### 变更（子项目表补齐：Markowitz/Intraday、Atlas/ghostty-launcher、Kit/blog）
 
 - **为什么改**：用户 2026-09-17 要求核对 README 子项目表与全局超集映射表（agents-registry）的一致性，发现三处遗漏——Markowitz 的 Intraday、Atlas 的 ghostty-launcher、Kit 的 blog 均已注册为子项目且 GitHub 仓库公开，但子项目表未列（2026-09-08 对齐映射表时这三项尚未注册进映射表，其后新增未回流到本表）。另用户记忆中 Markowitz 有「4 个 subproject」——口径澄清：映射表登记的子项目是 3 个（Intraday、Swing、gridtrader），加上主仓库 QuantStrategistAgent（已列在名册表）共 4 个仓库。

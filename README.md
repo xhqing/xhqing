@@ -180,7 +180,7 @@ The interesting part is not the roster — it's the machinery between the agents
 &nbsp;
 <a href="mailto:huaqing.xu.hk@gmail.com"><img src="https://img.shields.io/badge/Email-huaqing.xu.hk%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 &nbsp;
-<a href="https://www.xiaohongshu.com/user/profile/5e6665af0000000001005fbe"><img src="https://img.shields.io/badge/RedNote-831230194-FF2442?style=flat-square&logo=xiaohongshu&logoColor=white" alt="RedNote" /></a>
+<a href="https://www.xiaohongshu.com/user/profile/60c0e4bf000000000101f158"><img src="https://img.shields.io/badge/RedNote%20ID-xhqing-FF2442?style=flat-square&logo=xiaohongshu&logoColor=white" alt="RedNote ID" /></a>
 
 </div>
 
