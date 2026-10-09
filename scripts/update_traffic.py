@@ -64,6 +64,10 @@ TEAM = [
     'AgentCortex',               # Ada's subproject
     'ResourceMonitor',           # Alfred's subproject
     'zcode-cli',                 # Atlas's subproject
+    'zcode-vsce',                # Atlas's subproject
+    'codef',                     # Atlas's subproject
+    'channels-watch',            # Atlas's subproject
+    'copybridge',                # Kit's subproject
 ]
 
 

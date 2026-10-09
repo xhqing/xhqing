@@ -4,6 +4,11 @@
 
 ## [未发布]
 
+### 变更（traffic 采集列表补登 4 个仓库：channels-watch、zcode-vsce、codef、copybridge）
+
+- **为什么改**：2026-10-09 新项目 channels-watch 立项开源、README 挂上团队 Visitors 徽章，需在采集列表登记才能生成徽章数据；核对时发现另有三个仓库已挂徽章但从未登记（zcode-vsce、codef、copybridge），对应徽章 JSON 一直缺失（endpoint 会显示错误），一并补登。
+- **改了什么**（2026-10-09）：`scripts/update_traffic.py` 的 `TEAM` 列表在 `zcode-cli` 后追加四行——`zcode-vsce`（Atlas）、`codef`（Atlas）、`channels-watch`（Atlas）、`copybridge`（Kit）。下次每日采集 Action 运行后对应 `traffic/badges/*.json` 即生成。
+
 ### 变更（Connect 区小红书号改为 xhqing、徽章加 ID 标签、主页链接更换）
 
 - **为什么改**：用户 2026-09-23 要求把 README 中的小红书号显示改为 `xhqing`（原为数字号 831230194），并提供新的小红书主页链接；随后确认徽章文本加上 `ID` 标签——理由：`xhqing` 是字母串，不加标签分不清是账号号还是昵称，加 `ID` 语义与同排 WeChat 徽章（`WeChat ID-xhqingxhqing`）风格统一。
