@@ -59,6 +59,7 @@ TEAM = [
     'ApplyOptimizerAgent',      # Hopkins (renamed from BidOptimizerAgent 2026-09-06)
     'CommunityManagerAgent',     # Gatsby
     'TestEngineerAgent',         # Hopper
+    'cuAgent',                   # cuAgent (computer-use operator)
     'CC-BRIDGE',                 # Anvil's subproject
     'XPilot',                    # Hermes' subproject
     'AgentCortex',               # Ada's subproject
