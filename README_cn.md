@@ -22,11 +22,11 @@
 
 ## 🚀 旗舰项目
 
-**一支开源的多智能体组织：20 个专岗 Agent，三个业务小组 + 四位直属成员，全员由 Huaqing Xu 直接领导。**
+**一支开源的多智能体组织：21 个专岗 Agent，三个业务小组 + 五位直属成员，全员由 Huaqing Xu 直接领导。**
 
 这是一套碳硅混合组织：目前全员为 AI Agent，各小组由 Huaqing Xu 直接负责（目前负责人——这个位置留给未来的人类或 Agent 管理者）。组织按未来吸纳人类成员的方向设计。
 
-**完整组织架构**（CEO → 四位直属 + 三个小组 · 20 个专岗 Agent）：
+**完整组织架构**（CEO → 五位直属 + 三个小组 · 21 个专岗 Agent）：
 
 ```mermaid
 graph LR
@@ -36,6 +36,7 @@ graph LR
     CEO --> Gatsby["🥂 Gatsby<br/>社群运营官"]
     CEO --> Hopkins["🎯 Hopkins<br/>投递转化率优化师"]
     CEO --> Justin["⚖️ Justin<br/>法务Agent"]
+    CEO --> cuAgent["🖱️ cuAgent<br/>电脑操作员"]
 
     CEO --> DP["🛍️ 数字产品销售小组<br/>目前负责人：Huaqing Xu"]
     DP --> Scout["🧭 ① Scout<br/>选品策略师"]
@@ -69,6 +70,7 @@ graph LR
   <tr><td>🥂 <b>Gatsby</b></td><td>社群运营官</td><td><a href="https://github.com/xhqing/CommunityManagerAgent">CommunityManagerAgent</a></td><td>—</td></tr>
   <tr><td>🎯 <b>Hopkins</b></td><td>投递转化率优化师</td><td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a></td><td>—</td></tr>
   <tr><td>⚖️ <b>Justin</b></td><td>法务Agent</td><td><a href="https://github.com/xhqing/LegalAgent">LegalAgent</a></td><td>—</td></tr>
+  <tr><td>🖱️ <b>cuAgent</b></td><td>电脑操作员</td><td><a href="https://github.com/xhqing/cuAgent">cuAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/cuAgent.json" alt="cuAgent 近半月日均访问" /></td></tr>
   <tr><td colspan="4"><b>🛍️ 数字产品销售小组 — 流水线：研判 → 生产 → 建设 → 引流 → 成交 → 复盘</b></td></tr>
   <tr><td>🧭 <b>Scout</b></td><td>选品策略师</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductStrategistAgent.json" alt="Scout 近半月日均访问" /></td></tr>
   <tr><td>🛠️ <b>Wright</b></td><td>数字产品制作人</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductProducerAgent.json" alt="Wright 近半月日均访问" /></td></tr>
@@ -90,12 +92,13 @@ graph LR
   <tr><td>🐞 <b>Hopper</b></td><td>软件测试工程师</td><td><a href="https://github.com/xhqing/TestEngineerAgent">TestEngineerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/TestEngineerAgent.json" alt="Hopper 近半月日均访问" /></td></tr>
 </table>
 
-整个团队按涉及领域分为三个小组，另有四位直属用户、不属任何小组：
+整个团队按涉及领域分为三个小组，另有五位直属用户、不属任何小组：
 
 - **👩‍💼 Kit（总经理助理）—— 直属用户，不属任何小组。**用户的第一助理、团队多面手：几乎任何事务都接得住、处理得了——不是某个领域的深度专家，而是什么都会、什么都能管。
 - **🥂 Gatsby（社群运营官）—— 直属用户，不属任何小组**。运营用户自己的微信社群「AI前沿跨界交流群」：理念、群规、话题日历、复盘由智能体出，用户引导、执行。只做私域社群——公域投放仍归 Buzz。
 - **🎯 Hopkins（投递转化率优化师）—— 直属用户，不属任何小组。**专门负责工作接单全链路：找单找岗、投递材料工程（标书 + 简历 + 打招呼话术）、漏斗追踪（投递 → 回应 → 沟通 / 面试 → 成单 / offer）、报价与薪资测试，让投出去的申请更多转化成单与 offer。
 - **⚖️ Justin（法务Agent）—— 直属用户，不属任何小组，跨组服务全部小组。**负责整个团队所有跟合同和收款相关的事项：合同起草、分期收款设计、尽调、证据链、纠纷应对。
+- **🖱️ cuAgent（电脑操作员）—— 直属用户，不属任何小组。**计算机操作用户代理：用 computer-use 能力代替用户操作本机电脑界面（看屏幕 / 点击 / 输入 / 拖拽），能力仅限其项目内启用。
 - **🛍️ 数字产品销售小组** —— 六段流水线（Scout → Wright → Mason → Buzz → Vendy → Echo）把一次性的产出变成持续到手的被动收入，详见下文。
 - **📈 投资与交易小组** —— **Markowitz** 开发并回测量化策略；**Victor** 是日内交易员。
 - **🧰 基础设施小组** —— **Tinker** 负责给 CC 打补丁；**Prometheus** 负责开源全团队共享的通用能力（全局 CLAUDE.md、skills、rules）；**Hermes** 负责网络问题；**Anvil** 负责后端开发；**Atlas** 负责全栈项目；**Ada** 负责 AI Agent 算法与推理引擎；**Alfred** 负责设备资源管理（本地电脑 / 远程服务器 / 云电脑）；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
@@ -146,7 +149,7 @@ graph LR
 - **🐞 三权分立的质量门禁。** 开发 agent 持有实现权，Hopper 持有用例定义权，CI 持有裁决权——开发者不能为了让实现通过而改动用例，「改 A 坏 B」在合并前被拦下，而不是合并后。
 - **⚖️ 合同与收款是一等职能。** Justin 为组织卖出或签署的每一笔交易设计分期收款、交易对手尽调和证据链——组织把法务与收款设计当作工程学科，而不是事后补救。
 
-**数字一览：** 20+ 专岗 Agent · 3 个业务小组 · 4 位直属成员 · 6 段销售流水线 · 200+ 公开仓库。
+**数字一览：** 20+ 专岗 Agent · 3 个业务小组 · 5 位直属成员 · 6 段销售流水线 · 200+ 公开仓库。
 
 ---
 

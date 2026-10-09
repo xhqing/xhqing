@@ -22,11 +22,11 @@
 
 ## 🚀 Flagship Project
 
-**An open-source multi-agent organization: 20 specialized agents — three business squads plus four direct reports — all led directly by Huaqing Xu.**
+**An open-source multi-agent organization: 21 specialized agents — three business squads plus five direct reports — all led directly by Huaqing Xu.**
 
 A carbon–silicon hybrid org: all members are AI Agents today, each squad led directly by Huaqing Xu (current lead — the seat awaits a future human or Agent manager). The org is designed to onboard humans as it grows.
 
-**The full org chart** (CEO → four direct reports + three squads · 20 specialized agents):
+**The full org chart** (CEO → five direct reports + three squads · 21 specialized agents):
 
 ```mermaid
 graph LR
@@ -36,6 +36,7 @@ graph LR
     CEO --> Gatsby["🥂 Gatsby<br/>Community Manager"]
     CEO --> Hopkins["🎯 Hopkins<br/>Apply Optimizer"]
     CEO --> Justin["⚖️ Justin<br/>Legal Agent"]
+    CEO --> cuAgent["🖱️ cuAgent<br/>Computer Operator"]
 
     CEO --> DP["🛍️ Digital-product sales squad<br/>Current lead: Huaqing Xu"]
     DP --> Scout["🧭 ① Scout<br/>Product Strategist"]
@@ -69,6 +70,7 @@ graph LR
   <tr><td>🥂 <b>Gatsby</b></td><td>Community Manager</td><td><a href="https://github.com/xhqing/CommunityManagerAgent">CommunityManagerAgent</a></td><td>—</td></tr>
   <tr><td>🎯 <b>Hopkins</b></td><td>Apply Optimizer</td><td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a></td><td>—</td></tr>
   <tr><td>⚖️ <b>Justin</b></td><td>Legal Agent</td><td><a href="https://github.com/xhqing/LegalAgent">LegalAgent</a></td><td>—</td></tr>
+  <tr><td>🖱️ <b>cuAgent</b></td><td>Computer Operator</td><td><a href="https://github.com/xhqing/cuAgent">cuAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/cuAgent.json" alt="cuAgent Visits/day (14d)" /></td></tr>
   <tr><td colspan="4"><b>🛍️ Digital-product sales squad — pipeline: research → produce → build → traffic → sell → analyze</b></td></tr>
   <tr><td>🧭 <b>Scout</b></td><td>Product Strategist</td><td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductStrategistAgent.json" alt="Scout Visits/day (14d)" /></td></tr>
   <tr><td>🛠️ <b>Wright</b></td><td>Producer</td><td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ProductProducerAgent.json" alt="Wright Visits/day (14d)" /></td></tr>
@@ -90,12 +92,13 @@ graph LR
   <tr><td>🐞 <b>Hopper</b></td><td>Test Engineer</td><td><a href="https://github.com/xhqing/TestEngineerAgent">TestEngineerAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/TestEngineerAgent.json" alt="Hopper Visits/day (14d)" /></td></tr>
 </table>
 
-The team is organized into three squads by domain, with four direct reports outside them all:
+The team is organized into three squads by domain, with five direct reports outside them all:
 
 - **👩‍💼 Kit (Executive Assistant) — direct report, not in any squad.** The owner's first assistant and the team's generalist: picks up and handles almost anything — not a deep specialist in a single domain, but a multi-skilled all-rounder who manages whatever comes along.
 - **🥂 Gatsby (Community Manager) — direct report, not in any squad.** Runs the owner's own WeChat community "AI前沿跨界交流群" (an AI-frontier, cross-industry exchange group): ideas, rules, topic calendars and retrospectives come from the agent; the owner guides and executes. Private community only — public-channel marketing stays with Buzz.
 - **🎯 Hopkins (Apply Optimizer) — direct report, not in any squad.** Owns the full work-intake loop: gig & job hunting, application engineering (proposals & résumés), funnel tracking (application → reply → talk / interview → win / offer), pricing & salary tests — making the applications convert.
 - **⚖️ Justin (Legal Agent) — direct report, not in any squad, serving all squads cross-team.** Owns everything contracts-and-payments across the whole team: contract drafting, staged-payment design, due diligence, evidence chains, dispute response.
+- **🖱️ cuAgent (Computer Operator) — direct report, not in any squad.** A dedicated computer-use agent: it operates the local computer GUI for the user (reading screens, clicking, typing, dragging) through the computer-use MCP, scoped to its own project.
 - **🛍️ Digital-product sales squad** — the six-stage pipeline (Scout → Wright → Mason → Buzz → Vendy → Echo) turns one-time work into recurring passive income — see the dedicated section below.
 - **📈 Investing & trading squad** — **Markowitz** develops and backtests quant strategies; **Victor** is the day trader.
 - **🧰 Infrastructure squad** — **Tinker** patches CC (Claude Code) after every extension upgrade; **Prometheus** open-sources the capabilities the whole team shares (global CLAUDE.md, skills, rules); **Hermes** handles networking; **Anvil** handles backend development; **Atlas** handles full-stack projects; **Ada** covers AI Agent algorithms and reasoning engines; **Alfred** manages device resources (local Mac / remote servers / cloud machines); **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
@@ -146,7 +149,7 @@ The interesting part is not the roster — it's the machinery between the agents
 - **🐞 Quality gates with separation of powers.** Development agents hold implementation rights, Hopper holds test-case definition rights, and CI holds the final say — developers can't bend test cases to fit their implementation, and "fix A, break B" gets stopped before merge, not after.
 - **⚖️ Contracts & payments as a first-class function.** Justin structures staged payments, due diligence and evidence chains for anything the org sells or signs — the org treats legal/payment design as an engineering discipline, not an afterthought.
 
-**By the numbers:** 20+ specialized agents · 3 business squads · 4 direct reports · 6 pipeline stages · 200+ public repositories.
+**By the numbers:** 20+ specialized agents · 3 business squads · 5 direct reports · 6 pipeline stages · 200+ public repositories.
 
 ---
 

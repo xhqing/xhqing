@@ -4,6 +4,11 @@
 
 ## [未发布]
 
+### 变更（组织名册与访问量采集补登 cuAgent：新成员上线）
+
+- **为什么改**：2026-10-09 新 agent cuAgent（电脑操作员，独立工具型、直属用户）成立，项目已开源（github.com/xhqing/cuAgent）。组织名册需同步收录新成员；访问量采集列表需登记，才能生成其 README 的 Visitors 徽章数据（项目发布后收尾，见 cuAgent 仓库 MEMO M1）。
+- **改了什么**（2026-10-09 22:06，Kit 会话）：① `README.md` / `README_cn.md`——架构图新增 `cuAgent` 直属节点、名册表「直属用户」组新增一行（含访问量徽章位）、直属成员介绍列表新增条目、四处计数同步（专岗计数 20→21、直属成员 4→5）；② `scripts/update_traffic.py` 的 `TEAM` 列表在 `TestEngineerAgent` 后新增 `cuAgent`（下次每日采集 Action 运行后生成 `traffic/badges/cuAgent.json`）。
+
 ### 变更（traffic 采集列表补登 4 个仓库：channels-watch、zcode-vsce、codef、copybridge）
 
 - **为什么改**：2026-10-09 新项目 channels-watch 立项开源、README 挂上团队 Visitors 徽章，需在采集列表登记才能生成徽章数据；核对时发现另有三个仓库已挂徽章但从未登记（zcode-vsce、codef、copybridge），对应徽章 JSON 一直缺失（endpoint 会显示错误），一并补登。
