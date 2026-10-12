@@ -4,6 +4,11 @@
 
 ## [未发布]
 
+### 变更（按 2026-10-12 新规清理随附的智能体专属文件 CLAUDE.md）
+
+- **为什么改**：用户 2026-10-12 修订团队规则——智能体专属文件（`CLAUDE.md` / `AGENTS.md` / `.claude/` / 项目级 `.pi/`）只有 Agent 项目允许拥有，非 Agent 项目（含本仓库这类子项目）一律不得存在；后台开启 pi 会话只能以 Agent 项目根目录为工作目录（细则见全局 `~/.claude/docs/agents-registry.md`「智能体专属文件归属与子项目映射」节）。本仓库此前按旧「超集」规则随附了 Kit 的 CLAUDE.md 全文，需按新规清理。
+- **改了什么**：删除根目录 `CLAUDE.md`（内容＝「xhqing 子项目」指代说明 + ExecutiveAssistantAgent（Kit）CLAUDE.md 全文随附，删除无内容损失——Kit 规则在 EA 项目内维护）。
+
 ### 变更（组织名册与访问量采集补登 cuAgent：新成员上线）
 
 - **为什么改**：2026-10-09 新 agent cuAgent（电脑操作员，独立工具型、直属用户）成立，项目已开源（github.com/xhqing/cuAgent）。组织名册需同步收录新成员；访问量采集列表需登记，才能生成其 README 的 Visitors 徽章数据（项目发布后收尾，见 cuAgent 仓库 MEMO M1）。
