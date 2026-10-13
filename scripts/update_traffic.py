@@ -66,7 +66,7 @@ TEAM = [
     'ResourceMonitor',           # Alfred's subproject
     'zcode-cli',                 # Atlas's subproject
     'zcode-vsce',                # Atlas's subproject
-    'codefs',                     # Atlas's subproject
+    'codef',                     # Atlas's subproject
     'channels-watch',            # Atlas's subproject
     'copybridge',                # Kit's subproject
 ]
