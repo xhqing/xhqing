@@ -1,5 +1,5 @@
 {
-  "avg14": 0.21428571428571427,
+  "avg14": 0.2857142857142857,
   "days": {
     "2026-09-20": {
       "uniques": 0,
@@ -92,8 +92,16 @@
     "2026-10-12": {
       "uniques": 0,
       "views": 0
+    },
+    "2026-10-13": {
+      "uniques": 0,
+      "views": 0
+    },
+    "2026-10-14": {
+      "uniques": 1,
+      "views": 1
     }
   },
-  "total_uniques": 3,
-  "total_views": 3
+  "total_uniques": 4,
+  "total_views": 4
 }

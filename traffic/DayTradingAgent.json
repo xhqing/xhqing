@@ -296,8 +296,12 @@
     "2026-10-13": {
       "uniques": 1,
       "views": 1
+    },
+    "2026-10-14": {
+      "uniques": 1,
+      "views": 3
     }
   },
-  "total_uniques": 66,
-  "total_views": 131
+  "total_uniques": 67,
+  "total_views": 134
 }
