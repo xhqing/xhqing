@@ -57,7 +57,7 @@ TEAM = [
     'FullStackEngineerAgent',    # Atlas
     'LegalAgent',         # Justin
     'ApplyOptimizerAgent',      # Hopkins (renamed from BidOptimizerAgent 2026-09-06)
-    'CommunityManagerAgent',     # Gatsby
+    'SocialMediaManagerAgent',   # Gatsby (renamed from CommunityManagerAgent 2026-10-15)
     'TestEngineerAgent',         # Hopper
     'cuAgent',                   # cuAgent (computer-use operator)
     'CC-BRIDGE',                 # Anvil's subproject

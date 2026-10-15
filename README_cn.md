@@ -67,7 +67,7 @@ graph LR
   <tr><th>AI Agent</th><th>角色</th><th>仓库</th><th>近半月日均访问</th></tr>
   <tr><td colspan="4"><b>👔 直属用户 — 不属于任何小组</b></td></tr>
   <tr><td>👩‍💼 <b>Kit</b></td><td>总经理助理</td><td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ExecutiveAssistantAgent.json" alt="Kit 近半月日均访问" /></td></tr>
-  <tr><td>🥂 <b>Gatsby</b></td><td>社群运营官</td><td><a href="https://github.com/xhqing/CommunityManagerAgent">CommunityManagerAgent</a></td><td>—</td></tr>
+  <tr><td>🥂 <b>Gatsby</b></td><td>社媒运营官</td><td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a></td><td>—</td></tr>
   <tr><td>🎯 <b>Hopkins</b></td><td>投递转化率优化师</td><td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a></td><td>—</td></tr>
   <tr><td>⚖️ <b>Justin</b></td><td>法务Agent</td><td><a href="https://github.com/xhqing/LegalAgent">LegalAgent</a></td><td>—</td></tr>
   <tr><td>🖱️ <b>cuAgent</b></td><td>电脑操作员</td><td><a href="https://github.com/xhqing/cuAgent">cuAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/cuAgent.json" alt="cuAgent 近半月日均访问" /></td></tr>
@@ -125,17 +125,20 @@ graph LR
 | AI Agent | 子项目 | 是什么 |
 |---|---|---|
 | 👩‍💼 <b>Kit</b> | [xhqing](https://github.com/xhqing/xhqing) | 本个人主页仓库 |
-| 👩‍💼 <b>Kit</b> | [blog](https://github.com/xhqing/blog) | 个人博客（docsify 静态站，线上 xhqing.github.io/blog） |
-| 🖥️ <b>Alfred</b> | [ResourceMonitor](https://github.com/xhqing/ResourceMonitor) | 整机资源监控 + AI 清理建议的 VSCode 扩展 |
+| 👩‍💼 <b>Kit</b> | [copybridge](https://github.com/xhqing/copybridge) | macOS 剪贴板桥接工具——在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台修复 VSCode 私有剪贴板格式） |
 | 🔨 <b>Anvil</b> | [CC-BRIDGE](https://github.com/xhqing/CC-BRIDGE) | Claude Code 上游桥接框架（Node.js） |
-| 🗺️ <b>Atlas</b> | [zcode-cli](https://github.com/xhqing/zcode-cli) | 非官方 ZCode 终端客户端（Node.js / TypeScript，TUI） |
-| 🗺️ <b>Atlas</b> | [zcode-vsce](https://github.com/xhqing/zcode-vsce) | 非官方 ZCode VSCode 扩展客户端 |
 | 🗺️ <b>Atlas</b> | [ghostty-launcher](https://github.com/xhqing/ghostty-launcher) | VSCode 状态栏一键唤起 Ghostty 终端的扩展（零依赖，仅 macOS） |
+| 🗺️ <b>Atlas</b> | [codef](https://github.com/xhqing/codef) | 全屏打开 VSCode 的 CLI 小工具（自动全屏 + 目标窗口置顶，bash + osascript、仅 macOS） |
+| 🗺️ <b>Atlas</b> | [pi](https://github.com/xhqing/pi) | Pi agent harness 独立分叉仓库——coding agent CLI / agent 运行时 / 统一多供应商 LLM API / TUI 组件库（TypeScript monorepo） |
+| 🗺️ <b>Atlas</b> | [ghostty](https://github.com/xhqing/ghostty) | Ghostty 终端独立分叉仓库——v1.3.1 基线 +「Cmd+V 粘贴剪贴板图片为路径」补丁，GitHub Actions 云构建 |
+| 🗺️ <b>Atlas</b> | [channels-watch](https://github.com/xhqing/channels-watch) | 视频号私信只读监控（Python + Playwright；新消息推送飞书 / ntfy / Server酱；launchd 每 5 分钟一轮） |
+| 🗺️ <b>Atlas</b> | [mp4-player](https://github.com/xhqing/mp4-player) | VSCode 视频播放扩展——编辑器标签页内带音频播放视频，内置 ffmpeg WebAssembly 做解码与格式转码 |
 | 🌐 <b>Hermes</b> | [XPilot](https://github.com/xhqing/XPilot) | Xray-core 节点管理 CLI（Python） |
 | 🧠 <b>Ada</b> | [AgentCortex](https://github.com/xhqing/AgentCortex) | 深度推理引擎规则集（Infinite / Rapid / Incisive） |
 | 📐 <b>Markowitz</b> | [gridtrader](https://github.com/xhqing/gridtrader) | 网格交易策略开发及回测工具（Python / backtrader） |
 | 📐 <b>Markowitz</b> | [Intraday](https://github.com/xhqing/Intraday) | 日内尺度策略研究——订单流（mbo）特征、分钟级 ML 信号、walk-forward 验证（Python） |
 | 📐 <b>Markowitz</b> | [Swing](https://github.com/xhqing/Swing) | 日 K 趋势跟随策略——文档完整，20 年 × 37 只美股回测（QuantStrategistAgent 项目的公开组件，2026-09-12 拆出） |
+| 📈 <b>Victor</b> | [TradingProofs](https://github.com/xhqing/TradingProofs) | 交易数学的 Lean 4 + Mathlib 机器可验证证明（固定比例下注的累计增长率 / 强数定律 / 凯利最优 f*） |
 
 ---
 

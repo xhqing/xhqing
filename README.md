@@ -67,7 +67,7 @@ graph LR
   <tr><th>AI Agent</th><th>Role</th><th>Repo</th><th>Visits/day (14d)</th></tr>
   <tr><td colspan="4"><b>👔 Direct reports to the owner — not in any squad</b></td></tr>
   <tr><td>👩‍💼 <b>Kit</b></td><td>Executive Assistant</td><td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/ExecutiveAssistantAgent.json" alt="Kit Visits/day (14d)" /></td></tr>
-  <tr><td>🥂 <b>Gatsby</b></td><td>Community Manager</td><td><a href="https://github.com/xhqing/CommunityManagerAgent">CommunityManagerAgent</a></td><td>—</td></tr>
+  <tr><td>🥂 <b>Gatsby</b></td><td>Social Media Manager</td><td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a></td><td>—</td></tr>
   <tr><td>🎯 <b>Hopkins</b></td><td>Apply Optimizer</td><td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a></td><td>—</td></tr>
   <tr><td>⚖️ <b>Justin</b></td><td>Legal Agent</td><td><a href="https://github.com/xhqing/LegalAgent">LegalAgent</a></td><td>—</td></tr>
   <tr><td>🖱️ <b>cuAgent</b></td><td>Computer Operator</td><td><a href="https://github.com/xhqing/cuAgent">cuAgent</a></td><td><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/cuAgent.json" alt="cuAgent Visits/day (14d)" /></td></tr>
@@ -125,17 +125,20 @@ The team is organized into three squads by domain, with five direct reports outs
 | AI Agent | Subproject | What it is |
 |---|---|---|
 | 👩‍💼 <b>Kit</b> | [xhqing](https://github.com/xhqing/xhqing) | this profile repo |
-| 👩‍💼 <b>Kit</b> | [blog](https://github.com/xhqing/blog) | personal blog — docsify static site (live at xhqing.github.io/blog) |
-| 🖥️ <b>Alfred</b> | [ResourceMonitor](https://github.com/xhqing/ResourceMonitor) | whole-machine resource monitor with AI cleanup actions (VSCode extension) |
+| 👩‍💼 <b>Kit</b> | [copybridge](https://github.com/xhqing/copybridge) | macOS clipboard bridge — paste files copied in the VSCode explorer into Finder / WeChat / any app (fixes VSCode's private clipboard format) |
 | 🔨 <b>Anvil</b> | [CC-BRIDGE](https://github.com/xhqing/CC-BRIDGE) | Claude Code upstream bridge framework (Node.js) |
-| 🗺️ <b>Atlas</b> | [zcode-cli](https://github.com/xhqing/zcode-cli) | unofficial ZCode terminal client (Node.js / TypeScript, TUI) |
-| 🗺️ <b>Atlas</b> | [zcode-vsce](https://github.com/xhqing/zcode-vsce) | unofficial ZCode VSCode extension client |
 | 🗺️ <b>Atlas</b> | [ghostty-launcher](https://github.com/xhqing/ghostty-launcher) | one-click Ghostty terminal summon from the VSCode status bar (zero-dependency extension, macOS) |
+| 🗺️ <b>Atlas</b> | [codef](https://github.com/xhqing/codef) | CLI that opens VSCode full-screen with the target window on top (bash + osascript, macOS only) |
+| 🗺️ <b>Atlas</b> | [pi](https://github.com/xhqing/pi) | independent fork of the Pi agent harness — coding-agent CLI, agent runtime, unified multi-provider LLM API, TUI (TypeScript monorepo) |
+| 🗺️ <b>Atlas</b> | [ghostty](https://github.com/xhqing/ghostty) | independent fork of the Ghostty terminal — v1.3.1 baseline + clipboard-image-paste patch, cloud-built via GitHub Actions |
+| 🗺️ <b>Atlas</b> | [channels-watch](https://github.com/xhqing/channels-watch) | read-only monitor for WeChat Channels direct messages (Python + Playwright; pushes to Feishu / ntfy / ServerChan; launchd every 5 min) |
+| 🗺️ <b>Atlas</b> | [mp4-player](https://github.com/xhqing/mp4-player) | VSCode video player — plays videos with audio in an editor tab; bundled ffmpeg WebAssembly for decoding & conversion |
 | 🌐 <b>Hermes</b> | [XPilot](https://github.com/xhqing/XPilot) | Xray-core proxy-node manager CLI (Python) |
 | 🧠 <b>Ada</b> | [AgentCortex](https://github.com/xhqing/AgentCortex) | deep-reasoning engine rules (Infinite / Rapid / Incisive) |
 | 📐 <b>Markowitz</b> | [gridtrader](https://github.com/xhqing/gridtrader) | grid-trading strategy development & backtesting (Python / backtrader) |
 | 📐 <b>Markowitz</b> | [Intraday](https://github.com/xhqing/Intraday) | intraday-scale strategy research — order-flow (mbo) features, minute-level ML signals, walk-forward validation (Python) |
 | 📐 <b>Markowitz</b> | [Swing](https://github.com/xhqing/Swing) | day-K trend-following strategy — fully documented, 20-year × 37-stock backtest (public component of the QuantStrategistAgent project, split out 2026-09-12) |
+| 📈 <b>Victor</b> | [TradingProofs](https://github.com/xhqing/TradingProofs) | machine-checked Lean 4 + Mathlib proofs for fixed-fraction trading math (compounding growth, strong law, Kelly optimal f*) |
 
 ---
 

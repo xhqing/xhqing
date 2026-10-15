@@ -4,6 +4,16 @@
 
 ## [未发布]
 
+### 变更（子项目表对齐注册表：移除 4 条已取消、补录 7 条在册）
+
+- **为什么改**：① 2026-10-14 用户决定取消一批子项目，本表尚未反映（blog、ResourceMonitor、zcode-cli、zcode-vsce 四条已取消却仍列在表中——Kit 会话取消批的扫尾遗漏：当时只扫了本地路径式引用，未扫到本表的 GitHub 链接式引用）；② 核对发现 2026-09-17 对齐之后注册表新增的 7 个子项目未回流本表——按既有口径（本表与全局 `agents-registry` 的「子项目映射」表对齐），一并补录。
+- **改了什么**（2026-10-15，Kit 会话）：`README.md` / `README_cn.md` 子项目表——① 移除 4 条已取消子项目（Kit/blog、Alfred/ResourceMonitor、Atlas/zcode-cli、Atlas/zcode-vsce）；② 补录 7 条在册项目（Kit/copybridge；Atlas/codef、pi、ghostty、channels-watch、mp4-player；Victor/TradingProofs），均为公开仓库（已逐个核验可访问）。说明：xhs-mentor-scam 为私有仓库，按既有口径（无公开链接不列入）暂不列。
+
+### 变更（Gatsby 项目更名：名册与采集列表更新 CommunityManagerAgent → SocialMediaManagerAgent）
+
+- **为什么改**：2026-10-15 用户决定——Gatsby（原社群运营官）角色已升级为「社媒运营官」，其项目名 `CommunityManagerAgent`（含义为「社群运营」）与职责不再匹配；同日项目更名为 SocialMediaManagerAgent（GitHub 仓库与本地目录同步改，旧 URL 自动重定向）。
+- **改了什么**（2026-10-15，Kit 会话）：① `README.md` / `README_cn.md` 名册表 Gatsby 行——角色「Community Manager / 社群运营官」→「Social Media Manager / 社媒运营官」，仓库名与链接更新；② `scripts/update_traffic.py` 的 `TEAM` 列表 `CommunityManagerAgent` → `SocialMediaManagerAgent`（注释标注原名与更名日期）；③ `traffic/badges/` 下 `CommunityManagerAgent.json` / `.meta.json` 更名为 `SocialMediaManagerAgent.json` / `.meta.json`（保留历史累计数据，下次每日采集续算）。
+
 ### 变更（按 2026-10-12 新规清理随附的智能体专属文件 CLAUDE.md）
 
 - **为什么改**：用户 2026-10-12 修订团队规则——智能体专属文件（`CLAUDE.md` / `AGENTS.md` / `.claude/` / 项目级 `.pi/`）只有 Agent 项目允许拥有，非 Agent 项目（含本仓库这类子项目）一律不得存在；后台开启 pi 会话只能以 Agent 项目根目录为工作目录（细则见全局 `~/.claude/docs/agents-registry.md`「智能体专属文件归属与子项目映射」节）。本仓库此前按旧「超集」规则随附了 Kit 的 CLAUDE.md 全文，需按新规清理。
