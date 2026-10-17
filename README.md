@@ -131,7 +131,6 @@ The team is organized into three squads by domain, with five direct reports outs
 | 🗺️ <b>Atlas</b> | [codef](https://github.com/xhqing/codef) | CLI that opens VSCode full-screen with the target window on top (bash + osascript, macOS only) |
 | 🗺️ <b>Atlas</b> | [pi](https://github.com/xhqing/pi) | independent fork of the Pi agent harness — coding-agent CLI, agent runtime, unified multi-provider LLM API, TUI (TypeScript monorepo) |
 | 🗺️ <b>Atlas</b> | [ghostty](https://github.com/xhqing/ghostty) | independent fork of the Ghostty terminal — v1.3.1 baseline + clipboard-image-paste patch, cloud-built via GitHub Actions |
-| 🗺️ <b>Atlas</b> | [channels-watch](https://github.com/xhqing/channels-watch) | read-only monitor for WeChat Channels direct messages (Python + Playwright; pushes to Feishu / ntfy / ServerChan; launchd every 5 min) |
 | 🗺️ <b>Atlas</b> | [mp4-player](https://github.com/xhqing/mp4-player) | VSCode video player — plays videos with audio in an editor tab; bundled ffmpeg WebAssembly for decoding & conversion |
 | 🌐 <b>Hermes</b> | [XPilot](https://github.com/xhqing/XPilot) | Xray-core proxy-node manager CLI (Python) |
 | 🧠 <b>Ada</b> | [AgentCortex](https://github.com/xhqing/AgentCortex) | deep-reasoning engine rules (Infinite / Rapid / Incisive) |

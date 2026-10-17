@@ -4,6 +4,11 @@
 
 ## [未发布]
 
+### 变更（子项目表移除已不再维护的 channels-watch）
+
+- **为什么改**：2026-10-17 用户决定 channels-watch 不再维护（Atlas 子项目：视频号私信只读监控，Python + Playwright）——本地项目资料已删除、launchd 任务已关停、全局 `agents-registry` 的登记已移除；本表（与注册表映射对齐）同步移除它的行。
+- **改了什么**（2026-10-17 14:39，Kit 会话）：`README.md` / `README_cn.md` 子项目表移除 Atlas/channels-watch 行。
+
 ### 变更（子项目表对齐注册表：移除 4 条已取消、补录 7 条在册）
 
 - **为什么改**：① 2026-10-14 用户决定取消一批子项目，本表尚未反映（blog、ResourceMonitor、zcode-cli、zcode-vsce 四条已取消却仍列在表中——Kit 会话取消批的扫尾遗漏：当时只扫了本地路径式引用，未扫到本表的 GitHub 链接式引用）；② 核对发现 2026-09-17 对齐之后注册表新增的 7 个子项目未回流本表——按既有口径（本表与全局 `agents-registry` 的「子项目映射」表对齐），一并补录。

@@ -131,7 +131,6 @@ graph LR
 | 🗺️ <b>Atlas</b> | [codef](https://github.com/xhqing/codef) | 全屏打开 VSCode 的 CLI 小工具（自动全屏 + 目标窗口置顶，bash + osascript、仅 macOS） |
 | 🗺️ <b>Atlas</b> | [pi](https://github.com/xhqing/pi) | Pi agent harness 独立分叉仓库——coding agent CLI / agent 运行时 / 统一多供应商 LLM API / TUI 组件库（TypeScript monorepo） |
 | 🗺️ <b>Atlas</b> | [ghostty](https://github.com/xhqing/ghostty) | Ghostty 终端独立分叉仓库——v1.3.1 基线 +「Cmd+V 粘贴剪贴板图片为路径」补丁，GitHub Actions 云构建 |
-| 🗺️ <b>Atlas</b> | [channels-watch](https://github.com/xhqing/channels-watch) | 视频号私信只读监控（Python + Playwright；新消息推送飞书 / ntfy / Server酱；launchd 每 5 分钟一轮） |
 | 🗺️ <b>Atlas</b> | [mp4-player](https://github.com/xhqing/mp4-player) | VSCode 视频播放扩展——编辑器标签页内带音频播放视频，内置 ffmpeg WebAssembly 做解码与格式转码 |
 | 🌐 <b>Hermes</b> | [XPilot](https://github.com/xhqing/XPilot) | Xray-core 节点管理 CLI（Python） |
 | 🧠 <b>Ada</b> | [AgentCortex](https://github.com/xhqing/AgentCortex) | 深度推理引擎规则集（Infinite / Rapid / Incisive） |
