@@ -4,6 +4,11 @@
 
 ## [未发布]
 
+### 变更（Markowitz 更名为 Mark：名册与采集脚本同步）
+
+- **为什么改**：用户 2026-10-17 要求把 Markowitz 的拟人名改为「Mark」（项目名 QuantStrategistAgent 不变）。
+- **改了什么**（2026-10-17，Kit 会话）：① `README.md` / `README_cn.md` 名册表与交易小组简介行中的「Markowitz」改为「Mark」；② `scripts/update_traffic.py` TEAM 注释中两处旧名同步更新；③ 全局注册表与全局 `CLAUDE.md` 缩写约定已同步更新（开源镜像同此）；QuantStrategistAgent 项目体系与团队其它文档中的现行引用由对应 agent 处理，历史 CHANGELOG 条目保持原样。
+
 ### 变更（README 名册表改按子项目数量从多到少排序）
 
 - **为什么改**：用户 2026-10-17 要求把名册表按各 Agent 负责的子项目数量从多到少从上往下排（子项目多的排在前面）。

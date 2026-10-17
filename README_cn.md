@@ -41,7 +41,7 @@
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>量化策略师</td>
-    <td>📐 <b>Markowitz</b></td>
+    <td>📐 <b>Mark</b></td>
     <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> —— 网格交易策略开发及回测工具（Python / backtrader）<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> —— 日内尺度策略研究：订单流（mbo）特征、分钟级 ML 信号、walk-forward 验证（Python）<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> —— 日 K 趋势跟随策略：文档完整，20 年 × 37 只美股回测（QuantStrategistAgent 的公开组件，2026-09-12 拆出）</td>
   </tr>
   <tr>
@@ -149,7 +149,7 @@
 - **⚖️ Justin（法务Agent）—— 直属用户，不属任何小组，跨组服务全部小组。**负责整个团队所有跟合同和收款相关的事项：合同起草、分期收款设计、尽调、证据链、纠纷应对。
 - **🖱️ cuAgent（电脑操作员）—— 直属用户，不属任何小组。**计算机操作用户代理：用 computer-use 能力代替用户操作本机电脑界面（看屏幕 / 点击 / 输入 / 拖拽），能力仅限其项目内启用。
 - **🛍️ 数字产品销售小组** —— 六段流水线（Scout → Wright → Mason → Buzz → Vendy → Echo）把一次性的产出变成持续到手的被动收入，详见下文。
-- **📈 投资与交易小组** —— **Markowitz** 开发并回测量化策略；**Victor** 是日内交易员。
+- **📈 投资与交易小组** —— **Mark** 开发并回测量化策略；**Victor** 是日内交易员。
 - **🧰 基础设施小组** —— **Tinker** 负责给 CC 打补丁；**Prometheus** 负责开源全团队共享的通用能力（全局 CLAUDE.md、skills、rules）；**Hermes** 负责网络问题；**Anvil** 负责后端开发；**Atlas** 负责全栈项目；**Ada** 负责 AI Agent 算法与推理引擎；**Alfred** 负责设备资源管理（本地电脑 / 远程服务器 / 云电脑）；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
 
 ---

@@ -41,7 +41,7 @@ A carbon–silicon hybrid org: all members are AI Agents today, each squad led d
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>Quant Strategist</td>
-    <td>📐 <b>Markowitz</b></td>
+    <td>📐 <b>Mark</b></td>
     <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> — grid-trading strategy development &amp; backtesting (Python / backtrader)<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> — intraday-scale strategy research: order-flow (mbo) features, minute-level ML signals, walk-forward validation (Python)<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> — day-K trend-following strategy: fully documented, 20-year × 37-stock backtest (public component of QuantStrategistAgent, split out 2026-09-12)</td>
   </tr>
   <tr>
@@ -149,7 +149,7 @@ The team is organized into three squads by domain, with five direct reports outs
 - **⚖️ Justin (Legal Agent) — direct report, not in any squad, serving all squads cross-team.** Owns everything contracts-and-payments across the whole team: contract drafting, staged-payment design, due diligence, evidence chains, dispute response.
 - **🖱️ cuAgent (Computer Operator) — direct report, not in any squad.** A dedicated computer-use agent: it operates the local computer GUI for the user (reading screens, clicking, typing, dragging) through the computer-use MCP, scoped to its own project.
 - **🛍️ Digital-product sales squad** — the six-stage pipeline (Scout → Wright → Mason → Buzz → Vendy → Echo) turns one-time work into recurring passive income — see the dedicated section below.
-- **📈 Investing & trading squad** — **Markowitz** develops and backtests quant strategies; **Victor** is the day trader.
+- **📈 Investing & trading squad** — **Mark** develops and backtests quant strategies; **Victor** is the day trader.
 - **🧰 Infrastructure squad** — **Tinker** patches CC (Claude Code) after every extension upgrade; **Prometheus** open-sources the capabilities the whole team shares (global CLAUDE.md, skills, rules); **Hermes** handles networking; **Anvil** handles backend development; **Atlas** handles full-stack projects; **Ada** covers AI Agent algorithms and reasoning engines; **Alfred** manages device resources (local Mac / remote servers / cloud machines); **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
 
 ---
