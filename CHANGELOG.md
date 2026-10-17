@@ -4,6 +4,11 @@
 
 ## [未发布]
 
+### 变更（新增指回负责 Agent 的软链接：AGENTS.md、.pi）
+
+- **为什么改**：用户 2026-10-17 决定把 Agent 与子项目关系统一为「Agent 进驻子项目」网络（取代 2026-10-12 的「子项目不得有智能体专属文件」）：子项目根目录挂两条指回负责 Agent 的相对路径软链接，随仓库提交——在子项目目录开会话即继承负责 Agent 的身份 / 规则 / 技能；本仓库作为 Kit（ExecutiveAssistantAgent）的子项目相应挂链。
+- **改了什么**：根目录新增两条软链接——`AGENTS.md → ../ExecutiveAssistantAgent/AGENTS.md`、`.pi → ../ExecutiveAssistantAgent/.pi`。（单独 clone 到别处时链接悬空，无害。）
+
 ### 变更（子项目表移除已不再维护的 channels-watch）
 
 - **为什么改**：2026-10-17 用户决定 channels-watch 不再维护（Atlas 子项目：视频号私信只读监控，Python + Playwright）——本地项目资料已删除、launchd 任务已关停、全局 `agents-registry` 的登记已移除；本表（与注册表映射对齐）同步移除它的行。
