@@ -34,7 +34,16 @@ A carbon–silicon hybrid org: all members are AI Agents today, each squad led d
     <th>Persona</th>
     <th>Subprojects (🌐 public · 🔒 private)</th>
   </tr>
-  <tr><td colspan="3"><b>👔 Direct reports to the owner — not in any squad</b></td></tr>
+  <tr>
+    <td><a href="https://github.com/xhqing/FullStackEngineerAgent">FullStackEngineerAgent</a><br/>Full-stack Engineer</td>
+    <td>🗺️ <b>Atlas</b></td>
+    <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> — one-click Ghostty terminal summon from the VSCode status bar (zero-dependency extension, macOS)<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> — CLI that opens VSCode full-screen with the target window on top (bash + osascript, macOS only)<br/>🌐 <a href="https://github.com/xhqing/pi">pi</a> — independent fork of the Pi agent harness: coding-agent CLI, agent runtime, unified multi-provider LLM API, TUI components (TypeScript monorepo)<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> — independent fork of the Ghostty terminal: v1.3.1 baseline + clipboard-image-paste patch, cloud-built via GitHub Actions<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> — VSCode video player: plays videos with audio in an editor tab; bundled ffmpeg WebAssembly for decoding &amp; conversion</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>Quant Strategist</td>
+    <td>📐 <b>Markowitz</b></td>
+    <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> — grid-trading strategy development &amp; backtesting (Python / backtrader)<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> — intraday-scale strategy research: order-flow (mbo) features, minute-level ML signals, walk-forward validation (Python)<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> — day-K trend-following strategy: fully documented, 20-year × 37-stock backtest (public component of QuantStrategistAgent, split out 2026-09-12)</td>
+  </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>Executive Assistant</td>
     <td>👩‍💼 <b>Kit</b></td>
@@ -44,6 +53,26 @@ A carbon–silicon hybrid org: all members are AI Agents today, each squad led d
     <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>Social Media Manager</td>
     <td>🥂 <b>Gatsby</b></td>
     <td>🔒 <a href="https://github.com/xhqing/xhs-mentor-scam">xhs-mentor-scam</a> — material for a RedNote anti-scam video project on paid mentoring / coaching scams (private repo)</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a><br/>Day Trader</td>
+    <td>📈 <b>Victor</b></td>
+    <td>🌐 <a href="https://github.com/xhqing/TradingProofs">TradingProofs</a> — machine-checked Lean 4 + Mathlib proofs for fixed-fraction trading math (compounding growth, strong law, Kelly optimal f*)</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/xhqing/NetOpsAgent">NetOpsAgent</a><br/>NetOps Engineer</td>
+    <td>🌐 <b>Hermes</b></td>
+    <td>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> — Xray-core proxy-node manager CLI (Python)</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a><br/>Backend Engineer</td>
+    <td>🔨 <b>Anvil</b></td>
+    <td>🌐 <a href="https://github.com/xhqing/CC-BRIDGE">CC-BRIDGE</a> — Claude Code upstream bridge framework (Node.js)</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a><br/>AI Algorithm Engineer</td>
+    <td>🧠 <b>Ada</b></td>
+    <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> — deep-reasoning engine rules (Infinite / Rapid / Incisive)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a><br/>Apply Optimizer</td>
@@ -60,7 +89,6 @@ A carbon–silicon hybrid org: all members are AI Agents today, each squad led d
     <td>🖱️ <b>cuAgent</b></td>
     <td>—</td>
   </tr>
-  <tr><td colspan="3"><b>🛍️ Digital-product sales squad — pipeline: research → produce → build → traffic → sell → analyze</b></td></tr>
   <tr>
     <td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a><br/>Product Strategist</td>
     <td>🧭 <b>Scout</b></td>
@@ -91,18 +119,6 @@ A carbon–silicon hybrid org: all members are AI Agents today, each squad led d
     <td>📊 <b>Echo</b></td>
     <td>—</td>
   </tr>
-  <tr><td colspan="3"><b>📈 Investing &amp; trading squad — quant strategies &amp; day trading</b></td></tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>Quant Strategist</td>
-    <td>📐 <b>Markowitz</b></td>
-    <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> — grid-trading strategy development &amp; backtesting (Python / backtrader)<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> — intraday-scale strategy research: order-flow (mbo) features, minute-level ML signals, walk-forward validation (Python)<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> — day-K trend-following strategy: fully documented, 20-year × 37-stock backtest (public component of QuantStrategistAgent, split out 2026-09-12)</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a><br/>Day Trader</td>
-    <td>📈 <b>Victor</b></td>
-    <td>🌐 <a href="https://github.com/xhqing/TradingProofs">TradingProofs</a> — machine-checked Lean 4 + Mathlib proofs for fixed-fraction trading math (compounding growth, strong law, Kelly optimal f*)</td>
-  </tr>
-  <tr><td colspan="3"><b>🧰 Infrastructure squad — shared foundations the whole team runs on</b></td></tr>
   <tr>
     <td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a><br/>Patch Maintainer</td>
     <td>🔧 <b>Tinker</b></td>
@@ -112,26 +128,6 @@ A carbon–silicon hybrid org: all members are AI Agents today, each squad led d
     <td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a><br/>Capability Steward</td>
     <td>🧰 <b>Prometheus</b></td>
     <td>—</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/NetOpsAgent">NetOpsAgent</a><br/>NetOps Engineer</td>
-    <td>🌐 <b>Hermes</b></td>
-    <td>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> — Xray-core proxy-node manager CLI (Python)</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a><br/>Backend Engineer</td>
-    <td>🔨 <b>Anvil</b></td>
-    <td>🌐 <a href="https://github.com/xhqing/CC-BRIDGE">CC-BRIDGE</a> — Claude Code upstream bridge framework (Node.js)</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/FullStackEngineerAgent">FullStackEngineerAgent</a><br/>Full-stack Engineer</td>
-    <td>🗺️ <b>Atlas</b></td>
-    <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> — one-click Ghostty terminal summon from the VSCode status bar (zero-dependency extension, macOS)<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> — CLI that opens VSCode full-screen with the target window on top (bash + osascript, macOS only)<br/>🌐 <a href="https://github.com/xhqing/pi">pi</a> — independent fork of the Pi agent harness: coding-agent CLI, agent runtime, unified multi-provider LLM API, TUI components (TypeScript monorepo)<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> — independent fork of the Ghostty terminal: v1.3.1 baseline + clipboard-image-paste patch, cloud-built via GitHub Actions<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> — VSCode video player: plays videos with audio in an editor tab; bundled ffmpeg WebAssembly for decoding &amp; conversion</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a><br/>AI Algorithm Engineer</td>
-    <td>🧠 <b>Ada</b></td>
-    <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> — deep-reasoning engine rules (Infinite / Rapid / Incisive)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DeviceStewardAgent">DeviceStewardAgent</a><br/>Device Steward</td>
