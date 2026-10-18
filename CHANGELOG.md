@@ -4,6 +4,11 @@
 
 ## [未发布]
 
+### 变更（README 名册表新增「宿主机」列）
+
+- **为什么改**：用户 2026-10-18 要求名册表加上「Agent 所在宿主机」字段，在主页上体现团队的跨机运行信息（哪些 agent 在本机、哪些在 Mac mini）。
+- **改了什么**（2026-10-18 16:10，Kit 会话）：`README.md` / `README_cn.md` 名册表在「拟人化名称」与「子项目」之间新增一列「宿主机」（英文表头 `Host machine`）——Mark（QuantStrategistAgent，2026-10-17 整体迁至 Mac mini）标 `Mac mini`，其余 20 位标 `MacBook Air`（本机）；表格上方引导句同步补上「宿主机」字段表述。宿主机归属以全局 `~/.pi/agent/docs/agents-registry.md`「宿主机归属」节为准。
+
 ### 变更（Markowitz 更名为 Mark：名册与采集脚本同步）
 
 - **为什么改**：用户 2026-10-17 要求把 Markowitz 的拟人名改为「Mark」（项目名 QuantStrategistAgent 不变）。

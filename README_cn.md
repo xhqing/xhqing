@@ -26,117 +26,139 @@
 
 这是一套碳硅混合组织：目前全员为 AI Agent，各小组由 Huaqing Xu 直接负责（目前负责人——这个位置留给未来的人类或 Agent 管理者）。组织按未来吸纳人类成员的方向设计。
 
-**完整名册**（CEO → 五位直属 + 三个小组 · 21 个专岗 Agent）——成员职称 / 项目仓库、拟人化名称与负责的子项目一览：
+**完整名册**（CEO → 五位直属 + 三个小组 · 21 个专岗 Agent）——成员职称 / 项目仓库、拟人化名称、宿主机与负责的子项目一览：
 
 <table>
   <tr>
     <th>智能体职称 · Agent 项目</th>
     <th>拟人化名称</th>
+    <th>宿主机</th>
     <th>负责的子项目（🌐 公开 · 🔒 私有）</th>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/FullStackEngineerAgent">FullStackEngineerAgent</a><br/>全栈开发工程师</td>
     <td>🗺️ <b>Atlas</b></td>
+    <td>MacBook Air</td>
     <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> —— VSCode 状态栏一键唤起 Ghostty 终端的扩展（零依赖，仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> —— 全屏打开 VSCode 的 CLI 小工具（自动全屏 + 目标窗口置顶，bash + osascript、仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/pi">pi</a> —— Pi agent harness 独立分叉仓库：coding agent CLI / agent 运行时 / 统一多供应商 LLM API / TUI 组件库（TypeScript monorepo）<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> —— Ghostty 终端独立分叉仓库：v1.3.1 基线 +「Cmd+V 粘贴剪贴板图片为路径」补丁，GitHub Actions 云构建<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> —— VSCode 视频播放扩展：编辑器标签页内带音频播放视频，内置 ffmpeg WebAssembly 做解码与格式转码</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>量化策略师</td>
     <td>📐 <b>Mark</b></td>
+    <td>Mac mini</td>
     <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> —— 网格交易策略开发及回测工具（Python / backtrader）<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> —— 日内尺度策略研究：订单流（mbo）特征、分钟级 ML 信号、walk-forward 验证（Python）<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> —— 日 K 趋势跟随策略：文档完整，20 年 × 37 只美股回测（QuantStrategistAgent 的公开组件，2026-09-12 拆出）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>总经理助理</td>
     <td>👩‍💼 <b>Kit</b></td>
+    <td>MacBook Air</td>
     <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> —— 本个人主页仓库<br/>🌐 <a href="https://github.com/xhqing/copybridge">copybridge</a> —— macOS 剪贴板桥接工具：在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台修复 VSCode 私有剪贴板格式）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>社媒运营官</td>
     <td>🥂 <b>Gatsby</b></td>
+    <td>MacBook Air</td>
     <td>🔒 <a href="https://github.com/xhqing/xhs-mentor-scam">xhs-mentor-scam</a> —— 小红书「陪跑 / 带教」反诈视频项目材料（私有仓库）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a><br/>日内交易员</td>
     <td>📈 <b>Victor</b></td>
+    <td>MacBook Air</td>
     <td>🌐 <a href="https://github.com/xhqing/TradingProofs">TradingProofs</a> —— 交易数学的 Lean 4 + Mathlib 机器可验证证明（固定比例下注的累计增长率 / 强数定律 / 凯利最优 f*）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/NetOpsAgent">NetOpsAgent</a><br/>网络运维管理员</td>
     <td>🌐 <b>Hermes</b></td>
+    <td>MacBook Air</td>
     <td>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> —— Xray-core 节点管理 CLI（Python）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a><br/>后端开发工程师</td>
     <td>🔨 <b>Anvil</b></td>
+    <td>MacBook Air</td>
     <td>🌐 <a href="https://github.com/xhqing/CC-BRIDGE">CC-BRIDGE</a> —— Claude Code 上游桥接框架（Node.js）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a><br/>AI 算法工程师</td>
     <td>🧠 <b>Ada</b></td>
+    <td>MacBook Air</td>
     <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> —— 深度推理引擎规则集（Infinite / Rapid / Incisive）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a><br/>投递转化率优化师</td>
     <td>🎯 <b>Hopkins</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/LegalAgent">LegalAgent</a><br/>法务Agent</td>
     <td>⚖️ <b>Justin</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/cuAgent">cuAgent</a><br/>电脑操作员</td>
     <td>🖱️ <b>cuAgent</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a><br/>选品策略师</td>
     <td>🧭 <b>Scout</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a><br/>数字产品制作人</td>
     <td>🛠️ <b>Wright</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SiteBuilderAgent">SiteBuilderAgent</a><br/>建站工程师</td>
     <td>🏗️ <b>Mason</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a><br/>增长营销</td>
     <td>📣 <b>Buzz</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a><br/>电商运营</td>
     <td>💰 <b>Vendy</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a><br/>数据分析师</td>
     <td>📊 <b>Echo</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a><br/>补丁维护匠</td>
     <td>🔧 <b>Tinker</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a><br/>通用能力管家</td>
     <td>🧰 <b>Prometheus</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DeviceStewardAgent">DeviceStewardAgent</a><br/>电脑管家</td>
     <td>🖥️ <b>Alfred</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/TestEngineerAgent">TestEngineerAgent</a><br/>软件测试工程师</td>
     <td>🐞 <b>Hopper</b></td>
+    <td>MacBook Air</td>
     <td>—</td>
   </tr>
 </table>
