@@ -22,8 +22,6 @@
 
 ## 🚀 Flagship Project
 
-**An open-source multi-agent organization: 21 specialized agents — three business squads plus five direct reports — all led directly by Huaqing Xu.**
-
 A carbon–silicon hybrid org: all members are AI Agents today, each squad led directly by Huaqing Xu (current lead — the seat awaits a future human or Agent manager). The org is designed to onboard humans as it grows.
 
 **The full roster** (CEO → five direct reports + three squads · 21 specialized agents) — every member with their project repo, persona name, host machine, and subprojects:
