@@ -6,7 +6,7 @@
 
 <h3>Building an AI Agent organizational structure & Open-source AI Agent team capabilities</h3>
 
-<p><em>ML · Data Science · Quant Trading · Agentic Trading · Digital Products · Blockchain</em></p>
+<p><em>ML · Data Science · AI · Quant Trading · Agentic Trading · Digital Products</em></p>
 
 🇭🇰 **Hong Kong** &nbsp;·&nbsp; 🐍 **Pythonista** &nbsp;·&nbsp; ❤️ **Open Source & Geek mindset**
 
@@ -22,7 +22,7 @@
 
 ## 🚀 Flagship Project
 
-A carbon–silicon hybrid org: all members are AI Agents today, each squad led directly by Huaqing Xu (current lead — the seat awaits a future human or Agent manager). The org is designed to onboard humans as it grows.
+An OPC (one-person company): I personally run the whole agent organization — every member except me is an AI Agent. The org is designed to onboard humans as it grows.
 
 **The full roster** (CEO → five direct reports + three squads · 21 specialized agents) — every member with their project repo, persona name, host machine, and subprojects:
 

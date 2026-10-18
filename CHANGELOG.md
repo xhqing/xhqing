@@ -4,6 +4,16 @@
 
 ## [未发布]
 
+### 变更（关键词行调整：区块链 → 人工智能，双语同步）
+
+- **为什么改**：2026-10-18 关键词行调整——移除「区块链」、新增「人工智能」（当前方向以 AI / 智能体为主）。改动出现在 17:01 上次提交之后、非本次会话所出（推测为用户手动调整）。
+- **改了什么**（2026-10-18，Kit 会话）：`README_cn.md` 第 9 行「机器学习 · 数据科学 · 量化交易 · 智能体交易 · 数字产品 · 区块链」→「机器学习 · 数据科学 · 人工智能 · 量化交易 · 智能体交易 · 数字产品」；英文版按双语同步规则同步：`README.md` 第 9 行「ML · Data Science · Quant Trading · Agentic Trading · Digital Products · Blockchain」→「ML · Data Science · AI · Quant Trading · Agentic Trading · Digital Products」。
+
+### 变更（旗舰项目介绍段改为 OPC 一人公司叙事）
+
+- **为什么改**：用户 2026-10-18 要求把「旗舰项目」下方介绍段改为 OPC（One Person Company，一人公司）叙事——用户亲自管理整个智能体组织；原表述「碳硅混合组织……各小组由 Huaqing Xu 直接负责（负责人位置留给未来的人类或 Agent 管理者）」已不符合定位。
+- **改了什么**（2026-10-18，Kit 会话）：`README_cn.md` / `README.md` 同步改写该段——中文改为「这是一家 OPC 一人公司：我亲自管理整个智能体组织——除我之外全员为 AI Agent。组织按未来吸纳人类成员的方向设计。」；英文改为「An OPC (one-person company): I personally run the whole agent organization — every member except me is an AI Agent. The org is designed to onboard humans as it grows.」；「组织按未来吸纳人类成员的方向设计」一句保留。
+
 ### 变更（README 删除写死组织规模的开篇横幅句）
 
 - **为什么改**：用户 2026-10-18 要求删除「旗舰项目」下方那句写死组织规模的开篇横幅（21 个专岗 Agent、三个业务小组 + 五位直属成员、全员由 Huaqing Xu 直接领导）——组织经常调整，规模数字写死在显眼位置容易过时。
