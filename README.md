@@ -22,7 +22,7 @@
 
 ## 🚀 Flagship Project
 
-An OPC (one-person company): I personally run the whole agent organization — every member except me is an AI Agent. The org is designed to onboard humans as it grows.
+An OPC (one-person company): I personally run the whole agent organization — every member except me is an AI Agent.
 
 **The full roster** (CEO → five direct reports + three squads · 21 specialized agents) — every member with their project repo, persona name, host machine, and subprojects:
 
