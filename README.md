@@ -6,7 +6,7 @@
 
 <h3>Building an AI Agent organizational structure & Open-source AI Agent team capabilities</h3>
 
-<p><em>ML · Data Science · AI · Quant Trading · Agentic Trading · Digital Products</em></p>
+<p><em>Agent Development · Quant Trading · Agentic Trading · Social Media · Feed Ads</em></p>
 
 🇭🇰 **Hong Kong** &nbsp;·&nbsp; 🐍 **Pythonista** &nbsp;·&nbsp; ❤️ **Open Source & Geek mindset**
 
