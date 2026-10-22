@@ -124,8 +124,12 @@
     "2026-10-20": {
       "uniques": 0,
       "views": 0
+    },
+    "2026-10-21": {
+      "uniques": 1,
+      "views": 1
     }
   },
-  "total_uniques": 4,
-  "total_views": 4
+  "total_uniques": 5,
+  "total_views": 5
 }
