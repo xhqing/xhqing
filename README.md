@@ -37,19 +37,19 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td><a href="https://github.com/xhqing/FullStackEngineerAgent">FullStackEngineerAgent</a><br/>Full-stack Engineer</td>
     <td>🗺️ <b>Atlas</b></td>
     <td>MacBook Air</td>
-    <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> — one-click Ghostty terminal summon from the VSCode status bar (zero-dependency extension, macOS)<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> — CLI that opens VSCode full-screen with the target window on top (bash + osascript, macOS only)<br/>🌐 <a href="https://github.com/xhqing/pi">pi</a> — independent fork of the Pi agent harness: coding-agent CLI, agent runtime, unified multi-provider LLM API, TUI components (TypeScript monorepo)<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> — independent fork of the Ghostty terminal: v1.3.1 baseline + clipboard-image-paste patch, cloud-built via GitHub Actions<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> — VSCode video player: plays videos with audio in an editor tab; bundled ffmpeg WebAssembly for decoding &amp; conversion</td>
+    <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> — one-click Ghostty terminal summon from the VSCode status bar (zero-dependency extension, macOS)<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> — CLI that opens VSCode full-screen with the target window on top (bash + osascript, macOS only)<br/>🌐 <a href="https://github.com/xhqing/pi-harness">pi-harness</a> — independent fork of the Pi agent harness: coding-agent CLI, agent runtime, unified multi-provider LLM API, TUI components (TypeScript monorepo)<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> — independent fork of the Ghostty terminal: v1.3.1 baseline + clipboard-image-paste patch, cloud-built via GitHub Actions<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> — VSCode video player: plays videos with audio in an editor tab; bundled ffmpeg WebAssembly for decoding &amp; conversion</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>Quant Strategist</td>
     <td>📐 <b>Mark</b></td>
-    <td>Mac mini</td>
+    <td>MacBook Air</td>
     <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> — grid-trading strategy development &amp; backtesting (Python / backtrader)<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> — intraday-scale strategy research: order-flow (mbo) features, minute-level ML signals, walk-forward validation (Python)<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> — day-K trend-following strategy: fully documented, 20-year × 37-stock backtest (public component of QuantStrategistAgent, split out 2026-09-12)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>Executive Assistant</td>
     <td>👩‍💼 <b>Kit</b></td>
     <td>MacBook Air</td>
-    <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> — this profile repository<br/>🌐 <a href="https://github.com/xhqing/copybridge">copybridge</a> — macOS clipboard bridge: paste files copied in the VSCode explorer into Finder / WeChat / any app (fixes VSCode's private clipboard format)</td>
+    <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> — this profile repository<br/>🌐 <a href="https://github.com/xhqing/copybridge">copybridge</a> — macOS clipboard bridge: paste files copied in the VSCode explorer into Finder / WeChat / any app (fixes VSCode's private clipboard format)<br/>🌐 <a href="https://github.com/xhqing/diff-view">diff-view</a> — change-visualization suite for pi: a pi-side extension that opens (and silently closes) diffs of the AI's edits on demand, plus its VSCode counterpart<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> — pi extension that keeps a pool of Volcano Ark (Agent Plan) API keys and switches to the next one automatically when quota or validity runs out (cooldown shared across processes)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>Social Media Manager</td>

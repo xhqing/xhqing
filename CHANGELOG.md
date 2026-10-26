@@ -4,6 +4,12 @@
 
 ## [未发布]
 
+### 变更（团队名册同步：补 diff-view / ark-key-pool，修正 pi-harness 链接与 Mark 宿主机）
+
+- **为什么改**：2026-10-26 用户立规——全局 `~/.pi/agent/docs/agents-registry.md` 的任何改动（新增 / 删除 Agent 或子项目、归属变更、迁机）必须**与主页 README 名册在同一批里同步**，不是「下次顺手改」。核对时发现名册已经漂了三处：① 子项目映射表里 Kit 名下的 `diff-view`、`ark-key-pool` 在 README 名册里完全没有；② Atlas 的子项目仓库 2026-10-18 已由 `pi` 改名为 `pi-harness`，名册链接还指着旧名（GitHub 会重定向，但字面已失真）；③ Mark 全体系 2026-10-26 已从 macmini 拷回本机、本机为权威源，名册「Host machine」列还写着 `Mac mini`。
+- **改了什么**（2026-10-26，Kit 会话）：① `README.md` / `README_cn.md` 的 Kit 行追加两个子项目——`diff-view`（pi「改动可视化」套件：pi 侧扩展 + VSCode 侧扩展）与 `ark-key-pool`（pi 的火山方舟 Agent Plan 多 Key 自动切换扩展）；② Atlas 行的 `pi` 链接改为 `pi-harness`（文字与 URL 同步）；③ Mark 行 Host 列 `Mac mini` → `MacBook Air`。中英双语同步改、语义对齐。
+- **说明**：私有研究仓库 `NewsScoreStudy`（registry 已登记在 Mark 名下）**本次有意不写进公开名册**——公开发布的描述措辞待用户确认，先由 `~/.pi/agent/patch/roster-sync/allowlist.json` 登记豁免，确认后再补。名册一致性现在由 `~/.pi/agent/patch/roster-sync/roster-sync-check.py` 做集合比对（缺 / 多都报），并由 pi 扩展 `roster-sync-guard.ts` 在 registry 被改写后当场提醒。
+
 ### 变更（关键词行微调：推荐投流 → 广告投放，双语同步）
 
 - **为什么改**：2026-10-18 关键词行调整——「推荐投流」改为「广告投放」（更通用的表述）；改动出现在 b624424 上次提交之后、非本次会话所出（推测为用户手动调整）。

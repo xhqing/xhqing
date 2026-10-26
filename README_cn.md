@@ -37,19 +37,19 @@
     <td><a href="https://github.com/xhqing/FullStackEngineerAgent">FullStackEngineerAgent</a><br/>全栈开发工程师</td>
     <td>🗺️ <b>Atlas</b></td>
     <td>MacBook Air</td>
-    <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> —— VSCode 状态栏一键唤起 Ghostty 终端的扩展（零依赖，仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> —— 全屏打开 VSCode 的 CLI 小工具（自动全屏 + 目标窗口置顶，bash + osascript、仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/pi">pi</a> —— Pi agent harness 独立分叉仓库：coding agent CLI / agent 运行时 / 统一多供应商 LLM API / TUI 组件库（TypeScript monorepo）<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> —— Ghostty 终端独立分叉仓库：v1.3.1 基线 +「Cmd+V 粘贴剪贴板图片为路径」补丁，GitHub Actions 云构建<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> —— VSCode 视频播放扩展：编辑器标签页内带音频播放视频，内置 ffmpeg WebAssembly 做解码与格式转码</td>
+    <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> —— VSCode 状态栏一键唤起 Ghostty 终端的扩展（零依赖，仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> —— 全屏打开 VSCode 的 CLI 小工具（自动全屏 + 目标窗口置顶，bash + osascript、仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/pi-harness">pi-harness</a> —— Pi agent harness 独立分叉仓库：coding agent CLI / agent 运行时 / 统一多供应商 LLM API / TUI 组件库（TypeScript monorepo）<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> —— Ghostty 终端独立分叉仓库：v1.3.1 基线 +「Cmd+V 粘贴剪贴板图片为路径」补丁，GitHub Actions 云构建<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> —— VSCode 视频播放扩展：编辑器标签页内带音频播放视频，内置 ffmpeg WebAssembly 做解码与格式转码</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>量化策略师</td>
     <td>📐 <b>Mark</b></td>
-    <td>Mac mini</td>
+    <td>MacBook Air</td>
     <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> —— 网格交易策略开发及回测工具（Python / backtrader）<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> —— 日内尺度策略研究：订单流（mbo）特征、分钟级 ML 信号、walk-forward 验证（Python）<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> —— 日 K 趋势跟随策略：文档完整，20 年 × 37 只美股回测（QuantStrategistAgent 的公开组件，2026-09-12 拆出）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>总经理助理</td>
     <td>👩‍💼 <b>Kit</b></td>
     <td>MacBook Air</td>
-    <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> —— 本个人主页仓库<br/>🌐 <a href="https://github.com/xhqing/copybridge">copybridge</a> —— macOS 剪贴板桥接工具：在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台修复 VSCode 私有剪贴板格式）</td>
+    <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> —— 本个人主页仓库<br/>🌐 <a href="https://github.com/xhqing/copybridge">copybridge</a> —— macOS 剪贴板桥接工具：在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台修复 VSCode 私有剪贴板格式）<br/>🌐 <a href="https://github.com/xhqing/diff-view">diff-view</a> —— pi「改动可视化」完整套件：pi 侧扩展按需打开、静默关闭 AI 改动的 diff，配 VSCode 侧扩展<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> —— pi 的火山方舟（Agent Plan）多 Key 池扩展：额度耗尽 / Key 失效时自动切到下一个，冷却状态跨进程共享</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>社媒运营官</td>
