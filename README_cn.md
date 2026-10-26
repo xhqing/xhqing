@@ -37,7 +37,7 @@
     <td><a href="https://github.com/xhqing/FullStackEngineerAgent">FullStackEngineerAgent</a><br/>全栈开发工程师</td>
     <td>🗺️ <b>Atlas</b></td>
     <td>MacBook Air</td>
-    <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> —— VSCode 状态栏一键唤起 Ghostty 终端的扩展（零依赖，仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> —— 全屏打开 VSCode 的 CLI 小工具（自动全屏 + 目标窗口置顶，bash + osascript、仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/pi-harness">pi-harness</a> —— Pi agent harness 独立分叉仓库：coding agent CLI / agent 运行时 / 统一多供应商 LLM API / TUI 组件库（TypeScript monorepo）<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> —— Ghostty 终端独立分叉仓库：v1.3.1 基线 +「Cmd+V 粘贴剪贴板图片为路径」补丁，GitHub Actions 云构建<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> —— VSCode 视频播放扩展：编辑器标签页内带音频播放视频，内置 ffmpeg WebAssembly 做解码与格式转码</td>
+    <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> —— VSCode 状态栏一键唤起 Ghostty 终端的扩展（零依赖，仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> —— 全屏打开 VSCode 的 CLI 小工具（自动全屏 + 目标窗口置顶，bash + osascript、仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/pi-harness">pi-harness</a> —— Pi agent harness 独立分叉仓库：coding agent CLI / agent 运行时 / 统一多供应商 LLM API / TUI 组件库（TypeScript monorepo）<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> —— Ghostty 终端独立分叉仓库：v1.3.1 基线 +「Cmd+V 粘贴剪贴板图片为路径」补丁，GitHub Actions 云构建<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> —— VSCode 视频播放扩展：编辑器标签页内带音频播放视频，内置 ffmpeg WebAssembly 做解码与格式转码<br/>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> —— Xray-core 节点管理 CLI（Python）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>量化策略师</td>
@@ -62,12 +62,6 @@
     <td>📈 <b>Victor</b></td>
     <td>MacBook Air</td>
     <td>🌐 <a href="https://github.com/xhqing/TradingProofs">TradingProofs</a> —— 交易数学的 Lean 4 + Mathlib 机器可验证证明（固定比例下注的累计增长率 / 强数定律 / 凯利最优 f*）</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/NetOpsAgent">NetOpsAgent</a><br/>网络运维管理员</td>
-    <td>🌐 <b>Hermes</b></td>
-    <td>MacBook Air</td>
-    <td>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> —— Xray-core 节点管理 CLI（Python）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a><br/>后端开发工程师</td>
@@ -170,7 +164,7 @@
 - **🖱️ cuAgent（电脑操作员）—— 直属用户，不属任何小组。**计算机操作用户代理：用 computer-use 能力代替用户操作本机电脑界面（看屏幕 / 点击 / 输入 / 拖拽），能力仅限其项目内启用。
 - **🛍️ 数字产品销售小组** —— 六段流水线（Scout → Wright → Mason → Buzz → Vendy → Echo）把一次性的产出变成持续到手的被动收入，详见下文。
 - **📈 投资与交易小组** —— **Mark** 开发并回测量化策略；**Victor** 是日内交易员。
-- **🧰 基础设施小组** —— **Tinker** 负责给 CC 打补丁；**Prometheus** 负责开源全团队共享的通用能力（全局 CLAUDE.md、skills、rules）；**Hermes** 负责网络问题；**Anvil** 负责后端开发；**Atlas** 负责全栈项目；**Ada** 负责 AI Agent 算法与推理引擎；**Alfred** 负责设备资源管理（本地电脑 / 远程服务器 / 云电脑）；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
+- **🧰 基础设施小组** —— **Tinker** 负责给 CC 打补丁；**Prometheus** 负责开源全团队共享的通用能力（全局 CLAUDE.md、skills、rules）；**Anvil** 负责后端开发；**Atlas** 负责全栈项目（含代理工具链）；**Ada** 负责 AI Agent 算法与推理引擎；**Alfred** 负责设备资源管理（本地电脑 / 远程服务器 / 云电脑）；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
 
 ---
 

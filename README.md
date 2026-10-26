@@ -37,7 +37,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td><a href="https://github.com/xhqing/FullStackEngineerAgent">FullStackEngineerAgent</a><br/>Full-stack Engineer</td>
     <td>🗺️ <b>Atlas</b></td>
     <td>MacBook Air</td>
-    <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> — one-click Ghostty terminal summon from the VSCode status bar (zero-dependency extension, macOS)<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> — CLI that opens VSCode full-screen with the target window on top (bash + osascript, macOS only)<br/>🌐 <a href="https://github.com/xhqing/pi-harness">pi-harness</a> — independent fork of the Pi agent harness: coding-agent CLI, agent runtime, unified multi-provider LLM API, TUI components (TypeScript monorepo)<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> — independent fork of the Ghostty terminal: v1.3.1 baseline + clipboard-image-paste patch, cloud-built via GitHub Actions<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> — VSCode video player: plays videos with audio in an editor tab; bundled ffmpeg WebAssembly for decoding &amp; conversion</td>
+    <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> — one-click Ghostty terminal summon from the VSCode status bar (zero-dependency extension, macOS)<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> — CLI that opens VSCode full-screen with the target window on top (bash + osascript, macOS only)<br/>🌐 <a href="https://github.com/xhqing/pi-harness">pi-harness</a> — independent fork of the Pi agent harness: coding-agent CLI, agent runtime, unified multi-provider LLM API, TUI components (TypeScript monorepo)<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> — independent fork of the Ghostty terminal: v1.3.1 baseline + clipboard-image-paste patch, cloud-built via GitHub Actions<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> — VSCode video player: plays videos with audio in an editor tab; bundled ffmpeg WebAssembly for decoding &amp; conversion<br/>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> — Xray-core proxy-node manager CLI (Python)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>Quant Strategist</td>
@@ -62,12 +62,6 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td>📈 <b>Victor</b></td>
     <td>MacBook Air</td>
     <td>🌐 <a href="https://github.com/xhqing/TradingProofs">TradingProofs</a> — machine-checked Lean 4 + Mathlib proofs for fixed-fraction trading math (compounding growth, strong law, Kelly optimal f*)</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/NetOpsAgent">NetOpsAgent</a><br/>NetOps Engineer</td>
-    <td>🌐 <b>Hermes</b></td>
-    <td>MacBook Air</td>
-    <td>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> — Xray-core proxy-node manager CLI (Python)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a><br/>Backend Engineer</td>
@@ -170,7 +164,7 @@ The team is organized into three squads by domain, with five direct reports outs
 - **🖱️ cuAgent (Computer Operator) — direct report, not in any squad.** A dedicated computer-use agent: it operates the local computer GUI for the user (reading screens, clicking, typing, dragging) through the computer-use MCP, scoped to its own project.
 - **🛍️ Digital-product sales squad** — the six-stage pipeline (Scout → Wright → Mason → Buzz → Vendy → Echo) turns one-time work into recurring passive income — see the dedicated section below.
 - **📈 Investing & trading squad** — **Mark** develops and backtests quant strategies; **Victor** is the day trader.
-- **🧰 Infrastructure squad** — **Tinker** patches CC (Claude Code) after every extension upgrade; **Prometheus** open-sources the capabilities the whole team shares (global CLAUDE.md, skills, rules); **Hermes** handles networking; **Anvil** handles backend development; **Atlas** handles full-stack projects; **Ada** covers AI Agent algorithms and reasoning engines; **Alfred** manages device resources (local Mac / remote servers / cloud machines); **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
+- **🧰 Infrastructure squad** — **Tinker** patches CC (Claude Code) after every extension upgrade; **Prometheus** open-sources the capabilities the whole team shares (global CLAUDE.md, skills, rules); **Anvil** handles backend development; **Atlas** handles full-stack projects (including the proxy toolchain); **Ada** covers AI Agent algorithms and reasoning engines; **Alfred** manages device resources (local Mac / remote servers / cloud machines); **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
 
 ---
 
