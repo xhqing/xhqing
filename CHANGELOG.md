@@ -4,6 +4,13 @@
 
 ## [未发布]
 
+### 变更（`.pi` 由软链接改为真实目录 + 资源引用：全局规矩 2026-10-30 修订）
+
+- **为什么改**：2026-10-30 用户修订了子项目的智能体专属文件规则。旧形态把 `.pi` 整个挂成指向负责 Agent 的软链接，「共享」与「独占」被压在同一个符号上：子项目要放自己的配置时无处安放，硬写进 `.pi` 等于直接写进 Kit 的 Agent 项目——会瞬间影响 Kit 的全部兄弟子项目、并进 Agent 仓库的 git 历史。新规则分层：身份层（`AGENTS.md`）继续保持软链接一致（pi 的上下文文件没有 include 机制，超集只能靠复制、复制必然漂移）；能力层（`.pi/`）改在子项目里建真实目录，用 `settings.json` 以**路径引用** Agent 项目的资源目录，本地专属内容放自己的目录——行为上是超集，结构上无副本、不漂移，且子项目写自己的 `.pi` 不再污染 Agent 项目。
+- **改了什么**：删除 `.pi` 软链接（原指向 `../ExecutiveAssistantAgent/.pi`），改为真实目录加 `.pi/settings.json`：`extensions` / `skills` / `prompts` / `themes` 四组各指向 `~/Developer/ExecutiveAssistantAgent/.pi/` 下对应目录，并附带本地 `./extensions` / `./skills` / `./prompts` / `./themes`（本地目录不存在时自动跳过）。`AGENTS.md` 软链接保持不变。
+- **验证**：据 pi 官方文档（`settings.md`「Resources」——项目 `.pi/settings.json` 的路径相对 `.pi` 解析、支持 `~`、路径可为目录并递归收集；`skills.md` / `extensions.md`——`.pi/{skills,extensions,prompts,themes}` 的自动发现照常生效）；本仓库实跑 `pi --approve -p`，技能（termux-ssh / language-partner）与项目级扩展（input-llm-dump，落盘到本仓 `tmp/`）均从 Agent 项目加载成功。
+- **规则出处**：全局 `~/.pi/agent/docs/agents-registry.md`「智能体专属文件归属与子项目映射（2026-10-30 修订）」节。
+
 ### 变更（团队名册同步：新增子项目 macmini-tmux）
 
 - **为什么改**：2026-10-29 Kit 按用户要求新建了子项目 `macmini-tmux`（在 Mac mini 上方便使用 tmux 的 CLI 封装），全局 `agents-registry.md` 的「子项目映射」表已同批新增登记；按 2026-10-26 定的名册同步硬性规矩，主页名册必须同批改齐。
