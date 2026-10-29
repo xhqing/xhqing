@@ -4,6 +4,12 @@
 
 ## [未发布]
 
+### 变更（名册同步：子项目 copybridge 改名 vscode-copy-anywhere）
+
+- **为什么改**：Kit 的子项目 `copybridge` 2026-10-30 改名为 `vscode-copy-anywhere`（用户反馈原名看不出用途：`bridge` 是隐喻、未交代 VSCode 与文件）；全局 `agents-registry.md` 已同批改好，按 2026-10-26 定的名册同步硬性规矩，主页名册必须同批改齐（双语文档同步）。
+- **改了什么**：① `README.md` / `README_cn.md` 的 Kit 行——链接与名字改为 `vscode-copy-anywhere`，描述改为「VSCode 资源管理器复制的文件可粘到任意 App（后台把 VSCode 私有剪贴板格式转成系统格式）」（去揉「桥接」比喻）；② `scripts/update_traffic.py` 的 `TEAM` 列表条目改名（否则采集会找不到仓库）；③ 流量数据文件改名保留历史累计：`traffic/copybridge.json` → `vscode-copy-anywhere.json`、`traffic/badges/copybridge.{json,meta.json}` → 同名新名（下一轮采集起按新名写入，历史总数不丢）；④ 两版 README 里该项目徽章的 URL 指向的 JSON 同步为新文件名。
+- **校验**：`python3 ~/.pi/agent/patch/roster-sync/roster-sync-check.py` 两份 README 均返回「名册与 registry 一致」（仅保留 NewsScoreStudy 的既有豁免）。
+
 ### 变更（`.pi` 由软链接改为真实目录 + 资源引用：全局规矩 2026-10-30 修订）
 
 - **为什么改**：2026-10-30 用户修订了子项目的智能体专属文件规则。旧形态把 `.pi` 整个挂成指向负责 Agent 的软链接，「共享」与「独占」被压在同一个符号上：子项目要放自己的配置时无处安放，硬写进 `.pi` 等于直接写进 Kit 的 Agent 项目——会瞬间影响 Kit 的全部兄弟子项目、并进 Agent 仓库的 git 历史。新规则分层：身份层（`AGENTS.md`）继续保持软链接一致（pi 的上下文文件没有 include 机制，超集只能靠复制、复制必然漂移）；能力层（`.pi/`）改在子项目里建真实目录，用 `settings.json` 以**路径引用** Agent 项目的资源目录，本地专属内容放自己的目录——行为上是超集，结构上无副本、不漂移，且子项目写自己的 `.pi` 不再污染 Agent 项目。

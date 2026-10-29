@@ -68,7 +68,7 @@ TEAM = [
     'zcode-vsce',                # Atlas's subproject
     'codef',                     # Atlas's subproject
     'channels-watch',            # Atlas's subproject
-    'copybridge',                # Kit's subproject
+    'vscode-copy-anywhere',      # Kit's subproject (renamed from copybridge, 2026-10-30)
 ]
 
 
