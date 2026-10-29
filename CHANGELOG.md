@@ -4,6 +4,12 @@
 
 ## [未发布]
 
+### 变更（团队名册同步：新增子项目 macmini-tmux）
+
+- **为什么改**：2026-10-29 Kit 按用户要求新建了子项目 `macmini-tmux`（在 Mac mini 上方便使用 tmux 的 CLI 封装），全局 `agents-registry.md` 的「子项目映射」表已同批新增登记；按 2026-10-26 定的名册同步硬性规矩，主页名册必须同批改齐。
+- **改了什么**：`README.md` / `README_cn.md` 的 Kit 行末尾各追加一条 `macmini-tmux`（英文描述：一条命令连上 Mac mini 的 tmux，会话名自动编号、可按名字断线重连、可接回最近会话；中文语义对齐）。
+- **说明**：项目已于同日开源到 github.com/xhqing/macmini-tmux，因此原先登记在 `allowlist.json` 的豁免同时删除。
+
 ### 变更（团队名册同步：补 diff-view / ark-key-pool，修正 pi-harness 链接与 Mark 宿主机）
 
 - **为什么改**：2026-10-26 用户立规——全局 `~/.pi/agent/docs/agents-registry.md` 的任何改动（新增 / 删除 Agent 或子项目、归属变更、迁机）必须**与主页 README 名册在同一批里同步**，不是「下次顺手改」。核对时发现名册已经漂了三处：① 子项目映射表里 Kit 名下的 `diff-view`、`ark-key-pool` 在 README 名册里完全没有；② Atlas 的子项目仓库 2026-10-18 已由 `pi` 改名为 `pi-harness`，名册链接还指着旧名（GitHub 会重定向，但字面已失真）；③ Mark 全体系 2026-10-26 已从 macmini 拷回本机、本机为权威源，名册「Host machine」列还写着 `Mac mini`。
