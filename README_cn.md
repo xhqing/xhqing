@@ -73,7 +73,7 @@
     <td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a><br/>AI 算法工程师</td>
     <td>🧠 <b>Ada</b></td>
     <td>macmini&amp;macbook</td>
-    <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> —— 深度推理引擎规则集（Infinite / Rapid / Incisive）</td>
+    <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> —— 深度推理引擎规则集（Infinite / Rapid / Incisive）<br/>🔒 <a href="https://github.com/xhqing/ToolCallingRules">ToolCallingRules</a> —— LLM 工具调用规则集（22 条规则 / 7 类，注入 system prompt 以减少 function calling 的参数格式错误与不安全重试）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a><br/>投递转化率优化师</td>

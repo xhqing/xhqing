@@ -73,7 +73,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a><br/>AI Algorithm Engineer</td>
     <td>🧠 <b>Ada</b></td>
     <td>macmini&amp;macbook</td>
-    <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> — deep-reasoning engine rules (Infinite / Rapid / Incisive)</td>
+    <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> — deep-reasoning engine rules (Infinite / Rapid / Incisive)<br/>🔒 <a href="https://github.com/xhqing/ToolCallingRules">ToolCallingRules</a> — LLM tool-calling ruleset (22 rules / 7 categories) injected into system prompts to cut function-calling argument errors and unsafe retries</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a><br/>Apply Optimizer</td>
