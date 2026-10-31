@@ -4,6 +4,12 @@
 
 ## [未发布]
 
+### 变更（名册删除已注销的子项目 diff-view）
+
+- **为什么改**：Kit 的子项目 diff-view 于 2026-10-31 按用户决定注销（需要看 diff 时改用 add-mode / commit-mode 暂停自动提交即可），全局 `agents-registry.md` 子项目映射表已同批删除该行。
+- **改了什么**：`README.md` / `README_cn.md` 的 Kit 行删除 diff-view 条目（中英同步）。
+- **校验**：`python3 ~/.pi/agent/patch/roster-sync/roster-sync-check.py` 两份 README 均返回「名册与 registry 一致」。
+
 ### 变更（名册同步：子项目 copybridge 改名 vscode-copy-anywhere）
 
 - **为什么改**：Kit 的子项目 `copybridge` 2026-10-30 改名为 `vscode-copy-anywhere`（用户反馈原名看不出用途：`bridge` 是隐喻、未交代 VSCode 与文件）；全局 `agents-registry.md` 已同批改好，按 2026-10-26 定的名册同步硬性规矩，主页名册必须同批改齐（双语文档同步）。
