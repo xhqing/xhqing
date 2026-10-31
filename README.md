@@ -130,12 +130,6 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td>—</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a><br/>Patch Maintainer</td>
-    <td>🔧 <b>Tinker</b></td>
-    <td>macmini&amp;macbook</td>
-    <td>—</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a><br/>Capability Steward</td>
     <td>🧰 <b>Prometheus</b></td>
     <td>macmini&amp;macbook</td>
@@ -158,7 +152,7 @@ The team is organized into three squads by domain, with five direct reports outs
 - **🖱️ cuAgent (Computer Operator) — direct report, not in any squad.** A dedicated computer-use agent: it operates the local computer GUI for the user (reading screens, clicking, typing, dragging) through the computer-use MCP, scoped to its own project.
 - **🛍️ Digital-product sales squad** — the six-stage pipeline (Scout → Wright → Mason → Buzz → Vendy → Echo) turns one-time work into recurring passive income — see the dedicated section below.
 - **📈 Investing & trading squad** — **Mark** develops and backtests quant strategies; **Victor** is the day trader.
-- **🧰 Infrastructure squad** — **Tinker** patches CC (Claude Code) after every extension upgrade; **Prometheus** open-sources the capabilities the whole team shares (global CLAUDE.md, skills, rules); **Anvil** handles backend development; **Atlas** handles full-stack projects (including the proxy toolchain); **Ada** covers AI Agent algorithms and reasoning engines; **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
+- **🧰 Infrastructure squad** — **Prometheus** open-sources the capabilities the whole team shares (global CLAUDE.md, skills, rules); **Anvil** handles backend development; **Atlas** handles full-stack projects (including the proxy toolchain); **Ada** covers AI Agent algorithms and reasoning engines; **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
 
 ---
 

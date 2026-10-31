@@ -130,12 +130,6 @@
     <td>—</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a><br/>补丁维护匠</td>
-    <td>🔧 <b>Tinker</b></td>
-    <td>macmini&amp;macbook</td>
-    <td>—</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a><br/>通用能力管家</td>
     <td>🧰 <b>Prometheus</b></td>
     <td>macmini&amp;macbook</td>
@@ -158,7 +152,7 @@
 - **🖱️ cuAgent（电脑操作员）—— 直属用户，不属任何小组。**计算机操作用户代理：用 computer-use 能力代替用户操作本机电脑界面（看屏幕 / 点击 / 输入 / 拖拽），能力仅限其项目内启用。
 - **🛍️ 数字产品销售小组** —— 六段流水线（Scout → Wright → Mason → Buzz → Vendy → Echo）把一次性的产出变成持续到手的被动收入，详见下文。
 - **📈 投资与交易小组** —— **Mark** 开发并回测量化策略；**Victor** 是日内交易员。
-- **🧰 基础设施小组** —— **Tinker** 负责给 CC 打补丁；**Prometheus** 负责开源全团队共享的通用能力（全局 CLAUDE.md、skills、rules）；**Anvil** 负责后端开发；**Atlas** 负责全栈项目（含代理工具链）；**Ada** 负责 AI Agent 算法与推理引擎；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
+- **🧰 基础设施小组** —— **Prometheus** 负责开源全团队共享的通用能力（全局 CLAUDE.md、skills、rules）；**Anvil** 负责后端开发；**Atlas** 负责全栈项目（含代理工具链）；**Ada** 负责 AI Agent 算法与推理引擎；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
 
 ---
 
