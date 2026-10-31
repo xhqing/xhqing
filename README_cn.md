@@ -36,121 +36,115 @@
   <tr>
     <td><a href="https://github.com/xhqing/FullStackEngineerAgent">FullStackEngineerAgent</a><br/>全栈开发工程师</td>
     <td>🗺️ <b>Atlas</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> —— VSCode 状态栏一键唤起 Ghostty 终端的扩展（零依赖，仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> —— 全屏打开 VSCode 的 CLI 小工具（自动全屏 + 目标窗口置顶，bash + osascript、仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/pi-harness">pi-harness</a> —— Pi agent harness 独立分叉仓库：coding agent CLI / agent 运行时 / 统一多供应商 LLM API / TUI 组件库（TypeScript monorepo）<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> —— Ghostty 终端独立分叉仓库：v1.3.1 基线 +「Cmd+V 粘贴剪贴板图片为路径」补丁，GitHub Actions 云构建<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> —— VSCode 视频播放扩展：编辑器标签页内带音频播放视频，内置 ffmpeg WebAssembly 做解码与格式转码<br/>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> —— Xray-core 节点管理 CLI（Python）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>量化策略师</td>
     <td>📐 <b>Mark</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> —— 网格交易策略开发及回测工具（Python / backtrader）<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> —— 日内尺度策略研究：订单流（mbo）特征、分钟级 ML 信号、walk-forward 验证（Python）<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> —— 日 K 趋势跟随策略：文档完整，20 年 × 37 只美股回测（QuantStrategistAgent 的公开组件，2026-09-12 拆出）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>总经理助理</td>
     <td>👩‍💼 <b>Kit</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> —— 本个人主页仓库<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> —— macOS 后台小工具：在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台把 VSCode 私有剪贴板格式转成系统格式）<br/>🌐 <a href="https://github.com/xhqing/diff-view">diff-view</a> —— pi「改动可视化」完整套件：pi 侧扩展按需打开、静默关闭 AI 改动的 diff，配 VSCode 侧扩展<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> —— pi 的火山方舟（Agent Plan）多 Key 池扩展：额度耗尽 / Key 失效时自动切到下一个，冷却状态跨进程共享<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> —— 一条命令连上 Mac mini 的 tmux：会话名自动编号，可按名字断线重连，或直接接回最近一次用过的会话<br/>🔒 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> —— 个人配置文件仓库：按 App 分目录，配置实体只存仓库一份、安装时软链到系统位置，换新机器 clone 后跑一次安装脚本即可恢复（目前收录 Ghostty 与 cmux）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>社媒运营官</td>
     <td>🥂 <b>Gatsby</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🔒 <a href="https://github.com/xhqing/xhs-mentor-scam">xhs-mentor-scam</a> —— 小红书「陪跑 / 带教」反诈视频项目材料（私有仓库）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a><br/>日内交易员</td>
     <td>📈 <b>Victor</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/TradingProofs">TradingProofs</a> —— 交易数学的 Lean 4 + Mathlib 机器可验证证明（固定比例下注的累计增长率 / 强数定律 / 凯利最优 f*）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a><br/>后端开发工程师</td>
     <td>🔨 <b>Anvil</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/CC-BRIDGE">CC-BRIDGE</a> —— Claude Code 上游桥接框架（Node.js）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a><br/>AI 算法工程师</td>
     <td>🧠 <b>Ada</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> —— 深度推理引擎规则集（Infinite / Rapid / Incisive）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a><br/>投递转化率优化师</td>
     <td>🎯 <b>Hopkins</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/LegalAgent">LegalAgent</a><br/>法务Agent</td>
     <td>⚖️ <b>Justin</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/cuAgent">cuAgent</a><br/>电脑操作员</td>
     <td>🖱️ <b>cuAgent</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a><br/>选品策略师</td>
     <td>🧭 <b>Scout</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a><br/>数字产品制作人</td>
     <td>🛠️ <b>Wright</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SiteBuilderAgent">SiteBuilderAgent</a><br/>建站工程师</td>
     <td>🏗️ <b>Mason</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a><br/>增长营销</td>
     <td>📣 <b>Buzz</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a><br/>电商运营</td>
     <td>💰 <b>Vendy</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a><br/>数据分析师</td>
     <td>📊 <b>Echo</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a><br/>补丁维护匠</td>
     <td>🔧 <b>Tinker</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a><br/>通用能力管家</td>
     <td>🧰 <b>Prometheus</b></td>
-    <td>MacBook Air</td>
-    <td>—</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/DeviceStewardAgent">DeviceStewardAgent</a><br/>电脑管家</td>
-    <td>🖥️ <b>Alfred</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/TestEngineerAgent">TestEngineerAgent</a><br/>软件测试工程师</td>
     <td>🐞 <b>Hopper</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
 </table>
@@ -164,7 +158,7 @@
 - **🖱️ cuAgent（电脑操作员）—— 直属用户，不属任何小组。**计算机操作用户代理：用 computer-use 能力代替用户操作本机电脑界面（看屏幕 / 点击 / 输入 / 拖拽），能力仅限其项目内启用。
 - **🛍️ 数字产品销售小组** —— 六段流水线（Scout → Wright → Mason → Buzz → Vendy → Echo）把一次性的产出变成持续到手的被动收入，详见下文。
 - **📈 投资与交易小组** —— **Mark** 开发并回测量化策略；**Victor** 是日内交易员。
-- **🧰 基础设施小组** —— **Tinker** 负责给 CC 打补丁；**Prometheus** 负责开源全团队共享的通用能力（全局 CLAUDE.md、skills、rules）；**Anvil** 负责后端开发；**Atlas** 负责全栈项目（含代理工具链）；**Ada** 负责 AI Agent 算法与推理引擎；**Alfred** 负责设备资源管理（本地电脑 / 远程服务器 / 云电脑）；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
+- **🧰 基础设施小组** —— **Tinker** 负责给 CC 打补丁；**Prometheus** 负责开源全团队共享的通用能力（全局 CLAUDE.md、skills、rules）；**Anvil** 负责后端开发；**Atlas** 负责全栈项目（含代理工具链）；**Ada** 负责 AI Agent 算法与推理引擎；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
 
 ---
 

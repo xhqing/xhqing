@@ -36,121 +36,115 @@ An OPC (one-person company): I personally run the whole agent organization — e
   <tr>
     <td><a href="https://github.com/xhqing/FullStackEngineerAgent">FullStackEngineerAgent</a><br/>Full-stack Engineer</td>
     <td>🗺️ <b>Atlas</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> — one-click Ghostty terminal summon from the VSCode status bar (zero-dependency extension, macOS)<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> — CLI that opens VSCode full-screen with the target window on top (bash + osascript, macOS only)<br/>🌐 <a href="https://github.com/xhqing/pi-harness">pi-harness</a> — independent fork of the Pi agent harness: coding-agent CLI, agent runtime, unified multi-provider LLM API, TUI components (TypeScript monorepo)<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> — independent fork of the Ghostty terminal: v1.3.1 baseline + clipboard-image-paste patch, cloud-built via GitHub Actions<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> — VSCode video player: plays videos with audio in an editor tab; bundled ffmpeg WebAssembly for decoding &amp; conversion<br/>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> — Xray-core proxy-node manager CLI (Python)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>Quant Strategist</td>
     <td>📐 <b>Mark</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> — grid-trading strategy development &amp; backtesting (Python / backtrader)<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> — intraday-scale strategy research: order-flow (mbo) features, minute-level ML signals, walk-forward validation (Python)<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> — day-K trend-following strategy: fully documented, 20-year × 37-stock backtest (public component of QuantStrategistAgent, split out 2026-09-12)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>Executive Assistant</td>
     <td>👩‍💼 <b>Kit</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> — this profile repository<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> — macOS background helper: files copied in the VSCode explorer can be pasted into Finder / WeChat / any app (converts VSCode's private clipboard format to the system one)<br/>🌐 <a href="https://github.com/xhqing/diff-view">diff-view</a> — change-visualization suite for pi: a pi-side extension that opens (and silently closes) diffs of the AI's edits on demand, plus its VSCode counterpart<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> — pi extension that keeps a pool of Volcano Ark (Agent Plan) API keys and switches to the next one automatically when quota or validity runs out (cooldown shared across processes)<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> — one command to reach tmux on the Mac mini: session names are numbered automatically, reconnect by name, or attach to the most recent session<br/>🔒 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> — personal config backup: one directory per app, the config file in the repo is the single source of truth and is symlinked into place, so setting up a new machine is a clone plus one install script (Ghostty and cmux today)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>Social Media Manager</td>
     <td>🥂 <b>Gatsby</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🔒 <a href="https://github.com/xhqing/xhs-mentor-scam">xhs-mentor-scam</a> — material for a RedNote anti-scam video project on paid mentoring / coaching scams (private repo)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a><br/>Day Trader</td>
     <td>📈 <b>Victor</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/TradingProofs">TradingProofs</a> — machine-checked Lean 4 + Mathlib proofs for fixed-fraction trading math (compounding growth, strong law, Kelly optimal f*)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a><br/>Backend Engineer</td>
     <td>🔨 <b>Anvil</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/CC-BRIDGE">CC-BRIDGE</a> — Claude Code upstream bridge framework (Node.js)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a><br/>AI Algorithm Engineer</td>
     <td>🧠 <b>Ada</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> — deep-reasoning engine rules (Infinite / Rapid / Incisive)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a><br/>Apply Optimizer</td>
     <td>🎯 <b>Hopkins</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/LegalAgent">LegalAgent</a><br/>Legal Agent</td>
     <td>⚖️ <b>Justin</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/cuAgent">cuAgent</a><br/>Computer Operator</td>
     <td>🖱️ <b>cuAgent</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a><br/>Product Strategist</td>
     <td>🧭 <b>Scout</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a><br/>Producer</td>
     <td>🛠️ <b>Wright</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SiteBuilderAgent">SiteBuilderAgent</a><br/>Site Builder</td>
     <td>🏗️ <b>Mason</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a><br/>Growth Marketer</td>
     <td>📣 <b>Buzz</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a><br/>Sales Ops</td>
     <td>💰 <b>Vendy</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a><br/>Analyst</td>
     <td>📊 <b>Echo</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/PatchClaudeAgent">PatchClaudeAgent</a><br/>Patch Maintainer</td>
     <td>🔧 <b>Tinker</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a><br/>Capability Steward</td>
     <td>🧰 <b>Prometheus</b></td>
-    <td>MacBook Air</td>
-    <td>—</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/DeviceStewardAgent">DeviceStewardAgent</a><br/>Device Steward</td>
-    <td>🖥️ <b>Alfred</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/TestEngineerAgent">TestEngineerAgent</a><br/>Test Engineer</td>
     <td>🐞 <b>Hopper</b></td>
-    <td>MacBook Air</td>
+    <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
 </table>
@@ -164,7 +158,7 @@ The team is organized into three squads by domain, with five direct reports outs
 - **🖱️ cuAgent (Computer Operator) — direct report, not in any squad.** A dedicated computer-use agent: it operates the local computer GUI for the user (reading screens, clicking, typing, dragging) through the computer-use MCP, scoped to its own project.
 - **🛍️ Digital-product sales squad** — the six-stage pipeline (Scout → Wright → Mason → Buzz → Vendy → Echo) turns one-time work into recurring passive income — see the dedicated section below.
 - **📈 Investing & trading squad** — **Mark** develops and backtests quant strategies; **Victor** is the day trader.
-- **🧰 Infrastructure squad** — **Tinker** patches CC (Claude Code) after every extension upgrade; **Prometheus** open-sources the capabilities the whole team shares (global CLAUDE.md, skills, rules); **Anvil** handles backend development; **Atlas** handles full-stack projects (including the proxy toolchain); **Ada** covers AI Agent algorithms and reasoning engines; **Alfred** manages device resources (local Mac / remote servers / cloud machines); **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
+- **🧰 Infrastructure squad** — **Tinker** patches CC (Claude Code) after every extension upgrade; **Prometheus** open-sources the capabilities the whole team shares (global CLAUDE.md, skills, rules); **Anvil** handles backend development; **Atlas** handles full-stack projects (including the proxy toolchain); **Ada** covers AI Agent algorithms and reasoning engines; **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
 
 ---
 
