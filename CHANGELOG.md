@@ -4,6 +4,12 @@
 
 ## [未发布]
 
+### 变更（名册新增 Atlas 名下的 cmux 自建分叉）
+
+- **为什么改**：用户 2026-10-31 决定把 manaflow-ai/cmux fork 到 `xhqing/cmux` 做成自建分叉（不再等上游合并关闭确认相关改动），并交给 Atlas（FullStackEngineerAgent）负责；全局 `agents-registry.md` 子项目映射表已同批新增该行，按 2026-10-26 定的名册同步硬性规矩，主页名册必须同批改齐（双语文档同步）。
+- **改了什么**：`README.md` / `README_cn.md` 的 Atlas 行在 ghostty 之后各追加一条 `cmux`（英文：cmux 终端的独立分叉，以上游 release tag 为基线、叠加我们自己的关闭确认行为，随上游 tag 同步；中文语义对齐）。
+- **校验**：`python3 ~/.pi/agent/patch/roster-sync/roster-sync-check.py` 两份 README 均返回「名册与 registry 一致」。
+
 ### 变更（名册删除已注销的子项目 diff-view）
 
 - **为什么改**：Kit 的子项目 diff-view 于 2026-10-31 按用户决定注销（需要看 diff 时改用 add-mode / commit-mode 暂停自动提交即可），全局 `agents-registry.md` 子项目映射表已同批删除该行。
