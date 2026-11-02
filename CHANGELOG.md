@@ -4,6 +4,12 @@
 
 ## [未发布]
 
+### 变更（团队仓库改为 public：dotfiles / ToolCallingRules）
+
+- **为什么改**：用户 2026-11-02 立规「团队项目一律用公开仓库，私有仓库不得入队」。两个仓库先做了敏感信息检查：`gitleaks detect` 全历史扫描（dotfiles 5 个提交 / ToolCallingRules 7 个提交）零命中；AI 语义复查为纯配置与规则文档，无凭证、无个人 / 第三方隐私、无财务信息——判定可公开。
+- **改了什么**：两个仓库由 private 改为 public，并补上 main 分支保护（PR 必过 / 禁 force / 禁删除 / 线性历史 / 只允许 squash / 管理员受限）；`README.md` / `README_cn.md` 名册里两个项目的 🔒 改用 🌐；全局 `agents-registry.md` 的描述同步注明「已改公开并锁 main」。
+- **校验**：`gh api repos/xhqing/<repo>` 返回 `visibility=public`；`branches/main/protection` 返回 PR 必过；名册与 registry 仍一致。
+
 ### 变更（名册新增 Atlas 名下的 cmux 自建分叉）
 
 - **为什么改**：用户 2026-10-31 决定把 manaflow-ai/cmux fork 到 `xhqing/cmux` 做成自建分叉（不再等上游合并关闭确认相关改动），并交给 Atlas（FullStackEngineerAgent）负责；全局 `agents-registry.md` 子项目映射表已同批新增该行，按 2026-10-26 定的名册同步硬性规矩，主页名册必须同批改齐（双语文档同步）。
