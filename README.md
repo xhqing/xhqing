@@ -55,7 +55,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>Social Media Manager</td>
     <td>🥂 <b>Gatsby</b></td>
     <td>macmini&amp;macbook</td>
-    <td>🔒 <a href="https://github.com/xhqing/xhs-mentor-scam">xhs-mentor-scam</a> — material for a RedNote anti-scam video project on paid mentoring / coaching scams (private repo)</td>
+    <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a><br/>Day Trader</td>
