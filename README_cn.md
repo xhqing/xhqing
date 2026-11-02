@@ -55,7 +55,7 @@
     <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>社媒运营官</td>
     <td>🥂 <b>Gatsby</b></td>
     <td>macmini&amp;macbook</td>
-    <td>🔒 <a href="https://github.com/xhqing/xhs-mentor-scam">xhs-mentor-scam</a> —— 小红书「陪跑 / 带教」反诈视频项目材料（私有仓库）</td>
+    <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a><br/>日内交易员</td>

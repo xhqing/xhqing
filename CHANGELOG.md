@@ -4,6 +4,12 @@
 
 ## [未发布]
 
+### 变更（名册移除 Gatsby 的 xhs-mentor-scam）
+
+- **为什么改**：2026-11-02 用户立规「团队项目一律 public，私有仓库不得入队」。`xhs-mentor-scam` 仓库含第三方个人信息（合同、私信截图、真实姓名、举报材料），不能公开；用户决定按方案 A 移出团队名册，保留为私人项目。
+- **改了什么**：`README.md` / `README_cn.md` 的 Gatsby 行子项目列改为「—」；全局 `agents-registry.md` 子项目映射表删除该行，移入「已移出名册的子项目」并写明原因与恢复条件（先拆分 / 脱敏再转 public）。
+- **校验**：`roster-sync-check.py` 两份 README 均报「名册与 registry 一致」。
+
 ### 变更（团队仓库改为 public：dotfiles / ToolCallingRules）
 
 - **为什么改**：用户 2026-11-02 立规「团队项目一律用公开仓库，私有仓库不得入队」。两个仓库先做了敏感信息检查：`gitleaks detect` 全历史扫描（dotfiles 5 个提交 / ToolCallingRules 7 个提交）零命中；AI 语义复查为纯配置与规则文档，无凭证、无个人 / 第三方隐私、无财务信息——判定可公开。
