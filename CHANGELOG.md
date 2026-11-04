@@ -10,6 +10,12 @@
 
 ## [未发布]
 
+### 修复（traffic 定时刷新被 main 保护卡住）
+
+- **为什么改**：2026-11-02 起本仓库 main 上了分支保护（PR 必过 + required check `validate` + `strict` + 只允许 squash），而 `traffic` 工作流是「采集脚本跑完直接 `git push` 到 main」：2026-11-03、11-04 的两次定时运行都被 `GH006: Protected branch update failed` 拒绝，于是每天一封 Run failed 邮件，同时流量徽章的数据也从 11-02 起停止更新。`traffic/badges/*.json` 被全团队 59 份 README 的 shields.io 徽章引用，不能停。
+- **改了什么**：`.github/workflows/traffic.yml` 的提交步骤改成走 PR 通道——数据先推到固定分支 `chore/traffic-data`（每次都用最新 main 重新起分支、force-push，保证 PR 在 strict 模式下始终是最新的），再复用同一个 PR 并开启 auto-merge（squash）；`validate` 通过后自动合入 main，数据照旧落在 `traffic/` 下，徽章 URL 不需要改。另显式声明 `contents: write` 与 `pull-requests: write` 两项权限。没有 changes 时直接跳过，不建空 PR。
+- **边界**：只动提交方式，采集逻辑（`scripts/update_traffic.py`）、数据文件、徽章 URL、触发频率（每天一次）全部不变；脚本本身报错时任务仍会失败（那是真问题，应当报出来）。
+
 ### 变更（名册移除 Gatsby 的 xhs-mentor-scam）
 
 - **为什么改**：2026-11-02 用户立规「团队项目一律 public，私有仓库不得入队」。`xhs-mentor-scam` 仓库含第三方个人信息（合同、私信截图、真实姓名、举报材料），不能公开；用户决定按方案 A 移出团队名册，保留为私人项目。
