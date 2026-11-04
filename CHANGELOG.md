@@ -10,6 +10,13 @@
 
 ## [未发布]
 
+### 变更（停用 traffic 采集）
+
+- **为什么改**：用户 2026-11-04 明确「traffic 采集功能可以关掉，不需要了」。
+- **改了什么**：`gh workflow disable traffic.yml` 把该工作流置为 `disabled_manually`（文件保留未删，日后需要时一行命令即可重新开启）。自此刻起不再有定时运行——既不采数据，也不再每天建一个 bot PR。
+- **后果（写在这里免得后人误解）**：① `traffic/**/*.json` 与 `traffic/badges/*.json` 停在 2026-11-04 的数值；② 全团队 23 个仓库的 README 里那枚 shields.io 访问量徽章仍能正常显示，但显示的是**冻结的历史值**（徽章文案写的「Visits/day (14d)」由此名不副实）；③ 采集脚本 `scripts/update_traffic.py` 与数据文件都保留，随时可恢复。
+- **待定**：徽章是摘掉还是留着当历史快照，等用户决定；若摘，涉及 23 个仓库各 2 个 README，需按仓库归属逐个走 PR。
+
 ### 修复（traffic 定时刷新被 main 保护卡住）
 
 - **为什么改**：2026-11-02 起本仓库 main 上了分支保护（PR 必过 + required check `validate` + `strict` + 只允许 squash），而 `traffic` 工作流是「采集脚本跑完直接 `git push` 到 main」：2026-11-03、11-04 的两次定时运行都被 `GH006: Protected branch update failed` 拒绝，于是每天一封 Run failed 邮件，同时流量徽章的数据也从 11-02 起停止更新。`traffic/badges/*.json` 被全团队 59 份 README 的 shields.io 徽章引用，不能停。
