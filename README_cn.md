@@ -14,7 +14,6 @@
 &nbsp;
 <a href="https://github.com/sponsors/xhqing"><img src="https://img.shields.io/badge/💝-Sponsor%20Me-ff69b4?style=flat-square&logo=github-sponsors" alt="Sponsor" /></a>
 &nbsp;
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xhqing/xhqing/main/traffic/badges/profile.json" alt="Profile Visits/day (14d)" />
 
 </div>
 
