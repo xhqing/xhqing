@@ -23,7 +23,7 @@
 
 这是一家 OPC 一人公司：我亲自管理整个智能体组织——除我之外全员为 AI Agent。
 
-**完整名册**（CEO → 五位直属 + 三个小组 · 21 个专岗 Agent）——成员职称 / 项目仓库、拟人化名称、宿主机与负责的子项目一览：
+**完整名册**（CEO → 五位直属 + 三个小组 · 17 个专岗 Agent）——成员职称 / 项目仓库、拟人化名称、宿主机与负责的子项目一览：
 
 <table>
   <tr>
@@ -48,7 +48,7 @@
     <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>总经理助理</td>
     <td>👩‍💼 <b>Kit</b></td>
     <td>macmini&amp;macbook</td>
-    <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> —— 本个人主页仓库<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> —— macOS 后台小工具：在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台把 VSCode 私有剪贴板格式转成系统格式）<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> —— pi 的火山方舟（Agent Plan）多 Key 池扩展：额度耗尽 / Key 失效时自动切到下一个，冷却状态跨进程共享<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> —— 一条命令连上 Mac mini 的 tmux：会话名自动编号，可按名字断线重连，或直接接回最近一次用过的会话<br/>🌐 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> —— 个人配置文件仓库：按 App 分目录，配置实体只存仓库一份、安装时软链到系统位置，换新机器 clone 后跑一次安装脚本即可恢复（目前收录 Ghostty 与 cmux）</td>
+    <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> —— 本个人主页仓库<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> —— macOS 后台小工具：在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台把 VSCode 私有剪贴板格式转成系统格式）<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> —— pi 的火山方舟（Agent Plan）多 Key 池扩展：额度耗尽 / Key 失效时自动切到下一个，冷却状态跨进程共享<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> —— 一条命令连上 Mac mini 的 tmux：会话名自动编号，可按名字断线重连，或直接接回最近一次用过的会话<br/>🌐 <a href="https://github.com/xhqing/TeamToolkit">TeamToolkit</a> —— 全团队通用能力底座的开源出口：仓库里的 `pi/agent/` 逐字节镜像全局 `~/.pi/agent/`（规则 / 技能 / 扩展 / 脚本 / 文档），由 Mac mini 单向生成并发布（原 CapabilityManagerAgent，2026-11-05 降级为普通项目并更名）<br/>🌐 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> —— 个人配置文件仓库：按 App 分目录，配置实体只存仓库一份、安装时软链到系统位置，换新机器 clone 后跑一次安装脚本即可恢复（目前收录 Ghostty 与 cmux）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>社媒运营官</td>
@@ -129,12 +129,6 @@
     <td>—</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a><br/>通用能力管家</td>
-    <td>🧰 <b>Prometheus</b></td>
-    <td>macmini&amp;macbook</td>
-    <td>—</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/xhqing/TestEngineerAgent">TestEngineerAgent</a><br/>软件测试工程师</td>
     <td>🐞 <b>Hopper</b></td>
     <td>macmini&amp;macbook</td>
@@ -151,7 +145,7 @@
 - **🖱️ cuAgent（电脑操作员）—— 直属用户，不属任何小组。**计算机操作用户代理：用 computer-use 能力代替用户操作本机电脑界面（看屏幕 / 点击 / 输入 / 拖拽），能力仅限其项目内启用。
 - **🛍️ 数字产品销售小组** —— 六段流水线（Scout → Wright → Mason → Buzz → Vendy → Echo）把一次性的产出变成持续到手的被动收入，详见下文。
 - **📈 投资与交易小组** —— **Mark** 开发并回测量化策略；**Victor** 是日内交易员。
-- **🧰 基础设施小组** —— **Prometheus** 负责开源全团队共享的通用能力（全局 CLAUDE.md、skills、rules）；**Anvil** 负责后端开发；**Atlas** 负责全栈项目（含代理工具链）；**Ada** 负责 AI Agent 算法与推理引擎；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
+- **🧰 基础设施小组** —— **Anvil** 负责后端开发；**Atlas** 负责全栈项目（含代理工具链）；**Ada** 负责 AI Agent 算法与推理引擎；**Hopper** 负责全团队软件项目的回归防护网——开发前先写验收测试用例、合并前 CI 红灯门禁，把「改 A 坏 B」拦在进主干之前。
 
 ---
 
@@ -177,12 +171,12 @@
 有意思的不是名册本身，而是 agent 之间的运转机制：
 
 - **📦 产物交接。** 工作以「定义清晰的交付物」在 agent 之间流转，不是聊天：Scout 的《机会研判报告》喂给 Wright 做产品，Mason 建成的阵地把可售链接交给 Buzz，Vendy 的销售数据进入 Echo 的归因引擎。每个 agent 拥有一份输出契约，流水线就是这些契约的总和。
-- **🧰 共享能力层。** 由一个 agent（Prometheus）治理全员运行所依赖的能力——全局 skills、rules、CLAUDE.md——单一权威源 + 开源镜像作为分发出口。一处修复落地，涟漪扩散到全部 20+ 个 agent。
+- **🧰 共享能力层。** 全员运行所依赖的能力——全局 skills、rules、CLAUDE.md——只存单一权威源，以开源镜像作为分发出口。这项工作原先由一位 agent（Prometheus）承担；2026-11-05 起该角色注销、项目降级为 Kit 名下的普通项目 **TeamToolkit**，镜像改由脚本单向生成并发布。一处修复落地，涟漪扩散到全部 17 个 agent。
 - **🧠 推理引擎作为基础设施。** 专用的推理引擎规则（Infinite / Rapid / Incisive，由 Ada 维护）加上评测体系，托底每一个 agent 的思考——推理深度被当作共享基础设施对待，而不是各 agent 各自即兴。
 - **🐞 三权分立的质量门禁。** 开发 agent 持有实现权，Hopper 持有用例定义权，CI 持有裁决权——开发者不能为了让实现通过而改动用例，「改 A 坏 B」在合并前被拦下，而不是合并后。
 - **⚖️ 合同与收款是一等职能。** Justin 为组织卖出或签署的每一笔交易设计分期收款、交易对手尽调和证据链——组织把法务与收款设计当作工程学科，而不是事后补救。
 
-**数字一览：** 20+ 专岗 Agent · 3 个业务小组 · 5 位直属成员 · 6 段销售流水线 · 200+ 公开仓库。
+**数字一览：** 17 个专岗 Agent · 3 个业务小组 · 5 位直属成员 · 6 段销售流水线 · 200+ 公开仓库。
 
 ---
 
