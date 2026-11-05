@@ -10,6 +10,12 @@
 
 ## [未发布]
 
+### 变更（名册同步：CapabilityManagerAgent 降级更名 TeamToolkit）
+
+- **为什么改**：用户 2026-11-05 决定把原 CapabilityManagerAgent（智能体 Prometheus，通用能力管家）**降级为普通项目并更名 TeamToolkit**、归 Kit 负责，Prometheus 角色注销（团队 agent 数 21 → 17）。全局 `docs/agents-registry.md` 已同批更新（智能体表移除该行、子项目映射表挂到 ExecutiveAssistantAgent 名下、记入「已除名的 Agent」），按 2026-10-26 立的名册同步规则，本仓库名册必须在同一批里改齐。
+- **改了什么**（`README.md` + `README_cn.md` 双语同步）：① 名册表删除 CapabilityManagerAgent / Prometheus 一行；② Kit 的子项目单元格新增 TeamToolkit（一句话说清它是全局 `~/.pi/agent` 的逐字节开源镜像、由 Mac mini 单向发布）；③ 基础设施小组一句话里去掉 Prometheus，共享能力层那段改为「原先由 agent 承担、2026-11-05 起降级为 Kit 名下的普通项目」；④ Agent 计数修正为 17（表头与「数字一览」两处，原来写的 21 / 20+ 早已滞后）。
+- **回归检查**：只动名册表与描述段，其它章节零改动；`roster-sync-check.py` 差异从 4 项归零。
+
 ### 变更（移除访问量徽章，配合停用集中式流量采集）
 
 - **为什么改**：用户 2026-11-04 决定停用 xhqing 仓库的集中式访问量采集，同时不再在各仓库 README 展示访问量徽章。徽章的数据源必须由采集任务每天刷新，采集停掉之后徽章会冻结在旧值，而徽章文案写的是「Visits/day (14d)」——数字不再更新却仍显示成实时数据，留着反而误导读者。

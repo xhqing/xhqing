@@ -23,7 +23,7 @@
 
 An OPC (one-person company): I personally run the whole agent organization — every member except me is an AI Agent.
 
-**The full roster** (CEO → five direct reports + three squads · 21 specialized agents) — every member with their project repo, persona name, host machine, and subprojects:
+**The full roster** (CEO → five direct reports + three squads · 17 specialized agents) — every member with their project repo, persona name, host machine, and subprojects:
 
 <table>
   <tr>
@@ -48,7 +48,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>Executive Assistant</td>
     <td>👩‍💼 <b>Kit</b></td>
     <td>macmini&amp;macbook</td>
-    <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> — this profile repository<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> — macOS background helper: files copied in the VSCode explorer can be pasted into Finder / WeChat / any app (converts VSCode's private clipboard format to the system one)<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> — pi extension that keeps a pool of Volcano Ark (Agent Plan) API keys and switches to the next one automatically when quota or validity runs out (cooldown shared across processes)<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> — one command to reach tmux on the Mac mini: session names are numbered automatically, reconnect by name, or attach to the most recent session<br/>🌐 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> — personal config backup: one directory per app, the config file in the repo is the single source of truth and is symlinked into place, so setting up a new machine is a clone plus one install script (Ghostty and cmux today)</td>
+    <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> — this profile repository<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> — macOS background helper: files copied in the VSCode explorer can be pasted into Finder / WeChat / any app (converts VSCode's private clipboard format to the system one)<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> — pi extension that keeps a pool of Volcano Ark (Agent Plan) API keys and switches to the next one automatically when quota or validity runs out (cooldown shared across processes)<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> — one command to reach tmux on the Mac mini: session names are numbered automatically, reconnect by name, or attach to the most recent session<br/>🌐 <a href="https://github.com/xhqing/TeamToolkit">TeamToolkit</a> — the open-source distribution of the capability layer every agent runs on: its `pi/agent/` directory mirrors the global `~/.pi/agent/` (rules, skills, extensions, scripts, docs) byte for byte, published one-way from the Mac mini (formerly CapabilityManagerAgent; demoted to a plain project on 2026-11-05)<br/>🌐 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> — personal config backup: one directory per app, the config file in the repo is the single source of truth and is symlinked into place, so setting up a new machine is a clone plus one install script (Ghostty and cmux today)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>Social Media Manager</td>
@@ -129,12 +129,6 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td>—</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/CapabilityManagerAgent">CapabilityManagerAgent</a><br/>Capability Steward</td>
-    <td>🧰 <b>Prometheus</b></td>
-    <td>macmini&amp;macbook</td>
-    <td>—</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/xhqing/TestEngineerAgent">TestEngineerAgent</a><br/>Test Engineer</td>
     <td>🐞 <b>Hopper</b></td>
     <td>macmini&amp;macbook</td>
@@ -151,7 +145,7 @@ The team is organized into three squads by domain, with five direct reports outs
 - **🖱️ cuAgent (Computer Operator) — direct report, not in any squad.** A dedicated computer-use agent: it operates the local computer GUI for the user (reading screens, clicking, typing, dragging) through the computer-use MCP, scoped to its own project.
 - **🛍️ Digital-product sales squad** — the six-stage pipeline (Scout → Wright → Mason → Buzz → Vendy → Echo) turns one-time work into recurring passive income — see the dedicated section below.
 - **📈 Investing & trading squad** — **Mark** develops and backtests quant strategies; **Victor** is the day trader.
-- **🧰 Infrastructure squad** — **Prometheus** open-sources the capabilities the whole team shares (global CLAUDE.md, skills, rules); **Anvil** handles backend development; **Atlas** handles full-stack projects (including the proxy toolchain); **Ada** covers AI Agent algorithms and reasoning engines; **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
+- **🧰 Infrastructure squad** — **Anvil** handles backend development; **Atlas** handles full-stack projects (including the proxy toolchain); **Ada** covers AI Agent algorithms and reasoning engines; **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
 
 ---
 
@@ -177,12 +171,12 @@ The team is organized into three squads by domain, with five direct reports outs
 The interesting part is not the roster — it's the machinery between the agents:
 
 - **📦 Artifact handoff.** Work moves between agents as defined deliverables, not chat: Scout's *Opportunity Report* feeds Wright's product build, Mason's storefront (site, landing page, or payment setup) hands Buzz ready-to-sell links, Vendy's sales data lands in Echo's attribution engine. Each agent owns an output contract; the pipeline is the sum of those contracts.
-- **🧰 Shared capability layer.** One agent (Prometheus) stewards the capabilities every agent runs on — global skills, rules, and CLAUDE.md — from a single authoritative source, with an open-source mirror as the distribution channel. A fix lands once and ripples to all 20+ agents.
+- **🧰 Shared capability layer.** The capabilities every agent runs on — global skills, rules, and CLAUDE.md — live in a single authoritative source, with an open-source mirror as the distribution channel. This used to be an agent's job (Prometheus); since 2026-11-05 that role is retired and the project is a plain project under Kit — **TeamToolkit** — whose mirror is generated and published one-way by a script. A fix lands once and ripples to all 17 agents.
 - **🧠 Reasoning as infrastructure.** Specialized reasoning-engine rules (Infinite / Rapid / Incisive, by Ada) plus an evaluation system sit under every agent's thinking — reasoning depth is treated as shared infrastructure, not per-agent improvisation.
 - **🐞 Quality gates with separation of powers.** Development agents hold implementation rights, Hopper holds test-case definition rights, and CI holds the final say — developers can't bend test cases to fit their implementation, and "fix A, break B" gets stopped before merge, not after.
 - **⚖️ Contracts & payments as a first-class function.** Justin structures staged payments, due diligence and evidence chains for anything the org sells or signs — the org treats legal/payment design as an engineering discipline, not an afterthought.
 
-**By the numbers:** 20+ specialized agents · 3 business squads · 5 direct reports · 6 pipeline stages · 200+ public repositories.
+**By the numbers:** 17 specialized agents · 3 business squads · 5 direct reports · 6 pipeline stages · 200+ public repositories.
 
 ---
 
