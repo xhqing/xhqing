@@ -10,6 +10,12 @@
 
 ## [未发布]
 
+### 新增（子项目专属规则文件 `.pi/APPEND_SYSTEM.md`）
+
+- **为什么改**：用户 2026-11-07 定下全局 Leader / Worker 分工——子项目的具体活由「以子项目根目录 / 子项目 worktree 为工作目录」的 Worker 会话干，而 pi 只加载 cwd 那一层的 `.pi/`（不向上继承）。子项目专属的硬规则没有别的地方可放：写进 Agent 项目的 `AGENTS.md` 既不会被 Worker 加载，也会污染其它兄弟子项目。
+- **改了什么**：新增 `.pi/APPEND_SYSTEM.md`（33 行），只写本项目特有的硬约束——名册必须与全局 `agents-registry.md` 同批对齐并跑 `roster-sync-check.py`、双语 README 同批同步、名册表是 HTML 表格要护住结构、描述语自己写、徽章只留 License / Version / Type（访问量徽章已取消不得加回）、公开仓库不写敏感信息，以及「无构建无测试、纯文档不发版」。全局规则与 Kit 身份仍来自仓库根 `AGENTS.md` 软链接，文件里不重述、不覆盖。
+- **影响**：纯新增规则文件，不改 README 内容与任何脚本；不涉版本号（文档类改动不发版）。
+
 ### 变更（名册同步：CapabilityManagerAgent 降级更名 TeamToolkit）
 
 - **为什么改**：用户 2026-11-05 决定把原 CapabilityManagerAgent（智能体 Prometheus，通用能力管家）**降级为普通项目并更名 TeamToolkit**、归 Kit 负责，Prometheus 角色注销（团队 agent 数 21 → 17）。全局 `docs/agents-registry.md` 已同批更新（智能体表移除该行、子项目映射表挂到 ExecutiveAssistantAgent 名下、记入「已除名的 Agent」），按 2026-10-26 立的名册同步规则，本仓库名册必须在同一批里改齐。
