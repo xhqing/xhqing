@@ -42,7 +42,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>Quant Strategist</td>
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
-    <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> — grid-trading strategy development &amp; backtesting (Python / backtrader)<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> — intraday-scale strategy research: order-flow (mbo) features, minute-level ML signals, walk-forward validation (Python)<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> — day-K trend-following strategy: fully documented, 20-year × 37-stock backtest (public component of QuantStrategistAgent, split out 2026-09-12)</td>
+    <td>— (no separate repositories; Intraday, Swing and gridtrader were merged into <a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a> as three directories on 2026-11-08)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>Executive Assistant</td>

@@ -42,7 +42,7 @@
     <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>量化策略师</td>
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
-    <td>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> —— 网格交易策略开发及回测工具（Python / backtrader）<br/>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> —— 日内尺度策略研究：订单流（mbo）特征、分钟级 ML 信号、walk-forward 验证（Python）<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> —— 日 K 趋势跟随策略：文档完整，20 年 × 37 只美股回测（QuantStrategistAgent 的公开组件，2026-09-12 拆出）</td>
+    <td>—（无独立子项目仓库；Intraday、Swing、gridtrader 已于 2026-11-08 并入 <a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a>，成为其下三个目录）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>总经理助理</td>
