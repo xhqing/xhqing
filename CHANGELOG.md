@@ -1,5 +1,10 @@
 # Changelog
 
+### 变更（名册同步：五个 Agent 项目按命名新规改名，2026-11-09）
+
+- **为什么改**：用户 2026-11-09 正式规定 agent 项目名一律 `<职责>-agent`（全小写、连字符、前缀尽可能简单）：`assistant` → `assistant-agent`（Kit）、`SocialMediaManagerAgent` → `social-agent`（Gatsby）、`QuantStrategistAgent` → `quant-agent`（Mark）、`DayTradingAgent` → `trading-agent`（Victor）、`ApplyOptimizerAgent` → `apply-agent`（Hopkins）。本仓库名册是全局注册表的公开镜像，必须同批跟上，否则名册指向旧名。
+- **改了什么**：双语 README 名册里这五行的仓库链接与显示名同步改名（职称列不变）；`quant-agent` 行的子项目说明句与 `assistant-agent` 行同步。
+
 本仓库（xhqing）是 GitHub 个人主页仓库，也是 assistant（Kit）的子项目。本 CHANGELOG 记录本仓库的变更。
 
 ### 新增（CI 门禁：validate 检查 + main 分支 strict 保护）
