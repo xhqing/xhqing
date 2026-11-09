@@ -1,6 +1,6 @@
 # xhqing
 
-> assistant（Kit）名下的子项目 · 本项目规则本体
+> assistant-agent（Kit）名下的子项目 · 本项目规则本体
 
 GitHub 个人主页仓库（github.com/xhqing/xhqing），对外展示团队名册与个人介绍。内容只有两份 README（中英各一）加 `VERSION` 与 `CHANGELOG.md`；没有源码、没有构建、没有测试。
 
