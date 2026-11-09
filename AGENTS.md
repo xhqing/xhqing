@@ -1,12 +1,12 @@
 # xhqing
 
-> ExecutiveAssistantAgent（Kit）名下的子项目 · 本项目规则本体
+> assistant（Kit）名下的子项目 · 本项目规则本体
 
 GitHub 个人主页仓库（github.com/xhqing/xhqing），对外展示团队名册与个人介绍。内容只有两份 README（中英各一）加 `VERSION` 与 `CHANGELOG.md`；没有源码、没有构建、没有测试。
 
 ## 归谁负责
 
-本项目由 **Kit**（ExecutiveAssistantAgent）负责维护。改动范围跨出本项目时，先向 Kit 说明，不自行扩张改动面。
+本项目由 **Kit**（assistant）负责维护。改动范围跨出本项目时，先向 Kit 说明，不自行扩张改动面。
 
 ## 你的角色
 

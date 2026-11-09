@@ -1,6 +1,6 @@
 # Changelog
 
-本仓库（xhqing）是 GitHub 个人主页仓库，也是 ExecutiveAssistantAgent（Kit）的子项目。本 CHANGELOG 记录本仓库的变更。
+本仓库（xhqing）是 GitHub 个人主页仓库，也是 assistant（Kit）的子项目。本 CHANGELOG 记录本仓库的变更。
 
 ### 新增（CI 门禁：validate 检查 + main 分支 strict 保护）
 
@@ -9,6 +9,11 @@
 - **边界**：检查只做确定性、低误报的项目（required check 一旦误报就会卡住正常 PR，所以宁可少查）；不改动仓库任何原有内容。
 
 ## [未发布]
+
+### 变更（名册同步：Kit 项目更名为 assistant，2026-11-09）
+
+- **为什么改**：Kit 的 Agent 项目 2026-11-09 由 `ExecutiveAssistantAgent` 更名为 `assistant`——项目名只求「尽可能简单、能体现主要职责」，不再要求以 `Agent` 结尾；项目性质改由 `README.md` 的 `Type-AI Agent` 徽章判定，与名字无关。本仓库是 Kit 名下子项目，名册与归属说明里指代该项目的名字必须同步，否则名册链接与规则索引会指向旧名。
+- **改了什么**：双语 README 名册里 Kit 项目行的链接与显示名（`https://github.com/xhqing/ExecutiveAssistantAgent` / `ExecutiveAssistantAgent` → `https://github.com/xhqing/assistant` / `assistant`，职称 Executive Assistant / 总经理助理 不变）；`AGENTS.md` 的归属说明与本 CHANGELOG 文件的说明句同步改名。
 
 ### 新增（子项目专属规则文件 `.pi/APPEND_SYSTEM.md`）
 
