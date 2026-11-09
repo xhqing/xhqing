@@ -1,5 +1,9 @@
 # Changelog
 
+### 变更（补充：AGENTS.md 归属说明改为 assistant-agent，2026-11-09）
+
+- **改了什么**：上一轮名册同步（#21）只改了双语 README，`AGENTS.md` 的归属说明还写着 `assistant（Kit）`，本次补成 `assistant-agent（Kit）`（Kit 的 Agent 项目按 2026-11-09 命名新规定名 `assistant-agent`）。
+
 ### 变更（名册同步：五个 Agent 项目按命名新规改名，2026-11-09）
 
 - **为什么改**：用户 2026-11-09 正式规定 agent 项目名一律 `<职责>-agent`（全小写、连字符、前缀尽可能简单）：`assistant` → `assistant-agent`（Kit）、`SocialMediaManagerAgent` → `social-agent`（Gatsby）、`QuantStrategistAgent` → `quant-agent`（Mark）、`DayTradingAgent` → `trading-agent`（Victor）、`ApplyOptimizerAgent` → `apply-agent`（Hopkins）。本仓库名册是全局注册表的公开镜像，必须同批跟上，否则名册指向旧名。
