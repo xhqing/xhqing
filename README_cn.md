@@ -45,7 +45,7 @@
     <td>—（无独立子项目仓库；Intraday、Swing、gridtrader 已于 2026-11-08 并入 <a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a>，成为其下三个目录）</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/ExecutiveAssistantAgent">ExecutiveAssistantAgent</a><br/>总经理助理</td>
+    <td><a href="https://github.com/xhqing/assistant">assistant</a><br/>总经理助理</td>
     <td>👩‍💼 <b>Kit</b></td>
     <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> —— 本个人主页仓库<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> —— macOS 后台小工具：在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台把 VSCode 私有剪贴板格式转成系统格式）<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> —— pi 的火山方舟（Agent Plan）多 Key 池扩展：额度耗尽 / Key 失效时自动切到下一个，冷却状态跨进程共享<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> —— 一条命令连上 Mac mini 的 tmux：会话名自动编号，可按名字断线重连，或直接接回最近一次用过的会话<br/>🌐 <a href="https://github.com/xhqing/TeamToolkit">TeamToolkit</a> —— 全团队通用能力底座的开源出口：仓库里的 `pi/agent/` 逐字节镜像全局 `~/.pi/agent/`（规则 / 技能 / 扩展 / 脚本 / 文档），由 Mac mini 单向生成并发布（原 CapabilityManagerAgent，2026-11-05 降级为普通项目并更名）<br/>🌐 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> —— 个人配置文件仓库：按 App 分目录，配置实体只存仓库一份、安装时软链到系统位置，换新机器 clone 后跑一次安装脚本即可恢复（目前收录 Ghostty 与 cmux）</td>
