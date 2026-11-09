@@ -39,25 +39,25 @@
     <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> —— VSCode 状态栏一键唤起 Ghostty 终端的扩展（零依赖，仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> —— 全屏打开 VSCode 的 CLI 小工具（自动全屏 + 目标窗口置顶，bash + osascript、仅 macOS）<br/>🌐 <a href="https://github.com/xhqing/pi-harness">pi-harness</a> —— Pi agent harness 独立分叉仓库：coding agent CLI / agent 运行时 / 统一多供应商 LLM API / TUI 组件库（TypeScript monorepo）<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> —— Ghostty 终端独立分叉仓库：v1.3.1 基线 +「Cmd+V 粘贴剪贴板图片为路径」补丁，GitHub Actions 云构建<br/>🌐 <a href="https://github.com/xhqing/cmux">cmux</a> —— cmux 终端（基于 Ghostty 的 macOS 终端、面向 AI coding agents）的独立分叉仓库：以上游 release tag 为基线，叠加我们自己的关闭确认行为，随上游 tag 持续同步<br/>🌐 <a href="https://github.com/xhqing/turn-diff">turn-diff</a> —— 看「这一轮 AI 改了什么」的 pi 扩展 + 命令行：每轮记 git 基线、轮次结束算增量（会话里 `/turn-diff`、终端里 `turn-diff`），纯 git<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> —— VSCode 视频播放扩展：编辑器标签页内带音频播放视频，内置 ffmpeg WebAssembly 做解码与格式转码<br/>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> —— Xray-core 节点管理 CLI（Python）</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a><br/>量化策略师</td>
+    <td><a href="https://github.com/xhqing/quant-agent">quant-agent</a><br/>量化策略师</td>
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
-    <td>—（无独立子项目仓库；Intraday、Swing、gridtrader 已于 2026-11-08 并入 <a href="https://github.com/xhqing/QuantStrategistAgent">QuantStrategistAgent</a>，成为其下三个目录）</td>
+    <td>—（无独立子项目仓库；Intraday、Swing、gridtrader 已于 2026-11-08 并入 <a href="https://github.com/xhqing/quant-agent">quant-agent</a>，成为其下三个目录）</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/assistant">assistant</a><br/>总经理助理</td>
+    <td><a href="https://github.com/xhqing/assistant-agent">assistant-agent</a><br/>总经理助理</td>
     <td>👩‍💼 <b>Kit</b></td>
     <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> —— 本个人主页仓库<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> —— macOS 后台小工具：在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台把 VSCode 私有剪贴板格式转成系统格式）<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> —— pi 的火山方舟（Agent Plan）多 Key 池扩展：额度耗尽 / Key 失效时自动切到下一个，冷却状态跨进程共享<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> —— 一条命令连上 Mac mini 的 tmux：会话名自动编号，可按名字断线重连，或直接接回最近一次用过的会话<br/>🌐 <a href="https://github.com/xhqing/TeamToolkit">TeamToolkit</a> —— 全团队通用能力底座的开源出口：仓库里的 `pi/agent/` 逐字节镜像全局 `~/.pi/agent/`（规则 / 技能 / 扩展 / 脚本 / 文档），由 Mac mini 单向生成并发布（原 CapabilityManagerAgent，2026-11-05 降级为普通项目并更名）<br/>🌐 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> —— 个人配置文件仓库：按 App 分目录，配置实体只存仓库一份、安装时软链到系统位置，换新机器 clone 后跑一次安装脚本即可恢复（目前收录 Ghostty 与 cmux）</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/SocialMediaManagerAgent">SocialMediaManagerAgent</a><br/>社媒运营官</td>
+    <td><a href="https://github.com/xhqing/social-agent">social-agent</a><br/>社媒运营官</td>
     <td>🥂 <b>Gatsby</b></td>
     <td>macmini&amp;macbook</td>
     <td>—</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/DayTradingAgent">DayTradingAgent</a><br/>日内交易员</td>
+    <td><a href="https://github.com/xhqing/trading-agent">trading-agent</a><br/>日内交易员</td>
     <td>📈 <b>Victor</b></td>
     <td>macmini&amp;macbook</td>
     <td>🌐 <a href="https://github.com/xhqing/TradingProofs">TradingProofs</a> —— 交易数学的 Lean 4 + Mathlib 机器可验证证明（固定比例下注的累计增长率 / 强数定律 / 凯利最优 f*）</td>
@@ -75,7 +75,7 @@
     <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> —— 深度推理引擎规则集（Infinite / Rapid / Incisive）<br/>🌐 <a href="https://github.com/xhqing/ToolCallingRules">ToolCallingRules</a> —— LLM 工具调用规则集（22 条规则 / 7 类，注入 system prompt 以减少 function calling 的参数格式错误与不安全重试）</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/ApplyOptimizerAgent">ApplyOptimizerAgent</a><br/>投递转化率优化师</td>
+    <td><a href="https://github.com/xhqing/apply-agent">apply-agent</a><br/>投递转化率优化师</td>
     <td>🎯 <b>Hopkins</b></td>
     <td>macmini&amp;macbook</td>
     <td>—</td>
