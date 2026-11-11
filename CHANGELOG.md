@@ -1,5 +1,10 @@
 # Changelog
 
+### 变更（名册同步：blog 子项目由 Kit 移交 social-agent，2026-11-11）
+
+- **为什么改**：用户 2026-11-11 把 `xhqing/blog`（博客「藏经阁」）从 Kit 名下移交到 social-agent（Gatsby），并成为活跃子项目。本仓库名册是全局注册表的公开镜像，不同步就会继续显示 social-agent「无子项目」。
+- **改了什么**：双语 README 名册里 social-agent 那一行的子项目列由 `—` 改为 `🌐 blog`（含一行说明：docsify 站点、文章从 social-agent 的文章目录自动同步、草稿也发）；其余行不动。本仓库的归属（assistant-agent / Kit）不受影响——只是 Kit 不再负责 blog 这个子项目。
+
 ### 变更（补充：AGENTS.md 归属说明改为 assistant-agent，2026-11-09）
 
 - **改了什么**：上一轮名册同步（#21）只改了双语 README，`AGENTS.md` 的归属说明还写着 `assistant（Kit）`，本次补成 `assistant-agent（Kit）`（Kit 的 Agent 项目按 2026-11-09 命名新规定名 `assistant-agent`）。

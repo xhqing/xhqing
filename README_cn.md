@@ -54,7 +54,7 @@
     <td><a href="https://github.com/xhqing/social-agent">social-agent</a><br/>社媒运营官</td>
     <td>🥂 <b>Gatsby</b></td>
     <td>macmini&amp;macbook</td>
-    <td>—</td>
+    <td>🌐 <a href="https://github.com/xhqing/blog">blog</a> — 个人博客「藏经阁」，docsify 站点，线上 xhqing.github.io/blog；文章从 social-agent 的文章目录自动同步，草稿也发</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/trading-agent">trading-agent</a><br/>日内交易员</td>
