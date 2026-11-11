@@ -1,5 +1,10 @@
 # Changelog
 
+### 变更（名册同步：TeamToolkit 更名为 agents-infra，2026-11-11）
+
+- **为什么改**：用户 2026-11-11 把 Kit 名下的子项目 `TeamToolkit` 更名为 `agents-infra`——原名字读起来像某个 agent 的专属工具箱，看不出它是全队 17 个 agent 共用的基础设施。本仓库名册是全局注册表的公开镜像（名册同步规则：registry 改动必须同批改齐双语 README），不同步就会继续指向旧名。
+- **改了什么**：双语 README 名册里 Kit 那一行的子项目链接与名称由 `TeamToolkit` 改为 `agents-infra`，说明里补名字沿革（CapabilityManagerAgent → 2026-11-05 更名 TeamToolkit → 2026-11-11 更名 agents-infra）；「共享能力层」一段里的项目名同步改为 `agents-infra`。旧仓库地址由 GitHub 自动重定向，链路不断。
+
 ### 变更（名册同步：blog 子项目由 Kit 移交 social-agent，2026-11-11）
 
 - **为什么改**：用户 2026-11-11 把 `xhqing/blog`（博客「藏经阁」）从 Kit 名下移交到 social-agent（Gatsby），并成为活跃子项目。本仓库名册是全局注册表的公开镜像，不同步就会继续显示 social-agent「无子项目」。
