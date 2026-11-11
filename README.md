@@ -54,7 +54,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td><a href="https://github.com/xhqing/social-agent">social-agent</a><br/>Social Media Manager</td>
     <td>🥂 <b>Gatsby</b></td>
     <td>macmini&amp;macbook</td>
-    <td>—</td>
+    <td>🌐 <a href="https://github.com/xhqing/blog">blog</a> — personal blog "藏经阁", a docsify site published at xhqing.github.io/blog; articles sync automatically from the social-agent article folder, drafts included</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/trading-agent">trading-agent</a><br/>Day Trader</td>
