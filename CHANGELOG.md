@@ -1,5 +1,10 @@
 # Changelog
 
+### 变更（共享能力层不再包含 CLAUDE.md，2026-11-11）
+
+- **为什么改**：用户 2026-11-11 定：团队只用 pi，其它 harness 的规则文件（`CLAUDE.md`、`.claude/`）一律不维护。名册页「共享能力层」段落仍把 `CLAUDE.md` 说成能力层的一部分，属于过期且与现行规则相反的描述。
+- **改了什么**：双语 README 那句「全局 skills、rules、CLAUDE.md」改为「全局 skills、rules」；其余表述不动。
+
 ### 变更（名册同步：TeamToolkit 更名为 agents-infra，2026-11-11）
 
 - **为什么改**：用户 2026-11-11 把 Kit 名下的子项目 `TeamToolkit` 更名为 `agents-infra`——原名字读起来像某个 agent 的专属工具箱，看不出它是全队 17 个 agent 共用的基础设施。本仓库名册是全局注册表的公开镜像（名册同步规则：registry 改动必须同批改齐双语 README），不同步就会继续指向旧名。
