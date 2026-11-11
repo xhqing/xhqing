@@ -48,7 +48,7 @@
     <td><a href="https://github.com/xhqing/assistant-agent">assistant-agent</a><br/>总经理助理</td>
     <td>👩‍💼 <b>Kit</b></td>
     <td>macmini&amp;macbook</td>
-    <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> —— 本个人主页仓库<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> —— macOS 后台小工具：在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台把 VSCode 私有剪贴板格式转成系统格式）<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> —— pi 的火山方舟（Agent Plan）多 Key 池扩展：额度耗尽 / Key 失效时自动切到下一个，冷却状态跨进程共享<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> —— 一条命令连上 Mac mini 的 tmux：会话名自动编号，可按名字断线重连，或直接接回最近一次用过的会话<br/>🌐 <a href="https://github.com/xhqing/TeamToolkit">TeamToolkit</a> —— 全团队通用能力底座的开源出口：仓库里的 `pi/agent/` 逐字节镜像全局 `~/.pi/agent/`（规则 / 技能 / 扩展 / 脚本 / 文档），由 Mac mini 单向生成并发布（原 CapabilityManagerAgent，2026-11-05 降级为普通项目并更名）<br/>🌐 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> —— 个人配置文件仓库：按 App 分目录，配置实体只存仓库一份、安装时软链到系统位置，换新机器 clone 后跑一次安装脚本即可恢复（目前收录 Ghostty 与 cmux）</td>
+    <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> —— 本个人主页仓库<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> —— macOS 后台小工具：在 VSCode 资源管理器复制的文件可直接粘贴到 Finder / 微信 / 浏览器等任意 App（后台把 VSCode 私有剪贴板格式转成系统格式）<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> —— pi 的火山方舟（Agent Plan）多 Key 池扩展：额度耗尽 / Key 失效时自动切到下一个，冷却状态跨进程共享<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> —— 一条命令连上 Mac mini 的 tmux：会话名自动编号，可按名字断线重连，或直接接回最近一次用过的会话<br/>🌐 <a href="https://github.com/xhqing/agents-infra">agents-infra</a> —— 全团队通用能力底座的开源出口：仓库里的 `pi/agent/` 逐字节镜像全局 `~/.pi/agent/`（规则 / 技能 / 扩展 / 脚本 / 文档），由 Mac mini 单向生成并发布（原 CapabilityManagerAgent，2026-11-05 降级为普通项目并更名）<br/>🌐 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> —— 个人配置文件仓库：按 App 分目录，配置实体只存仓库一份、安装时软链到系统位置，换新机器 clone 后跑一次安装脚本即可恢复（目前收录 Ghostty 与 cmux）</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/social-agent">social-agent</a><br/>社媒运营官</td>
@@ -171,7 +171,7 @@
 有意思的不是名册本身，而是 agent 之间的运转机制：
 
 - **📦 产物交接。** 工作以「定义清晰的交付物」在 agent 之间流转，不是聊天：Scout 的《机会研判报告》喂给 Wright 做产品，Mason 建成的阵地把可售链接交给 Buzz，Vendy 的销售数据进入 Echo 的归因引擎。每个 agent 拥有一份输出契约，流水线就是这些契约的总和。
-- **🧰 共享能力层。** 全员运行所依赖的能力——全局 skills、rules、CLAUDE.md——只存单一权威源，以开源镜像作为分发出口。这项工作原先由一位 agent（Prometheus）承担；2026-11-05 起该角色注销、项目降级为 Kit 名下的普通项目 **TeamToolkit**，镜像改由脚本单向生成并发布。一处修复落地，涟漪扩散到全部 17 个 agent。
+- **🧰 共享能力层。** 全员运行所依赖的能力——全局 skills、rules——只存单一权威源，以开源镜像作为分发出口。这项工作原先由一位 agent（Prometheus）承担；2026-11-05 起该角色注销、项目降级为 Kit 名下的普通项目 **agents-infra**，镜像改由脚本单向生成并发布。一处修复落地，涟漪扩散到全部 17 个 agent。
 - **🧠 推理引擎作为基础设施。** 专用的推理引擎规则（Infinite / Rapid / Incisive，由 Ada 维护）加上评测体系，托底每一个 agent 的思考——推理深度被当作共享基础设施对待，而不是各 agent 各自即兴。
 - **🐞 三权分立的质量门禁。** 开发 agent 持有实现权，Hopper 持有用例定义权，CI 持有裁决权——开发者不能为了让实现通过而改动用例，「改 A 坏 B」在合并前被拦下，而不是合并后。
 - **⚖️ 合同与收款是一等职能。** Justin 为组织卖出或签署的每一笔交易设计分期收款、交易对手尽调和证据链——组织把法务与收款设计当作工程学科，而不是事后补救。

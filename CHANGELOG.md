@@ -1,5 +1,10 @@
 # Changelog
 
+### 变更（名册同步：TeamToolkit 更名 agents-infra，2026-11-11）
+
+- **为什么改**：Kit 名下的能力层项目 2026-11-11 由 `TeamToolkit` 更名为 `agents-infra`（同名 GitHub 仓库已改名，旧 URL 自动重定向），全局注册表已同步；本仓库名册是公开镜像，不同步就会继续指向旧名（`roster-sync` 检查已报不一致）。
+- **改了什么**：双语 README 名册里 assistant-agent 那一行的子项目链接与显示名 `TeamToolkit` → `agents-infra`；同文件第 174 行「共享能力层」段落里的项目名同步，并把「全局 skills、rules、CLAUDE.md」改为「全局 skills、rules」——CLAUDE.md 属于其它 harness 的规则文件，2026-11-11 起团队不再维护其它 harness。
+
 ### 变更（名册同步：blog 子项目由 Kit 移交 social-agent，2026-11-11）
 
 - **为什么改**：用户 2026-11-11 把 `xhqing/blog`（博客「藏经阁」）从 Kit 名下移交到 social-agent（Gatsby），并成为活跃子项目。本仓库名册是全局注册表的公开镜像，不同步就会继续显示 social-agent「无子项目」。
