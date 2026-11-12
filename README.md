@@ -23,115 +23,133 @@
 
 An OPC (one-person company): I personally run the whole agent organization — every member except me is an AI Agent.
 
-**The full roster** (CEO → five direct reports + three squads · 17 specialized agents) — every member with their project repo, persona name, host machine, and subprojects:
+**The full roster** (CEO → five direct reports + three squads · 17 specialized agents) — every member with their project repo, persona name, host machine, team membership, and subprojects:
 
 <table>
   <tr>
     <th>Title · Agent project</th>
     <th>Persona</th>
     <th>Host machine</th>
+    <th>pi-team/dsh-team</th>
     <th>Subprojects (🌐 public · 🔒 private)</th>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/dev-agent">dev-agent</a><br/>Full-stack Engineer</td>
     <td>🗺️ <b>Atlas</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>🌐 <a href="https://github.com/xhqing/ghostty-launcher">ghostty-launcher</a> — one-click Ghostty terminal summon from the VSCode status bar (zero-dependency extension, macOS)<br/>🌐 <a href="https://github.com/xhqing/codef">codef</a> — CLI that opens VSCode full-screen with the target window on top (bash + osascript, macOS only)<br/>🌐 <a href="https://github.com/xhqing/pi-harness">pi-harness</a> — independent fork of the Pi agent harness: coding-agent CLI, agent runtime, unified multi-provider LLM API, TUI components (TypeScript monorepo)<br/>🌐 <a href="https://github.com/xhqing/ghostty">ghostty</a> — independent fork of the Ghostty terminal: v1.3.1 baseline + clipboard-image-paste patch, cloud-built via GitHub Actions<br/>🌐 <a href="https://github.com/xhqing/cmux">cmux</a> — independent fork of the cmux terminal (Ghostty-based macOS terminal for AI coding agents): upstream release tag as the baseline plus our own close-confirmation behaviour, kept in sync with upstream tags<br/>🌐 <a href="https://github.com/xhqing/turn-diff">turn-diff</a> — per-turn git diff for pi: records a baseline each turn, reports what that turn changed (`/turn-diff` in a session, `turn-diff` in a terminal), pure git<br/>🌐 <a href="https://github.com/xhqing/mp4-player">mp4-player</a> — VSCode video player: plays videos with audio in an editor tab; bundled ffmpeg WebAssembly for decoding &amp; conversion<br/>🌐 <a href="https://github.com/xhqing/XPilot">XPilot</a> — Xray-core proxy-node manager CLI (Python)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/quant-agent">quant-agent</a><br/>Quant Strategist</td>
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team&amp;dsh-team</td>
     <td>— (no separate repositories; Intraday, Swing and gridtrader were merged into <a href="https://github.com/xhqing/quant-agent">quant-agent</a> as three directories on 2026-11-08)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/assistant-agent">assistant-agent</a><br/>Executive Assistant</td>
     <td>👩‍💼 <b>Kit</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>🌐 <a href="https://github.com/xhqing/xhqing">xhqing</a> — this profile repository<br/>🌐 <a href="https://github.com/xhqing/vscode-copy-anywhere">vscode-copy-anywhere</a> — macOS background helper: files copied in the VSCode explorer can be pasted into Finder / WeChat / any app (converts VSCode's private clipboard format to the system one)<br/>🌐 <a href="https://github.com/xhqing/ark-key-pool">ark-key-pool</a> — pi extension that keeps a pool of Volcano Ark (Agent Plan) API keys and switches to the next one automatically when quota or validity runs out (cooldown shared across processes)<br/>🌐 <a href="https://github.com/xhqing/macmini-tmux">macmini-tmux</a> — one command to reach tmux on the Mac mini: session names are numbered automatically, reconnect by name, or attach to the most recent session<br/>🌐 <a href="https://github.com/xhqing/agents-infra">agents-infra</a> — the open-source distribution of the infrastructure every agent runs on: its `pi/agent/` directory mirrors the global `~/.pi/agent/` (rules, skills, extensions, scripts, docs) byte for byte, published one-way from the Mac mini (name history: CapabilityManagerAgent → TeamToolkit on 2026-11-05 → agents-infra on 2026-11-11)<br/>🌐 <a href="https://github.com/xhqing/dotfiles">dotfiles</a> — personal config backup: one directory per app, the config file in the repo is the single source of truth and is symlinked into place, so setting up a new machine is a clone plus one install script (Ghostty and cmux today)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/social-agent">social-agent</a><br/>Social Media Manager</td>
     <td>🥂 <b>Gatsby</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>🌐 <a href="https://github.com/xhqing/blog">blog</a> — personal blog "藏经阁", a docsify site published at xhqing.github.io/blog; articles sync automatically from the social-agent article folder, drafts included</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/trading-agent">trading-agent</a><br/>Day Trader</td>
     <td>📈 <b>Victor</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>🌐 <a href="https://github.com/xhqing/TradingProofs">TradingProofs</a> — machine-checked Lean 4 + Mathlib proofs for fixed-fraction trading math (compounding growth, strong law, Kelly optimal f*)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/BackendEngineerAgent">BackendEngineerAgent</a><br/>Backend Engineer</td>
     <td>🔨 <b>Anvil</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>🌐 <a href="https://github.com/xhqing/CC-BRIDGE">CC-BRIDGE</a> — Claude Code upstream bridge framework (Node.js)</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/NeuralCoreAgent">NeuralCoreAgent</a><br/>AI Algorithm Engineer</td>
     <td>🧠 <b>Ada</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>🌐 <a href="https://github.com/xhqing/AgentCortex">AgentCortex</a> — deep-reasoning engine rules (Infinite / Rapid / Incisive)<br/>🌐 <a href="https://github.com/xhqing/ToolCallingRules">ToolCallingRules</a> — LLM tool-calling ruleset (22 rules / 7 categories) injected into system prompts to cut function-calling argument errors and unsafe retries</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/apply-agent">apply-agent</a><br/>Apply Optimizer</td>
     <td>🎯 <b>Hopkins</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/LegalAgent">LegalAgent</a><br/>Legal Agent</td>
     <td>⚖️ <b>Justin</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/cuAgent">cuAgent</a><br/>Computer Operator</td>
     <td>🖱️ <b>cuAgent</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a><br/>Product Strategist</td>
     <td>🧭 <b>Scout</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/ProductProducerAgent">ProductProducerAgent</a><br/>Producer</td>
     <td>🛠️ <b>Wright</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/SiteBuilderAgent">SiteBuilderAgent</a><br/>Site Builder</td>
     <td>🏗️ <b>Mason</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/GrowthMarketerAgent">GrowthMarketerAgent</a><br/>Growth Marketer</td>
     <td>📣 <b>Buzz</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DigiVendAgent">DigiVendAgent</a><br/>Sales Ops</td>
     <td>💰 <b>Vendy</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/DataAnalystAgent">DataAnalystAgent</a><br/>Analyst</td>
     <td>📊 <b>Echo</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>—</td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/TestEngineerAgent">TestEngineerAgent</a><br/>Test Engineer</td>
     <td>🐞 <b>Hopper</b></td>
     <td>macmini&amp;macbook</td>
+    <td>pi-team</td>
     <td>—</td>
   </tr>
 </table>
