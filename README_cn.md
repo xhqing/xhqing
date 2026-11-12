@@ -45,7 +45,7 @@
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
     <td>pi-team&amp;dsh-team</td>
-    <td>—（无独立子项目仓库；Intraday、Swing、gridtrader 已于 2026-11-08 并入 <a href="https://github.com/xhqing/quant-agent">quant-agent</a>，成为其下三个目录）</td>
+    <td>🔒 <a href="https://github.com/xhqing/NewsScoreStudy">NewsScoreStudy</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/assistant-agent">assistant-agent</a><br/>总经理助理</td>
