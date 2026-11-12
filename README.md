@@ -45,7 +45,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
     <td>pi-team&amp;dsh-team</td>
-    <td>— (no separate repositories; Intraday, Swing and gridtrader were merged into <a href="https://github.com/xhqing/quant-agent">quant-agent</a> as three directories on 2026-11-08)</td>
+    <td>🔒 <a href="https://github.com/xhqing/NewsScoreStudy">NewsScoreStudy</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/assistant-agent">assistant-agent</a><br/>Executive Assistant</td>
