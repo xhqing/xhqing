@@ -23,7 +23,7 @@
 
 An OPC (one-person company): I personally run the whole agent organization — every member except me is an AI Agent.
 
-**The full roster** (CEO → five direct reports + three squads · 17 specialized agents) — every member with their project repo, persona name, host machine, team membership, and subprojects:
+**The full roster** (CEO → five direct reports + three squads · 16 specialized agents) — every member with their project repo, persona name, host machine, team membership, and subprojects:
 
 <table>
   <tr>
@@ -145,13 +145,6 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td>pi-team</td>
     <td>—</td>
   </tr>
-  <tr>
-    <td><a href="https://github.com/xhqing/TestEngineerAgent">TestEngineerAgent</a><br/>Test Engineer</td>
-    <td>🐞 <b>Hopper</b></td>
-    <td>macmini&amp;macbook</td>
-    <td>pi-team</td>
-    <td>—</td>
-  </tr>
 </table>
 
 The team is organized into three squads by domain, with five direct reports outside them all:
@@ -163,7 +156,7 @@ The team is organized into three squads by domain, with five direct reports outs
 - **🖱️ cuAgent (Computer Operator) — direct report, not in any squad.** A dedicated computer-use agent: it operates the local computer GUI for the user (reading screens, clicking, typing, dragging) through the computer-use MCP, scoped to its own project.
 - **🛍️ Digital-product sales squad** — the six-stage pipeline (Scout → Wright → Mason → Buzz → Vendy → Echo) turns one-time work into recurring passive income — see the dedicated section below.
 - **📈 Investing & trading squad** — **Mark** develops and backtests quant strategies; **Victor** is the day trader.
-- **🧰 Infrastructure squad** — **Anvil** handles backend development; **Atlas** handles full-stack projects (including the proxy toolchain); **Ada** covers AI Agent algorithms and reasoning engines; **Hopper** guards every software project with a regression safety net — test cases written before development, CI red-light gate before merge.
+- **🧰 Infrastructure squad** — **Anvil** handles backend development; **Atlas** handles full-stack projects (including the proxy toolchain) plus the testing and regression safety nets of its own subprojects; **Ada** covers AI Agent algorithms and reasoning engines.
 
 ---
 
@@ -189,12 +182,12 @@ The team is organized into three squads by domain, with five direct reports outs
 The interesting part is not the roster — it's the machinery between the agents:
 
 - **📦 Artifact handoff.** Work moves between agents as defined deliverables, not chat: Scout's *Opportunity Report* feeds Wright's product build, Mason's storefront (site, landing page, or payment setup) hands Buzz ready-to-sell links, Vendy's sales data lands in Echo's attribution engine. Each agent owns an output contract; the pipeline is the sum of those contracts.
-- **🧰 Shared capability layer.** The capabilities every agent runs on — global skills and rules — live in a single authoritative source, with an open-source mirror as the distribution channel. This used to be an agent's job (Prometheus); since 2026-11-05 that role is retired and the project is a plain project under Kit — **agents-infra** — whose mirror is generated and published one-way by a script. A fix lands once and ripples to all 17 agents.
+- **🧰 Shared capability layer.** The capabilities every agent runs on — global skills and rules — live in a single authoritative source, with an open-source mirror as the distribution channel. This used to be an agent's job (Prometheus); since 2026-11-05 that role is retired and the project is a plain project under Kit — **agents-infra** — whose mirror is generated and published one-way by a script. A fix lands once and ripples to all 16 agents.
 - **🧠 Reasoning as infrastructure.** Specialized reasoning-engine rules (Infinite / Rapid / Incisive, by Ada) plus an evaluation system sit under every agent's thinking — reasoning depth is treated as shared infrastructure, not per-agent improvisation.
-- **🐞 Quality gates with separation of powers.** Development agents hold implementation rights, Hopper holds test-case definition rights, and CI holds the final say — developers can't bend test cases to fit their implementation, and "fix A, break B" gets stopped before merge, not after.
+- **🐞 Quality gates with test/implementation separation.** Test-case definition sits with **Atlas** (dev-agent): cases are written on the subproject worktree before implementation starts, and Workers treat them as read-only; CI still holds the final say — implementers can't bend test cases to fit their code, and "fix A, break B" gets stopped before merge, not after. This strict separation applies only to Atlas's own subprojects that involve complex software work; other projects are out of scope.
 - **⚖️ Contracts & payments as a first-class function.** Justin structures staged payments, due diligence and evidence chains for anything the org sells or signs — the org treats legal/payment design as an engineering discipline, not an afterthought.
 
-**By the numbers:** 17 specialized agents · 3 business squads · 5 direct reports · 6 pipeline stages · 200+ public repositories.
+**By the numbers:** 16 specialized agents · 3 business squads · 5 direct reports · 6 pipeline stages · 200+ public repositories.
 
 ---
 

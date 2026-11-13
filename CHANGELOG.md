@@ -1,5 +1,10 @@
 # Changelog
 
+### 变更（名册同步：Hopper 除名，测试定义权并入 Atlas，2026-11-13）
+
+- **为什么改**：用户 2026-11-13 决定把 Hopper（TestEngineerAgent）从团队除名——开发工作流已变成「Leader 给 Worker 出题」，由 Atlas（dev-agent）在子项目 worktree 上、实现开工前先写好测试、Worker 全程只读不改，独立的测试 agent 不再必要；测试定义权并入 Atlas，项目本体退役（GitHub 仓库 `xhqing/TestEngineerAgent` 保留为存档）。本仓库名册是全局注册表的公开镜像，不同步就会继续列出一个已除名的成员。
+- **改了什么**：双语 README 名册删掉 TestEngineerAgent / Hopper 整行；基础设施小组那句删掉 Hopper 的回归防护网职责，改为在 Atlas 一句里补「并负责其名下子项目的测试与回归防护网」；「质量门禁」一段改写为测试与实现分离的新口径——用例定义权归 Atlas（在子项目 worktree 上、实现开工前写出），Worker 对测试只读、不得改动，合并裁决权仍归 CI，且这套严格分离只用于 Atlas 名下需要复杂软件开发的子项目；成员总数随之由 17 改为 16（名册引言与「数字一览」两处，中英双语同步）。
+
 ### 变更（共享能力层不再包含 CLAUDE.md，2026-11-11）
 
 - **为什么改**：用户 2026-11-11 定：团队只用 pi，其它 harness 的规则文件（`CLAUDE.md`、`.claude/`）一律不维护。名册页「共享能力层」段落仍把 `CLAUDE.md` 说成能力层的一部分，属于过期且与现行规则相反的描述。
