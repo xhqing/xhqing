@@ -30,7 +30,7 @@
     <th>智能体职称 · Agent 项目</th>
     <th>拟人化名称</th>
     <th>宿主机</th>
-    <th>pi-team/dsh-team</th>
+    <th>pi-team/pi-alt-team</th>
     <th>负责的子项目（🌐 公开 · 🔒 私有）</th>
   </tr>
   <tr>
@@ -44,7 +44,7 @@
     <td><a href="https://github.com/xhqing/quant-agent">quant-agent</a><br/>量化策略师</td>
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
-    <td>pi-team&amp;dsh-team</td>
+    <td>pi-team&amp;pi-alt-team</td>
     <td>🔒 <a href="https://github.com/xhqing/NewsScoreStudy">NewsScoreStudy</a></td>
   </tr>
   <tr>
