@@ -30,7 +30,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <th>Title · Agent project</th>
     <th>Persona</th>
     <th>Host machine</th>
-    <th>pi-team/dsh-team</th>
+    <th>pi-team/pi-alt-team</th>
     <th>Subprojects (🌐 public · 🔒 private)</th>
   </tr>
   <tr>
@@ -44,7 +44,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td><a href="https://github.com/xhqing/quant-agent">quant-agent</a><br/>Quant Strategist</td>
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
-    <td>pi-team&amp;dsh-team</td>
+    <td>pi-team&amp;pi-alt-team</td>
     <td>🔒 <a href="https://github.com/xhqing/NewsScoreStudy">NewsScoreStudy</a></td>
   </tr>
   <tr>
