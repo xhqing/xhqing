@@ -23,7 +23,7 @@
 
 An OPC (one-person company): I personally run the whole agent organization — every member except me is an AI Agent.
 
-**The full roster** (CEO → five direct reports + three squads · 16 specialized agents) — every member with their project repo, persona name, host machine, team membership, and subprojects:
+**The full roster** (CEO → four direct reports + three squads · 15 specialized agents) — every member with their project repo, persona name, host machine, team membership, and subprojects:
 
 <table>
   <tr>
@@ -97,13 +97,6 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td>—</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/xhqing/cuAgent">cuAgent</a><br/>Computer Operator</td>
-    <td>🖱️ <b>cuAgent</b></td>
-    <td>macmini&amp;macbook</td>
-    <td>pi-team</td>
-    <td>—</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/xhqing/ProductStrategistAgent">ProductStrategistAgent</a><br/>Product Strategist</td>
     <td>🧭 <b>Scout</b></td>
     <td>macmini&amp;macbook</td>
@@ -147,13 +140,12 @@ An OPC (one-person company): I personally run the whole agent organization — e
   </tr>
 </table>
 
-The team is organized into three squads by domain, with five direct reports outside them all:
+The team is organized into three squads by domain, with four direct reports outside them all:
 
 - **👩‍💼 Kit (Executive Assistant) — direct report, not in any squad.** The owner's first assistant and the team's generalist: picks up and handles almost anything — not a deep specialist in a single domain, but a multi-skilled all-rounder who manages whatever comes along.
 - **🥂 Gatsby (Social Media Manager) — direct report, not in any squad.** Runs the owner's own WeChat community "AI前沿跨界交流群" (an AI-frontier, cross-industry exchange group): ideas, rules, topic calendars and retrospectives come from the agent; the owner guides and executes. Private community only — public-channel marketing stays with Buzz.
 - **🎯 Hopkins (Apply Optimizer) — direct report, not in any squad.** Owns the full work-intake loop: gig & job hunting, application engineering (proposals & résumés), funnel tracking (application → reply → talk / interview → win / offer), pricing & salary tests — making the applications convert.
 - **⚖️ Justin (Legal Agent) — direct report, not in any squad, serving all squads cross-team.** Owns everything contracts-and-payments across the whole team: contract drafting, staged-payment design, due diligence, evidence chains, dispute response.
-- **🖱️ cuAgent (Computer Operator) — direct report, not in any squad.** A dedicated computer-use agent: it operates the local computer GUI for the user (reading screens, clicking, typing, dragging) through the computer-use MCP, scoped to its own project.
 - **🛍️ Digital-product sales squad** — the six-stage pipeline (Scout → Wright → Mason → Buzz → Vendy → Echo) turns one-time work into recurring passive income — see the dedicated section below.
 - **📈 Investing & trading squad** — **Mark** develops and backtests quant strategies; **Victor** is the day trader.
 - **🧰 Infrastructure squad** — **Anvil** handles backend development; **Atlas** handles full-stack projects (including the proxy toolchain) plus the testing and regression safety nets of its own subprojects; **Ada** covers AI Agent algorithms and reasoning engines.
@@ -187,7 +179,7 @@ The interesting part is not the roster — it's the machinery between the agents
 - **🐞 Quality gates with test/implementation separation.** Test-case definition sits with **Atlas** (dev-agent): cases are written on the subproject worktree before implementation starts, and Workers treat them as read-only; CI still holds the final say — implementers can't bend test cases to fit their code, and "fix A, break B" gets stopped before merge, not after. This strict separation applies only to Atlas's own subprojects that involve complex software work; other projects are out of scope.
 - **⚖️ Contracts & payments as a first-class function.** Justin structures staged payments, due diligence and evidence chains for anything the org sells or signs — the org treats legal/payment design as an engineering discipline, not an afterthought.
 
-**By the numbers:** 16 specialized agents · 3 business squads · 5 direct reports · 6 pipeline stages · 200+ public repositories.
+**By the numbers:** 15 specialized agents · 3 business squads · 4 direct reports · 6 pipeline stages · 200+ public repositories.
 
 ---
 
