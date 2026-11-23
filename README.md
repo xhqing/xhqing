@@ -45,7 +45,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
     <td>pi-team&amp;pi-alt-team</td>
-    <td>🔒 <a href="https://github.com/xhqing/NewsScoreStudy">NewsScoreStudy</a></td>
+    <td>🔒 <a href="https://github.com/xhqing/NewsScoreStudy">NewsScoreStudy</a><br/>🔒 <a href="https://github.com/xhqing/hyperliquid-research-trial">hyperliquid-research-trial</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/assistant-agent">assistant-agent</a><br/>Executive Assistant</td>
