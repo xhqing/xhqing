@@ -1,5 +1,10 @@
 # Changelog
 
+### 变更（名册同步：Mark 名下新增私有子项目 hyperliquid-research-trial，2026-11-23）
+
+- **为什么改**：Mark（quant-agent）新建了私有子项目 `hyperliquid-research-trial`，由 Mark 经 Issue #37 提出登记需求。本仓库名册是全局注册表（`~/.pi/agent/docs/agents-registry.md`）的公开镜像，不同步就会漏列这个子项目；登记口径与同类的 `NewsScoreStudy` 一致——**只列项目名与链接，不写任何介绍**。
+- **改了什么**：双语 README 名册里 quant-agent 那一行的子项目列，在 `NewsScoreStudy` 后补上 🔒 `hyperliquid-research-trial`（含 `https://github.com/xhqing/hyperliquid-research-trial` 链接，无描述语）；其余行不动。
+
 ### 变更（名册同步：Hopper 除名，测试定义权并入 Atlas，2026-11-13）
 
 - **为什么改**：用户 2026-11-13 决定把 Hopper（TestEngineerAgent）从团队除名——开发工作流已变成「Leader 给 Worker 出题」，由 Atlas（dev-agent）在子项目 worktree 上、实现开工前先写好测试、Worker 全程只读不改，独立的测试 agent 不再必要；测试定义权并入 Atlas，项目本体退役（GitHub 仓库 `xhqing/TestEngineerAgent` 保留为存档）。本仓库名册是全局注册表的公开镜像，不同步就会继续列出一个已除名的成员。
