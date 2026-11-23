@@ -1,5 +1,10 @@
 # Changelog
 
+### 变更（名册同步：Mark 名下三个策略仓库抽回为独立子项目、补登数据仓，2026-11-23）
+
+- **为什么改**：用户 2026-11-23 决定把 `Intraday` / `Swing` / `gridtrader` 从 quant-agent 仓库里抽回、各自恢复成 Mark 的独立子项目仓库（三者 2026-11-08 曾以目录形式并入 quant-agent），并把 Mark 早期建的私有数据仓 `market-data-backup` 一并登记为子项目。全局注册表的「子项目映射」表已同批加齐四行，本仓库名册是它的公开镜像，不同步就会漏列这四个子项目。
+- **改了什么**：双语 README 名册里 quant-agent 那一行的子项目列，由原来的两个私有项扩为六项——前面加三个公开项（🌐 `Intraday` / `Swing` / `gridtrader`，各带一句说明），保留原有两个私有项（🔒 `NewsScoreStudy` / `hyperliquid-research-trial`，仍只列名与链接），末尾补私有数据仓 `market-data-backup`（含说明：行情快照挂在 Release 上）；其余行不动。
+
 ### 变更（名册同步：Mark 名下新增私有子项目 hyperliquid-research-trial，2026-11-23）
 
 - **为什么改**：Mark（quant-agent）新建了私有子项目 `hyperliquid-research-trial`，由 Mark 经 Issue #37 提出登记需求。本仓库名册是全局注册表（`~/.pi/agent/docs/agents-registry.md`）的公开镜像，不同步就会漏列这个子项目；登记口径与同类的 `NewsScoreStudy` 一致——**只列项目名与链接，不写任何介绍**。
