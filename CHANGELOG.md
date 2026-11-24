@@ -1,5 +1,10 @@
 # Changelog
 
+### 变更（名册同步：团队统一为 pi-team，去掉 pi-alt 双身份列值，2026-11-24）
+
+- **为什么改**：用户 2026-11-23 决定取消 pi / pi-alt 双身份，团队只保留一套身份 `pi`、一套规则；名册里「pi-team/pi-alt-team」这列表头与 Mark 行的「pi-team&pi-alt-team」是该体系留下的残留，继续挂着会让读者以为团队仍分两套运行时。
+- **改了什么**：双语 README 名册的表头由 `pi-team/pi-alt-team` 改为 `pi-team`；quant-agent（Mark）那一行的取值由 `pi-team&amp;pi-alt-team` 改为 `pi-team`。其余行与其余表述不动。
+
 ### 变更（名册同步：Mark 名下三个策略仓库抽回为独立子项目、补登数据仓，2026-11-23）
 
 - **为什么改**：用户 2026-11-23 决定把 `Intraday` / `Swing` / `gridtrader` 从 quant-agent 仓库里抽回、各自恢复成 Mark 的独立子项目仓库（三者 2026-11-08 曾以目录形式并入 quant-agent），并把 Mark 早期建的私有数据仓 `market-data-backup` 一并登记为子项目。全局注册表的「子项目映射」表已同批加齐四行，本仓库名册是它的公开镜像，不同步就会漏列这四个子项目。
