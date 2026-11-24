@@ -45,7 +45,7 @@
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
     <td>pi-team</td>
-    <td>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> —— 日内尺度策略研究（订单流 mbo 特征、分钟级 ML 信号、walk-forward 验证、执行口径模拟）<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> —— 日 K 趋势跟随策略（美股大盘股，文档完整、经 20 年数据回测验证）<br/>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> —— 网格交易策略开发与回测工具（Python / backtrader）<br/>🔒 <a href="https://github.com/xhqing/NewsScoreStudy">NewsScoreStudy</a><br/>🔒 <a href="https://github.com/xhqing/hyperliquid-research-trial">hyperliquid-research-trial</a><br/>🔒 <a href="https://github.com/xhqing/market-data-backup">market-data-backup</a> —— 行情数据快照仓（美股 tick / 订单簿、分钟 K 与日 K 快照挂在 Release 上）</td>
+    <td>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> —— 日内尺度策略研究（订单流 mbo 特征、分钟级 ML 信号、walk-forward 验证、执行口径模拟）<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> —— 日 K 趋势跟随策略（美股大盘股，文档完整、经 20 年数据回测验证）<br/>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> —— 网格交易策略开发与回测工具（Python / backtrader）<br/>🔒 <a href="https://github.com/xhqing/NewsScoreStudy">NewsScoreStudy</a><br/>🔒 <a href="https://github.com/xhqing/hyperliquid-research-trial">hyperliquid-research-trial</a><br/>🔒 <a href="https://github.com/xhqing/market-data-backup">market-data-backup</a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/xhqing/assistant-agent">assistant-agent</a><br/>总经理助理</td>
