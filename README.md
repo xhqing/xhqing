@@ -30,7 +30,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <th>Title · Agent project</th>
     <th>Persona</th>
     <th>Host machine</th>
-    <th>pi-team/pi-alt-team</th>
+    <th>pi-team</th>
     <th>Subprojects (🌐 public · 🔒 private)</th>
   </tr>
   <tr>
@@ -44,7 +44,7 @@ An OPC (one-person company): I personally run the whole agent organization — e
     <td><a href="https://github.com/xhqing/quant-agent">quant-agent</a><br/>Quant Strategist</td>
     <td>📐 <b>Mark</b></td>
     <td>macmini&amp;macbook</td>
-    <td>pi-team&amp;pi-alt-team</td>
+    <td>pi-team</td>
     <td>🌐 <a href="https://github.com/xhqing/Intraday">Intraday</a> — intraday-scale strategy research: order-flow (mbo) features, minute-level ML signals, walk-forward validation, execution-basis simulation<br/>🌐 <a href="https://github.com/xhqing/Swing">Swing</a> — day-K trend-following for US large caps, fully documented and backtest-validated on 20 years of data<br/>🌐 <a href="https://github.com/xhqing/gridtrader">gridtrader</a> — grid-trading strategy development &amp; backtesting tool (Python / backtrader)<br/>🔒 <a href="https://github.com/xhqing/NewsScoreStudy">NewsScoreStudy</a><br/>🔒 <a href="https://github.com/xhqing/hyperliquid-research-trial">hyperliquid-research-trial</a><br/>🔒 <a href="https://github.com/xhqing/market-data-backup">market-data-backup</a> — data-only repository: market-data snapshots (US tick / order-book, minute &amp; daily K lines) attached to its GitHub Releases</td>
   </tr>
   <tr>
