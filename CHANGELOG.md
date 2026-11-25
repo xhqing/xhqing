@@ -1,5 +1,11 @@
 # Changelog
 
+### 变更（会话角色口径对齐 2026-11-25 三级定义 + 修正 Kit 项目名，2026-11-25）
+
+- **为什么改**：① 全局 2026-11-25 重定义了会话角色——角色只看「cwd 所在项目 + 当前分支」：Agent 项目主工作区 main = agentLeader、子项目主工作区 main = subLeader、任何项目的非 main worktree = Worker。本仓库 `AGENTS.md`「你的角色」还停在 2026-11-07 口径（本项目根 / worktree 一律算 Worker），把在自己主工作区 main 上做事的会话也说成 Worker，权限边界与实际规则相反。② 「归谁负责」里的 `Kit（assistant）` 是 2026-11-09 #20 改名时漏下的残名——真实仓库是 `xhqing/assistant-agent`，本页 README 名册也写的是这个名字。
+- **改了什么**：`AGENTS.md`「你的角色」整节重写为三级口径——subLeader（本项目主工作区 main：只管本仓库自身，local main 只做 ff 同步；建 worktree、派 Worker、合并本项目 PR、发版、回收 Worker；对上游 assistant-agent 与兄弟子项目只读）与 Worker（非 main 分支 worktree：只干当前 worktree，走 `/add` → `/commit` → push 分支 + PR，不碰 local main、不建删 worktree、不合并 PR、不发版），并指向全局 `AGENTS.md`「Leader / Worker 的定义」与 `docs/agents-registry.md` 第 5 条；「归谁负责」的 `assistant` 改为 `assistant-agent`。规则载体仍是本仓库实体 `AGENTS.md` + `.pi/APPEND_SYSTEM.md`，不挂软链接、不写跨仓库 settings 路径。
+- **影响**：纯规则文档改动，不动两份 README 与名册，不涉版本号（文档类改动不发版）。
+
 ### 变更（名册表删掉 pi-team 列，2026-11-24）
 
 - **为什么改**：用户指出名册里的 `pi-team` 列已经没有意义。团队于 2026-11-23 统一为单一身份 `pi` 后，这个单元格在 15 行里全部是同一个值 `pi-team`，不再承载任何区分信息，留着只会让读者以为表里还有什么团队归属可看。
