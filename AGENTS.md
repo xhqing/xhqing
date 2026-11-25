@@ -6,7 +6,7 @@ GitHub 个人主页仓库（github.com/xhqing/xhqing），对外展示团队名�
 
 ## 归谁负责
 
-本项目由 **Kit**（assistant）负责维护。改动范围跨出本项目时，先向 Kit 说明，不自行扩张改动面。
+本项目由 **Kit**（assistant-agent）负责维护。改动范围跨出本项目时，先向 Kit 说明，不自行扩张改动面。
 
 ## 你的角色
 
